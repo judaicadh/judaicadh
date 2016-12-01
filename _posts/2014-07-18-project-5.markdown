@@ -8,8 +8,7 @@ img: singerman.jpg
 thumbnail: singermanthumbnail.jpg
 alt: image-alt
 project-date: April 2014
-partners: 
+partners:
 category: Web Development
 description: 
-
 ---
