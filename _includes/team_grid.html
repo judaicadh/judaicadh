@@ -1,0 +1,57 @@
+<!-- Team Section -->
+
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Team</h2>
+                    <h3 class="section-subheading text-muted">Learn more about who works on Judaica DH</h3>
+                </div>
+            </div>
+             
+                <div class="row">
+           {% for member in site.people %}
+                <div class="col-sm-4">
+	                    
+                    <div class="team-member">
+  <img src="../img/people/{{ member.pic }}.jpg" class="img-responsive img-circle img-thumbnail" alt="">
+	                                           <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                         <!-- <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul> -->
+                       <a href="#portfolioModal{{ member.modal-id }}" class="portfolio-link" data-toggle="modal">
+	                         <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                            
+                        </div>
+                       
+                      
+ <i class="fa fa-chevron-down fa-2x" data-toggle="modal"></i>
+	                   </a>
+
+                    </div>
+                       
+                </div>          
+     
+              {% endfor %} 
+            </div>
+                                 
+             
+              
+              <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+  
