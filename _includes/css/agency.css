@@ -424,6 +424,11 @@ section h3.section-subheading {
     margin-top: -12px;
 }
 
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {{post.courtesy}} {
+    position: absolute;
+    bottom: 0px;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
