@@ -424,7 +424,7 @@ section h3.section-subheading {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {{post.courtesy}} {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .courtesy {
     position: absolute;
     bottom: 0px;
     font-size: 12px; 
