@@ -1,5 +1,6 @@
 ---
 title: Cairo Geniza Transcription Game
+subtitle:
 layout: default
 modal-id: 2
 date: 2014-07-17
@@ -10,4 +11,5 @@ project-date: April 2014
 partners: Khedouri A. Zilkha Professor of Near Eastern Studies and Professor of History Marina Rustow with the Princeton Geniza Lab </br> Professor Steve Jacobs with Rochester Institute of Technology's MAGIC Center
 category: Web Development
 description: Judaica DH, with support from our partners at the Princeton Genizah Lab and Rochester Institute of Technology's MAGIC Center, is working to create a game that will transcribe Cairo Geniza fragments. Without needing any secondary language proficiency, users will only need to be able to match picture to picture. For example, a user might match a picture of an “aleph,” written in modern Hebrew script and the first letter in the Hebrew alphabet, to a picture of the “aleph” known to be written in the Cairo Geniza hand. They know what the picture of each "aleph" looks like, yet they don't need to know the letter is an aleph. The data from the game will then be exported and will be used by scholars to analyze Geniza fragments.
+
 ---
