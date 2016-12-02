@@ -1,7 +1,7 @@
 ---
 title: Jewish Agricultural Community Atlas
 subtitle: 
-courtesy: YIVO
+courtesy: Three Young Men in a Wheat Field at the Ḥakla’i (Farmer) Settlement, ca. 1920s. YIVO. http://www.yivoencyclopedia.org/article.aspx/ukraine.
 layout: default
 modal-id: 4
 date: 2014-07-15

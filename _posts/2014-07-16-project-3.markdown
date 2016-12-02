@@ -1,6 +1,7 @@
 ---
 title: Holy Land Images Facial Recognition Exhibit
 subtitle: 
+courtesy: Fiorillo, L. Bédouins. Photograph, Albumen, Unidentified. CAJS Image Collection XT FIO 2717 XT80 The Lenkin Family Collection of Photography, University of Pennsylvania Libraries. http://dla.library.upenn.edu/dla/holyland/image.html?id=HOLYLAND_lenkin_2717&.
 layout: default
 modal-id: 3
 date: 2014-07-16
