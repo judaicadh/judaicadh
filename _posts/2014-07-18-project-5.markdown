@@ -5,7 +5,7 @@ layout: default
 modal-id: 5
 date: 2014-07-16
 img: singerman.jpg
-thumbnail: singermanth
+thumbnail: singermanthumbnail.jpg
 alt: singerman
 project-date: April 2014
 partners:
