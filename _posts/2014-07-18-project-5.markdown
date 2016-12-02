@@ -6,7 +6,7 @@ modal-id: 5
 date: 2014-07-16
 img: singerman.jpg
 thumbnail: singermanthumbnail.jpg
-alt: image-alt
+alt: singerman
 project-date: April 2014
 partners:
 category: Web Development
