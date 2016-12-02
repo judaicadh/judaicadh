@@ -4,8 +4,8 @@ subtitle:
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: agricultural.jpg
-thumbnail: agriculturalthumbnail.jpg
+img: agricultural
+thumbnail: agriculturalthumbnail
 alt: image-alt
 project-date: April 2014
 partners: Senior Lecturer in Russian Studies and Contemporary Jewry, Jonathan Dekel-Chen at The Hebrew University of Jerusalem 
