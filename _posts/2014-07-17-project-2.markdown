@@ -1,7 +1,7 @@
 ---
 title: Cairo Geniza Transcription Game
 subtitle:
-courtesy: [“Baraita De-Melekhet Ha-Mishkan, VI-X. 1r.” Halper 03. Cairo Genizah Collection, University of Pennsylvania Center for Advanced Judaic Studies. Accessed November 30, 2016.](http://images.library.upenn.edu/mrsidsceti/bin/image_jpeg2.pl?coll=manuscripts;subcoll=h083;image=h083_wk1_body0002.sid;level=3;degree=0)
+courtesy: <a href=http://images.library.upenn.edu/mrsidsceti/bin/image_jpeg2.pl?coll=manuscripts;subcoll=h083;image=h083_wk1_body0002.sid;level=3;degree=0>“Baraita De-Melekhet Ha-Mishkan, VI-X. 1r.” Halper 03. Cairo Genizah Collection, University of Pennsylvania Center for Advanced Judaic Studies. Accessed November 30, 2016.</a>]()
 layout: default
 modal-id: 2
 date: 2014-07-17
