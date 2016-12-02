@@ -1,6 +1,5 @@
 ---
-title: Jewish Agricultural Community Atlas
-subtitle: 
+title: Jewish Agricultural Community Atlas 
 layout: default
 modal-id: 6
 date: 2014-07-15

@@ -1,6 +1,5 @@
 ---
 title: An Interactive Map of the Kaplan Collection of Early American Judaica
-subtitle: 
 layout: default
 modal-id: 1
 date: 2014-07-18
