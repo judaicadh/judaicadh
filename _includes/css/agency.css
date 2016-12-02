@@ -305,7 +305,7 @@ header .intro-heading {
 
 }
 header .intro-heading2 {
-	font-family: {{ site.data.template.font.intro-text }};
+	font-family: {{ site.data.template.font.intro-heading2 }};
 	margin-bottom: 25px;
     font-size: 30px;
     line-height: 40px;
@@ -336,9 +336,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.intro-text }};
         font-size: 40px;
-     
         line-height: 40px;
     }
 
