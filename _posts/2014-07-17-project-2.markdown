@@ -1,5 +1,5 @@
 ---
-title: Cairo Geniza Transcription Game
+title: Cairo Geniza Transcription Game </br>
 subtitle:
 layout: default
 modal-id: 2
