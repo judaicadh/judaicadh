@@ -427,6 +427,8 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {{post.courtesy}} {
     position: absolute;
     bottom: 0px;
+    font-size: 12px; 
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
