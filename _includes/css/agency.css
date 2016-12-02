@@ -6,7 +6,7 @@
 .sitetitle {
        font-family: "Bungee Hairline", cursive;
        font-size: 2em;
-       color: #222;
+       color: #fed136;
        }
 
 body {
@@ -307,7 +307,7 @@ header .intro-heading {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-size: 22px;
-	color: #222;
+color: #222;
     line-height: 22px;
 }
 
@@ -317,12 +317,14 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        color: #222;
     }
 
     header .intro-text .intro-lead-in {
