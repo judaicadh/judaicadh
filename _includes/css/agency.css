@@ -306,24 +306,23 @@ header .intro-heading {
 }
 header .intro-heading2 {
 	font-family: {{ site.data.template.font.intro-text }};
-	 margin-bottom: 25px;
-        font-size: 30px;
-     
-        line-height: 40px;
-        
-        }
+	margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 40px;
+    
+    }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-size: 22px;
-color: #222;
+	color: #222;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 50px;
     
 }
