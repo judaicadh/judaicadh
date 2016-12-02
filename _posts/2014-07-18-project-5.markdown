@@ -1,6 +1,7 @@
 ---
 title: Digital Second Edition of Judaica Americana 
 subtitle: 
+courtesy: Judaica DH at the University of Pennsylvania
 layout: default
 modal-id: 5
 date: 2014-07-16
