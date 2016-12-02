@@ -11,5 +11,4 @@ project-date: April 2014
 partners: Senior Lecturer in Russian Studies and Contemporary Jewry, Jonathan Dekel-Chen at The Hebrew University of Jerusalem 
 category: Web Development
 description: 
-
 ---
