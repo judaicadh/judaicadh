@@ -4,8 +4,8 @@ subtitle:
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: kaplan.jpg
-thumbnail: kaplanthumbnail.jpg
+img: kaplan
+thumbnail: kaplanthumbnail
 alt: Kaplan Collection
 project-date: April 2014
 partners: Arnold and Deanne Kaplan

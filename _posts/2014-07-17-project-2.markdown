@@ -4,9 +4,9 @@ subtitle:
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: geniza.jpg
-thumbnail: genizathumbnail.jpg
-alt: image-alt
+img: geniza
+thumbnail: genizathumbnail
+alt: Cairo Geniza Fragment
 project-date: April 2014
 partners: Khedouri A. Zilkha Professor of Near Eastern Studies and Professor of History Marina Rustow with the Princeton Geniza Lab </br> Professor Steve Jacobs with Rochester Institute of Technology's MAGIC Center
 category: Web Development

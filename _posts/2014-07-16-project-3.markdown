@@ -4,9 +4,9 @@ subtitle:
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: holyland.jpg
-thumbnail: holylandthumbnail.jpg
-alt: image-alt
+img: holyland
+thumbnail: holylandthumbnail
+alt: Bédouins
 project-date: April 2014
 partners: The Lenkin Family Collection of Photography </br>  Instructor and Lecturer, Hila Fishman, with the Tel Aviv Museum of Art
 category: Web Development
