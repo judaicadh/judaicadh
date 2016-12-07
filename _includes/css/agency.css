@@ -4,9 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 .sitetitle {
-       font-family: "Playfair Sans", sans;
-       font-size: 2em;
-       color: #fed136;
+       font-family: "Julius Sans One", sans-serif;
+       font-size: 1.5em;
+       color: #fff;
+       text-transform: uppercase;
+       display: block;
+	   padding: 10px 15px;
        }
 
 body {
@@ -181,12 +184,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-        font-family: "Bungee Hairline", cursive;
+   
     color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand .sitetitle {
-       font-family: "Bungee Hairline", cursive;
+     
     color: #{{ site.data.template.color.primary }};
     
 }
