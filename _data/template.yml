@@ -9,7 +9,7 @@ color:
 font:
   primary: '"Julius Sans One", Oswald, sans-serif' 
   secondary: '"Crimson Text", "Playfair Display", serif'
-  title: '"Bungee Hairline", cursive'
-  intro-heading: '"Bungee Hairline", cursive'
+  title: 'Quattrocento, latin'
+  intro-heading: '"Yeseva One", cursive'
   intro-lead-in: '"Julius Sans One", sans-serif'
   intro-heading2: '"Julius Sans One", sans-serif'
