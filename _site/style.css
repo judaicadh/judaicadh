@@ -14,6 +14,7 @@
 .sitetitle {
        font-family: "Bungee Hairline", cursive;
        font-size: 2em;
+       color: #fed136;
        }
 
 body {
@@ -195,6 +196,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand .sitetitle {
        font-family: "Bungee Hairline", cursive;
     color: #fed136;
+    
 }
 
 .navbar-default .navbar-brand:hover,
@@ -284,9 +286,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #222;
     background-attachment: scroll;
-    background-image: url('/agency-jekyll-theme//img/header-bg.jpg');
+    background-image: url('/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -302,7 +304,7 @@ header .intro-text {
 }
 
 header .intro-lead-in {
-	font-family: "Playfair Display SC", serif;
+	font-family: "Julius Sans One", sans-serif;
 
 }
 
@@ -310,38 +312,44 @@ header .intro-heading {
 	font-family: "Bungee Hairline", cursive;
 
 }
+header .intro-heading2 {
+	font-family: "Julius Sans One", sans-serif;
+	margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 40px;
+    
+    }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-size: 22px;
-
+	color: #222;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 50px;
+    
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        color: #222;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: ;
         font-size: 40px;
-     
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         text-transform: uppercase;
         font-family: ;
         font-size: 75px;
@@ -423,6 +431,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
@@ -685,7 +694,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/agency-jekyll-theme//img/map-image.png');
+    background-image: url('/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }

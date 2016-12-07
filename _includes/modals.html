@@ -17,19 +17,27 @@
                             <img src="img/portfolio/{{ post.img }}.jpg" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                                <ul class="list-inline item-details">
-                                <li>Partners:
-                                    <strong>{{ post.partners }}</a>
-                                    </strong>
+                               <strong> <li>Partners:</strong>
+                                    {{ post.partners }}</a>
+                                    
                                 </li>
                                 </br>
-                                <li>Image Source:
-                                    <strong>{{ post.courtesy }}</a>
-                                    </strong>
+                                </br>
+                                 <li><strong>Project Date: </strong>
+                                    {{ post.project-date }}</a>
+                                  
                                 </li>
-                             
+                                </br>
+                                </br>
+                                <li>
+                                    <strong>{% if post.link contains 'http' %}Image Source: </strong><a target=_blank href="{{ post.link }}">{{ post.courtesy }}</a>{% endif %}
+                                   
+                                </li>
+                             </br>
+                             </br>
                             </ul>
                             
-                            <button type="button" class="btn btn-xl" data-dismiss="modal">Visit the Project</button>
+                           <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Visit the Project</button></a>
                         </div>
                     </div>
                 </div>
