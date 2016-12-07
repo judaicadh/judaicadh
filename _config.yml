@@ -5,7 +5,6 @@ baseurl:
 title: The Lab for Judaica DH
 email: your-email@domain.com
 description: "The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future."
-google_analytics: UA-88257588-1
 gems:
   - jekyll-sitemap
   - jekyll-paginate
@@ -16,7 +15,8 @@ gems:
   - jekyll-assets
   - jekyll_search
 # Team names, titles and social links
-
+# Google services
+google_analytics: UA-88257588-1
 people:
 - name: Laurie Allen
   modal-id: laurieallen
