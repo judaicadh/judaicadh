@@ -1,17 +1,18 @@
 ---
-title: Digital Second Edition of Judaica Americana 
+title: Digital Second Edition of Judaica Americana
+date: 2016-12-01 00:00:00 Z
+categories:
+- Web Development
 subtitle: 
 courtesy: Judaica DH at the University of Pennsylvania
-link:
+link: 
 layout: default
 modal-id: 5
-date: December 2016
 img: judaicaamericana
 thumbnail: judaicaamericanathumbnail
 alt: Judaica Americana
 project-date: October 2017
 partners: 
-category: Web Development
 description: 
-
 ---
+

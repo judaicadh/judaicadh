@@ -1,0 +1,39 @@
+---
+title: Sabato Morais Papers Digitization Project
+date: 2015-12-01 00:00:00 Z
+subtitle: 
+courtesy: 
+link: 
+layout: default
+modal-id: 6
+img: morais
+thumbnail: moraisthumbnail
+alt: Sabato Morais
+project-date: April - December 2015
+partners: National Foundation of Jewish Culture
+description: The Sabato Morais Papers Digitization Project digitized and encoded in
+  TEI the entire Sabato Morais Papers, which belong to the Penn Libraries and reside
+  at the Katz CAJS. We created a searchable database that performed full-text searching
+  of every document in the Sabato Morais Papers and displays the images of retrieved
+  documents alongside their encoded transcription. </br> This project is of interest
+  to scholars of American, Italian and Sephardic Jewish history, religious studies,
+  immigration and ethnic studies, Hebrew language and the history of Biblical interpretation,
+  and the history of scholarship.  By making these writings and correspondence of
+  Sabato Morais digitally available, researchers have access to primary sources that
+  document the development of observant  Jewish life in the broad context of Victorian
+  culture on both sides of the Atlantic during the nineteenth century. </br> The Italian-born
+  Morais is chiefly remembered by historians as the founder and first president of
+  the Jewish Theological Seminary, established in New York City in 1886 (today the
+  institutional home of the Conservative denomination of American Judaism).  He also
+  was an outspoken intellectual force whose public concerns, such as religious freedom,
+  human rights, antislavery and the abolition of the death penalty were national and
+  international in scope.  After his death, Cyrus Adler, the first operating president
+  of Dropsie College and one of American Jewry's most visible public figures in the
+  early twentieth century, described Morais as “the representative American Jew” to
+  his co-religionists of England, France, Italy, and the Orient.  The New York Times
+  remembered Morais as "the most eminent rabbi in this country . . . a powerful and
+  aggressive factor in discussions of vast import and interest to millions of people;
+  a deep, incisive, fearless thinker, speaker, and writer."
+projectlink: http://sceti.library.upenn.edu/morais/index.cfm
+---
+

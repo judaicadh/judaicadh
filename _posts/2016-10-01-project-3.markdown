@@ -1,0 +1,21 @@
+---
+title: Holy Land Images Facial Recognition Exhibit
+date: 2016-10-01 00:00:00 Z
+categories:
+- Web Development
+subtitle: 
+courtesy: Fiorillo, L. Bédouins. Photograph, Albumen, Unidentified. CAJS Image Collection
+  XT FIO 2717 XT80 The Lenkin Family Collection of Photography, University of Pennsylvania
+  Libraries.
+link: http://dla.library.upenn.edu/dla/holyland/image.html?id=HOLYLAND_lenkin_2717&
+layout: default
+modal-id: 3
+img: holyland
+thumbnail: holylandthumbnail
+alt: Bédouins
+project-date: October 2016
+partners: The Lenkin Family Collection of Photography </br>  Instructor and Lecturer,
+  Hila Fishman, with the Tel Aviv Museum of Art
+description: 
+---
+

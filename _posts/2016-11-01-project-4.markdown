@@ -1,0 +1,19 @@
+---
+title: Jewish Agricultural Community Atlas
+date: 2016-11-01 00:00:00 Z
+subtitle: 
+courtesy: Three Young Men in a Wheat Field at the Ḥakla’i (Farmer) Settlement, ca.
+  1920s. YIVO.
+link: http://www.yivoencyclopedia.org/article.aspx/ukraine
+layout: default
+modal-id: 4
+img: agricultural
+thumbnail: agriculturalthumbnail
+alt: image-alt
+project-date: February 2017
+partners: Senior Lecturer in Russian Studies and Contemporary Jewry, Jonathan Dekel-Chen
+  at The Hebrew University of Jerusalem
+description: 
+projectlink: 
+---
+
