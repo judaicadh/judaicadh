@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  word-wrap: break-word;
   /* 2 */ }
 
 /**
@@ -136,8 +135,7 @@ img {
  * Correct overflow not hidden in IE 9/10/11.
  */
 svg:not(:root) {
-  overflow: visible;
-  word-wrap: break-word; }
+  overflow: hidden; }
 
 /* Grouping content
    ========================================================================== */

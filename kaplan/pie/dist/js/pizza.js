@@ -2,16 +2,16 @@ var Pizza = {
   version : '0.2.1',
 
   settings : {
-    donut: 	true,
-	    donut_inner_ratio: 0.6,   // between 0 and 1
-    percent_offset:24,       // relative to radius
+    donut: false,
+    donut_inner_ratio: 0.4,   // between 0 and 1
+    percent_offset: 35,       // relative to radius
     show_text: true,       // show or hide the percentage on the chart.
-    animation_speed: 10,
+    animation_speed: 500,
     always_show_text: false,
     show_grid: true,
-    bar_spacer: 200,
-    bar_intervals: 5,
-    animation_type: 'easeout' // options: backin, backout, bounce, easein, 
+    bar_spacer: 100,
+    bar_intervals: 6,
+    animation_type: 'elastic' // options: backin, backout, bounce, easein, 
                               //          easeinout, easeout, linear
   },
 
@@ -125,7 +125,6 @@ var Pizza = {
         if (settings.show_text) {
           text.animate({
             opacity: 1
-      
           }, settings.animation_speed);
           text.touchend(function () {
             text.animate({
@@ -168,7 +167,7 @@ var Pizza = {
         pie = legend.attr('data-pie-id'),
         height = container.height();
 
-    if (svg.length > 400000) {
+    if (svg.length > 0) {
       svg = svg[0];
     } else {
       var svg = this.svg_obj('svg');
