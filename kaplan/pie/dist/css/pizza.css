@@ -11,11 +11,15 @@
 
 
 
+
 #pie, #donut, #bar {
+<<<<<<< HEAD
 <<<<<<< HEAD
   max-height: 450px; }
   
 =======
+=======
+>>>>>>> parent of ae9c1b2... Ed
   max-height: 450px;
  
  }
@@ -25,6 +29,7 @@
 svg {
   width: 100%;
   height: auto; 
+<<<<<<< HEAD
 <<<<<<< HEAD
   visibility: visible !important;
   overflow: visible;}
@@ -56,9 +61,30 @@ ul[data-pie-id] {
 
 ul[data-pie-id] {
   list-style: none;
+=======
+  }
+  
+  svg:not(:root){
+	  overflow: visible;
+	  
+  }
+
+.tooltip {
+    margin-left: -5px;
+  border-radius: 33px;
+  padding: 52px
+  
+  }
+
+ul[data-pie-id] {
+  list-style: none;
+>>>>>>> parent of ae9c1b2... Ed
   
   padding: 10px;
 
   }
+<<<<<<< HEAD
+>>>>>>> parent of ae9c1b2... Ed
+=======
 >>>>>>> parent of ae9c1b2... Ed
 
