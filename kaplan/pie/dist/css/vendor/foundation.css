@@ -4019,10 +4019,12 @@ ul, ol, dl {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
-  font-family: inherit; }
+  font-family: inherit; 
+  word-wrap: break-word;}
 
 ul {
-  margin-left: 1.1rem; }
+  margin-left: 1.1rem;
+   word-wrap: break-word; }
 
 ul.no-bullet {
   margin-left: 0; }
