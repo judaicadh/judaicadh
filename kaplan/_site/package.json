@@ -1,0 +1,25 @@
+{
+  "name": "kaplan",
+  "version": "1.0.1",
+  "description": "Kaplan Collection of Early American Judaica",
+  "main": "index.js",
+  "repository": "judaicadh.github.io",
+  "author": "Laura Newman Eckstein",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "leaflet-markercluster": "^0.2.2",
+    "leaflet-sidebar": "^0.1.9",
+    "leaflet.locatecontrol": "^0.62.0",
+    "leaflet.markercluster": "^1.0.6",
+    "list.js": "^1.5.0",
+    "tether": "^1.4.0",
+    "typeahead": "^0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}

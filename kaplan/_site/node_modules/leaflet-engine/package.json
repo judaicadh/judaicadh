@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-engine",
+  "version": "0.4.5",
+  "description": "Leaflet is an open-source JavaScript library for mobile-friendly interactive maps.",
+  "main": "leaflet-src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CloudMade/Leaflet.git"
+  },
+  "keywords": [
+    "leaflet",
+    "maps",
+    "mobile",
+    "npm",
+    "ender"
+  ],
+  "author": "CloudMade, Vladimir Agafonkin",
+  "license": "https://github.com/CloudMade/Leaflet/blob/master/LICENSE"
+}
