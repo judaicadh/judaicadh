@@ -1,6 +1,6 @@
 ---
 title: Holy Land Images Facial Recognition Exhibit
-date: 2016-10-01 00:00:00 Z
+date: 2016-10-01 16:22:15.117000000 Z
 categories:
 - Web Development
 subtitle: 
