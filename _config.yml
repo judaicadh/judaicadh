@@ -96,4 +96,5 @@ address:
 - line: Philadelphia, PA 19104
 markdown: kramdown
 permalink: frontmatter
-exclude: [vendor]
+exclude:
+- vendor
