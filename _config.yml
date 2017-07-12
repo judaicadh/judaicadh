@@ -11,9 +11,7 @@ collections:
 url: https://judaicadh.github.io
 baseurl: 
 email: your-email@domain.com
-description: The Lab for Judaica Digital Humanities at the University of Pennsylvania
-  featuring projects that connect the Judaic past to the technological present and
-  future.
+description: 'The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.'
 gems:
 - jekyll-sitemap
 - jekyll-paginate
@@ -29,63 +27,24 @@ people:
   modal-id: laurieallen
   pic: allenheadshot
   position: Assistant Director for Digital Scholarship
-  bio: 'Laurie is the Assistant Director for Digital Scholarship in the Penn Libraries,
-    where she leads a group working to expand the capacity of researchers at Penn
-    to create and share scholarship in new forms. The group engages in digital project
-    development, data management and curation, mapping, experimentations with emerging
-    research methods, and open access publishing. </br></br> Laurie has been involved
-    in a number of Digital Humanities projects, including her continued work on Ticha:
-    a digital text explorer for Colonial Zapotec and her role as Research Director
-    for Monument Lab a public art and research project focused on 21st century memory
-    practices in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy
-    from Bard College, and a Master''s of Library and Information Science from Simmons
-    College.'
+  bio: "Laurie is the Assistant Director for Digital Scholarship in the Penn Libraries, where she leads a group working to expand the capacity of researchers at Penn to create and share scholarship in new forms. The group engages in digital project development, data management and curation, mapping, experimentations with emerging research methods, and open access publishing. </br></br> Laurie has been involved in a number of Digital Humanities projects, including her continued work on Ticha: a digital text explorer for Colonial Zapotec and her role as Research Director for Monument Lab a public art and research project focused on 21st century memory practices in the city of Philadelphia. She holds a Bachelor's degree in Philosophy from Bard College, and a Master's of Library and Information Science from Simmons College."
   social:
   - title: twitter
 - name: Laura Newman Eckstein
   modal-id: lauranewmaneckstein
   pic: ecksteinheadshot
   position: Judaica Digital Humanities Coordinator
-  bio: Laura holds a bachelor's degree with the highest honors in religion from Haverford
-    College. Laura's senior thesis at Haverford focused on Jewish peddlers, their
-    business networks, and their religious practices along the Lower Mississippi River
-    between 1820-1865. Laura is the recipient of a 2014 Tri-College, Mellon Foundation
-    Digital Humanities Fellowship where she where she worked with Professor Ryan Cordell
-    in his lab for Viral Maps, Texts and Networks at Northeastern University, mapping
-    the spread and reprinting of 19th century newspapers and magazines. Laura is also
-    the recipient of a John B. Hurford Arts and Humanities Center Summer Research
-    Fellowship.
+  bio: "Laura holds a bachelor's degree with the highest honors in religion from Haverford College. Laura's senior thesis at Haverford focused on Jewish peddlers, their business networks, and their religious practices along the Lower Mississippi River between 1820-1865. Laura is the recipient of a 2014 Tri-College, Mellon Foundation Digital Humanities Fellowship where she where she worked with Professor Ryan Cordell in his lab for Viral Maps, Texts and Networks at Northeastern University, mapping the spread and reprinting of 19th century newspapers and magazines. Laura is also the recipient of a John B. Hurford Arts and Humanities Center Summer Research Fellowship."
   social:
   - title: twitter
 - name: Arthur Kiron
   modal-id: arthurkiron
   pic: kironheadshot
   position: Schottenstein-Jesselson Curator of Judaica Collections
-  bio: 'Dr. Arthur Kiron is the Schottenstein-Jesselson Curator of Judaica Collections
-    and Adjunct Assistant Professor of History at the University of Pennsylvania.
-    He received his Ph.D. in Jewish history from Columbia University and also holds
-    an M.A. in religious studies from Stanford University, where he focused on the
-    history of Biblical interpretation. His B.A. is from Brandeis University, where
-    he graduated magna cum laude in Political Theory and Women’s Studies and was the
-    recipient of the Giller-Sagan Prize in Women’s Studies.</br></br>He currently
-    oversees the Penn Library’s Judaica programs of education and outreach, such as
-    exhibits, concerts, workshops, as well as national and international partnerships
-    to digitize significant collections of Judaica.  He is the Director of the Jesselson-Kaplan
-    American Genizah Project and is the editor of Constellations of Atlantic Jewish
-    History: The Arnold and Deanne Kaplan Collection of Early American Judaica (2014),
-    recipient of the Arline Custer Memorial Award. His academic scholarship mainly
-    focuses on Atlantic Jewish history and the history of the Jewish book.</br></br>Arthur
-    serves on numerous academic and communal advisory boards, including the Executive
-    Committee of the Jewish Counter Culture Oral History Project, based at Penn; the
-    Advisory Board of the Footprints provenance project, based at Columbia University,
-    the Advisory Board of the Jewish Play Project, based at the Rochester Institute
-    of Technology;  the International Advisory Board, Rabat Genizah Project;  Editorial
-    Board, Association of Jewish Libraries; International Academic Advisory Board
-    for Sephardic Studies/Livorno, Italy; the Academic Board of Advisors, American
-    Jewish Historical Society;  Academic Advisory Board, Herbert D. Katz Center for
-    Advanced Judaic Studies, University of Pennsylvania.'
+  bio: "Dr. Arthur Kiron is the Schottenstein-Jesselson Curator of Judaica Collections and Adjunct Assistant Professor of History at the University of Pennsylvania. He received his Ph.D. in Jewish history from Columbia University and also holds an M.A. in religious studies from Stanford University, where he focused on the history of Biblical interpretation. His B.A. is from Brandeis University, where he graduated magna cum laude in Political Theory and Women’s Studies and was the recipient of the Giller-Sagan Prize in Women’s Studies.</br></br>He currently oversees the Penn Library’s Judaica programs of education and outreach, such as exhibits, concerts, workshops, as well as national and international partnerships to digitize significant collections of Judaica.  He is the Director of the Jesselson-Kaplan American Genizah Project and is the editor of Constellations of Atlantic Jewish History: The Arnold and Deanne Kaplan Collection of Early American Judaica (2014), recipient of the Arline Custer Memorial Award. His academic scholarship mainly focuses on Atlantic Jewish history and the history of the Jewish book.</br></br>Arthur serves on numerous academic and communal advisory boards, including the Executive Committee of the Jewish Counter Culture Oral History Project, based at Penn; the Advisory Board of the Footprints provenance project, based at Columbia University, the Advisory Board of the Jewish Play Project, based at the Rochester Institute of Technology;  the International Advisory Board, Rabat Genizah Project;  Editorial Board, Association of Jewish Libraries; International Academic Advisory Board for Sephardic Studies/Livorno, Italy; the Academic Board of Advisors, American Jewish Historical Society;  Academic Advisory Board, Herbert D. Katz Center for Advanced Judaic Studies, University of Pennsylvania."
   social:
   - title: twitter
+
 social:
 - title: twitter
   url: http://twitter.com/judaicadh
