@@ -32,7 +32,7 @@ people:
   bio: 'Laurie is the Assistant Director for Digital Scholarship in the Penn Libraries, where she leads a group working to expand the capacity of researchers at Penn to create and share scholarship in new forms. The group engages in digital project development, data management and curation, mapping, experimentations with emerging research methods, and open access publishing. </br></br> Laurie has been involved in a number of Digital Humanities projects, including her continued work on Ticha: a digital text explorer for Colonial Zapotec and her role as Research Director for Monument Lab a public art and research project focused on 21st century memory practices in the city of Philadelphia.  She holds a Bachelor's degree in Philosophy from Bard College, and a Master's of Library and Information Science from Simmons College.'
   social:
   - title: twitter
-    url: @liblaurie
+    url:
   - title: facebook
     url: 
   - title: stack-overflow
@@ -52,7 +52,7 @@ people:
     Fellowship.
   social:
   - title: twitter
-    url: @lauraneckstein
+    url: 
   - title: facebook
     url: 
   - title: linkedin
