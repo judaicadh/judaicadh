@@ -3,33 +3,55 @@
   <channel>
     <title>The Lab for Judaica DH</title>
     <description>The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Dec 2016 17:00:48 -0500</pubDate>
-    <lastBuildDate>Wed, 07 Dec 2016 17:00:48 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <link>https://judaicadh.github.io/</link>
+    <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 12 Jul 2017 16:53:37 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 16:53:37 +0000</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Wed, 12 Jul 2017 16:53:37 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Wed, 12 Jul 2017 16:53:37 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2016 11 01 Project 4</title>
+        <description>
+</description>
+        <pubDate>Wed, 12 Jul 2017 16:22:15 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        
+        
+      </item>
     
       <item>
         <title>Digital Second Edition of Judaica Americana</title>
         <description>
 </description>
-        <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
         
         <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Jewish Agricultural Community Atlas</title>
-        <description>
-</description>
-        <pubDate>Tue, 01 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
-        
         
       </item>
     
@@ -37,22 +59,9 @@
         <title>Holy Land Images Facial Recognition Exhibit</title>
         <description>
 </description>
-        <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>An Interactive Map of the Kaplan Collection of Early American Judaica</title>
-        <description>
-</description>
-        <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
+        <pubDate>Sat, 01 Oct 2016 16:22:15 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
         
         <category>Web Development</category>
@@ -63,9 +72,9 @@
         <title>Cairo Geniza Transcription Game</title>
         <description>
 </description>
-        <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
+        <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
         
         <category>Web Development</category>
@@ -73,13 +82,15 @@
       </item>
     
       <item>
-        <title>Sabato Morais Papers Digitization Project</title>
+        <title>An Interactive Map of the Kaplan Collection of Early American Judaica</title>
         <description>
 </description>
-        <pubDate>Tue, 01 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/frontmatter</link>
-        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
+        <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
+        
+        <category>Web Development</category>
         
       </item>
     

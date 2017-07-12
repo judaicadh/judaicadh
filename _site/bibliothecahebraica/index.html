@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bibliotheca Visualization</title>
+
+    <link rel="shortcut icon" href="img/graham_cracker.ico"  type="image/x-icon">
+
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+ <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+      html, body {
+        max-width:100%;
+      }
+
+      /* Wrapper for page content to push down footer */
+      /* Negative indent footer by its height */
+      /* Pad bottom by footer height */
+      #wrap {
+        min-height: 100%;
+        min-width: 800px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #footer {
+        height: 60px;
+        background-color: #f5f5f5;
+        text-align: center;
+        background-color: #f5f5f5;
+        font-size: 13px;
+        padding-left:10px;
+        padding-right:10px;
+        margin-top: 50px;
+      }
+
+      #footer_text_container{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        min-width: 950px;
+      }
+
+      .clustergrammer_container{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 10px;
+        overflow: hidden;
+      }
+
+      .viz_title{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 300;
+        /*margin-left: -10px;*/
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #DEDEDE;
+      }
+
+      .viz_description{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 20px;
+        text-align: justify;
+        margin-bottom: 30px;
+      }
+
+    </style>
+
+</head>
+
+<body>
+ <div id="wrap" class='container'>
+
+    <div class='row viz_title' id='clustergram_title'>
+    Bibliotheca Hebraica Atlantica
+    </div>
+
+  <div id='container-id-1'>
+      <h1 class='wait_message'>Please wait ...</h1>
+  </div>
+
+
+  <!-- Required JS Libraries -->
+  <script src="lib/js/d3.js"></script>
+  <script src="lib/js/jquery-1.11.2.min.js"></script>
+  <script src="lib/js/underscore-min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+
+  <!-- Clustergrammer JS -->
+  <script src='clustergrammer.js'></script>
+
+  <!-- optional modules -->
+  <script src='js/Enrichrgram.js'></script>
+  <script src='js/hzome_functions.js'></script>
+  <script src='js/send_to_Enrichr.js'></script>
+
+  <!-- make clustergram -->
+  <script src='js/load_clustergram.js'></script>
+
+</body>
+
+</html>
