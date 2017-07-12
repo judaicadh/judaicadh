@@ -4,9 +4,9 @@ var Pizza = {
   settings : {
     donut: false,
     donut_inner_ratio: 0.4,   // between 0 and 1
-    percent_offset: 35,       // relative to radius
+    percent_offset: 20,       // relative to radius
     show_text: true,       // show or hide the percentage on the chart.
-    animation_speed: 500,
+    animation_speed: 100,
     always_show_text: false,
     show_grid: true,
     bar_spacer: 100,
@@ -175,12 +175,12 @@ var Pizza = {
 
     if (pie) {
       var view_box = '-' + settings.percent_offset + ' -' + settings.percent_offset + ' ' + 
-      (width + (settings.percent_offset * 1.5)) + ' ' + 
-      (width + (settings.percent_offset * 1.5));
+      (width + (settings.percent_offset * 2)) + ' ' + 
+      (width + (settings.percent_offset * 2));
     } else {
       var view_box = '-' + settings.percent_offset + ' -' + settings.percent_offset + ' ' + 
-      (width + (settings.percent_offset * 1.6)) + ' ' + 
-      (height + (settings.percent_offset * 1.6));
+      (width + (settings.percent_offset * 2)) + ' ' + 
+      (height + (settings.percent_offset * 2));
     }
 
     this.set_attr(svg, {width: '100%', height: '100%', viewBox: view_box});
