@@ -10,19 +10,34 @@
   color: #F866B9;}
 
 
+
 #pie, #donut, #bar {
-  max-height: 450px; }
+  max-height: 450px;
+ 
+ }
 
 
 svg {
   width: 100%;
-  height: auto; }
+  height: auto; 
+  }
+  
+  svg:not(:root){
+	  overflow: visible;
+	  
+  }
 
 .tooltip {
-  margin-left: -5px;
-  border-radius: 3px;
-  padding: 5px; }
+    margin-left: -5px;
+  border-radius: 33px;
+  padding: 52px
+  
+  }
 
 ul[data-pie-id] {
   list-style: none;
-  padding: 10px; }
+  
+  padding: 10px;
+
+  }
+

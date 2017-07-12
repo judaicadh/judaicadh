@@ -1,36 +1,112 @@
-
-exclude:
-  - "/vendor/"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE.md"
-  - "*.gemspec"
-
-keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
-
-
-# Site settings
-title: Kaplan Collection of Early American Judaica
-subtitle: "1555-1890"
-url: "" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/"
-
-
-# Build settings
+---
+title: The Lab for Judaica DH
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url:
+baseurl:
+email: your-email@domain.com
+description: The Lab for Judaica Digital Humanities at the University of Pennsylvania
+  featuring projects that connect the Judaic past to the technological present and
+  future.
+gems:
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-gist
+- jekyll-feed
+- jekyll-mentions
+- jekyll-seo-tag
+- jekyll-assets
+- jekyll_search
+google_analytics: UA-88257588-1
+people:
+- name: Laurie Allen
+  modal-id: laurieallen
+  pic: allenheadshot
+  position: Assistant Director for Digital Scholarship
+  bio: Laurie leads a team providing oversight, coordination, and support for services
+    spanning digital publishing and open access, data services and management, digital
+    humanities/digital scholarship, and Expertise@Penn.</br></br>Before her appointment
+    as Penn Libraries' Assistant Director for Digital Scholarship, Laurie was Coordinator
+    of Digital Scholarship and Services at Haverford College. Still earlier, she was
+    the Penn Libraries' Social Sciences Data Librarian.</br></br>  Laurie is actively
+    engaged in regional and national organizations and collaborations around digital
+    scholarship through presentations, panels and research projects. She holds a Bachelor's
+    degree in Philosophy from Bard College, and a Master's of Library and Information
+    Science from Simmons College.
+  social:
+  - title: twitter
+    url:
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url:
+- name: Laura Newman Eckstein
+  modal-id: lauranewmaneckstein
+  pic: ecksteinheadshot
+  position: Judaica Digital Humanities Coordinator
+  bio: Laura holds a bachelor's degree with the highest honors in religion from Haverford
+    College. Laura's senior thesis at Haverford focused on Jewish peddlers, their
+    business networks, and their religious practices along the Lower Mississippi River
+    between 1820-1865. Laura is the recipient of a 2014 Tri-College, Mellon Foundation
+    Digital Humanities Fellowship where she where she worked with Professor Ryan Cordell
+    in his lab for Viral Maps, Texts and Networks at Northeastern University, mapping
+    the spread and reprinting of 19th century newspapers and magazines. Laura is also
+    the recipient of a John B. Hurford Arts and Humanities Center Summer Research
+    Fellowship.
+  social:
+  - title: twitter
+    url:
+  - title: facebook
+    url:
+  - title: linkedin
+    url:
+- name: Arthur Kiron
+  modal-id: arthurkiron
+  pic: kironheadshot
+  position: Schottenstein-Jesselson Curator of Judaica Collections
+  bio: 'Dr. Arthur Kiron is the Schottenstein-Jesselson Curator of Judaica Collections
+    and Adjunct Assistant Professor of History at the University of Pennsylvania.
+    He received his Ph.D. in Jewish history from Columbia University and also holds
+    an M.A. in religious studies from Stanford University, where he focused on the
+    history of Biblical interpretation. His B.A. is from Brandeis University, where
+    he graduated magna cum laude in Political Theory and Women’s Studies and was the
+    recipient of the Giller-Sagan Prize in Women’s Studies.</br></br>He currently
+    oversees the Penn Library’s Judaica programs of education and outreach, such as
+    exhibits, concerts, workshops, as well as national and international partnerships
+    to digitize significant collections of Judaica.  He is the Director of the Jesselson-Kaplan
+    American Genizah Project and is the editor of Constellations of Atlantic Jewish
+    History: The Arnold and Deanne Kaplan Collection of Early American Judaica (2014),
+    recipient of the Arline Custer Memorial Award.  His academic scholarship mainly
+    focuses on Atlantic Jewish history and the history of the Jewish book.</br></br>Arthur
+    serves on numerous academic and communal advisory boards, including the Executive
+    Committee of the Jewish Counter Culture Oral History Project, based at Penn; the
+    Advisory Board of the Footprints provenance project, based at Columbia University,
+    the Advisory Board of the Jewish Play Project, based at the Rochester Institute
+    of Technology;  the International Advisory Board, Rabat Genizah Project;  Editorial
+    Board, Association of Jewish Libraries; International Academic Advisory Board
+    for Sephardic Studies/Livorno, Italy; the Academic Board of Advisors, American
+    Jewish Historical Society;  Academic Advisory Board, Herbert D. Katz Center for
+    Advanced Judaic Studies, University of Pennsylvania.'
+  social:
+  - title: twitter
+    url:
+  - title: facebook
+    url:
+  - title: google-plus
+    url:
+social:
+- title: twitter
+  url: http://twitter.com/judaicadh
+- title: github
+  url: https://github.com/judaicadh
+address:
+- line: 3420 Walnut Street
+- line: Philadelphia, PA 19104
 markdown: kramdown
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+permalink: frontmatter
