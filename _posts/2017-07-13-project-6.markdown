@@ -4,7 +4,8 @@ date: 2017-07-13 16:11:09.869000000 Z
 categories:
 - Web Development
 subtitle: 
-courtesy: "King, Samuel. Ezra Stiles. 1770-1771. Yale University Art Gallery, New Haven, Connecticut. Yale University Art Gallery. Yale University. Web. 13 July 2017. <http://artgallery.yale.edu/collections/objects/49867>."
+courtesy: King, Samuel. Ezra Stiles. 1770-1771. Yale University Art Gallery, New Haven,
+  Connecticut. Yale University Art Gallery. Yale University. Web. 13 July 2017. <http://artgallery.yale.edu/collections/objects/49867>.
 link: http://artgallery.yale.edu/collections/objects/49867
 layout: default
 modal-id: 2
@@ -12,7 +13,19 @@ img: geniza
 thumbnail: bibliothecahebraicaatlanticathumbnail
 alt: Ezra Stiles
 project-date: May 2017
-partners: "Laura Newman Eckstein; John Pollack; Peter Stallybrass (Penn); Michelle Chesner, Columbia University Libraries; James Green and the staff of the Library Company of Pennsylvania; the staff of the Historical Society of Pennsylvania; Jesús de Prado Plumed, Universidad Nacional Autónoma de México."
-description: "While the history of Latin and Greek texts as well as Hebrew Bibles in Colonial America and Mexico appearing in the early libraries of America is well documented, what lacks documentation are the other Hebraic texts that shared the shelves with the Hebrew Bibles and Latin and Greek texts that are known to have deeply influenced early American political, cultural, economic, and scientific thought. This project aims to explore the Hebraic texts which were present in the libraries of Colonial America and Mexico. Specifically, we wish to map the libraries that held volumes of Hebraic texts in these locations. We want this map to illustrate Hebraic texts at each library location as well as the text’s location and other details."
+partners: Laura Newman Eckstein; John Pollack; Peter Stallybrass (Penn); Michelle
+  Chesner, Columbia University Libraries; James Green and the staff of the Library
+  Company of Pennsylvania; the staff of the Historical Society of Pennsylvania; Jesús
+  de Prado Plumed, Universidad Nacional Autónoma de México.
+description: While the history of Latin and Greek texts as well as Hebrew Bibles in
+  Colonial America and Mexico appearing in the early libraries of America is well
+  documented, what lacks documentation are the other Hebraic texts that shared the
+  shelves with the Hebrew Bibles and Latin and Greek texts that are known to have
+  deeply influenced early American political, cultural, economic, and scientific thought.
+  This project aims to explore the Hebraic texts which were present in the libraries
+  of Colonial America and Mexico. Specifically, we wish to map the libraries that
+  held volumes of Hebraic texts in these locations. We want this map to illustrate
+  Hebraic texts at each library location as well as the text’s location and other
+  details.
 ---
 
