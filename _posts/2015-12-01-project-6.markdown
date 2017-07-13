@@ -9,7 +9,7 @@ modal-id: 6
 img: morais
 thumbnail: moraisthumbnail
 alt: Sabato Morais
-project-date: April - December 2015
+project-date: "April - December 2015"
 partners: 'Marvin Weiner, C‘38; Herbert Weiner, Sheila Weiner; Jesselson Family Foundation;
   Kaplan Family Foundation; the National Foundation for Jewish Culture; Leslie Delauter;
   Gina Glasman; Michael Overgard: Heather Newman; Elizabeth Peters.'
