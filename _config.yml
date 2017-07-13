@@ -14,7 +14,7 @@ email: your-email@domain.com
 description: The Lab for Judaica Digital Humanities at the University of Pennsylvania
   featuring projects that connect the Judaic past to the technological present and
   future.
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-paginate
 - jekyll-gist
