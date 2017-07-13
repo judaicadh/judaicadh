@@ -5,9 +5,20 @@
     <description>The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.</description>
     <link>https://judaicadh.github.io/</link>
     <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Jul 2017 16:50:35 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Jul 2017 16:50:35 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Jul 2017 16:53:59 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Jul 2017 16:53:59 +0000</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Thu, 13 Jul 2017 16:53:59 +0000</pubDate>
+        <link>https://judaicadh.github.io/frontmatter</link>
+        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        
+        
+      </item>
     
       <item>
         <title>2015 12 01 Project 6</title>
@@ -48,19 +59,6 @@
     
       <item>
         <title>Cairo Geniza Zooniverse Project</title>
-        <description>
-</description>
-        <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>An Interactive Map of the Kaplan Collection of Early American Judaica</title>
         <description>
 </description>
         <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
