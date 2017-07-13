@@ -13,7 +13,7 @@ project-date: April - December 2015
 partners: 'Marvin Weiner, C‘38; Herbert Weiner, Sheila Weiner; Jesselson Family Foundation;
   Kaplan Family Foundation; the National Foundation for Jewish Culture; Leslie Delauter;
   Gina Glasman; Michael Overgard: Heather Newman; Elizabeth Peters.'
-description: "Our third Jesselson-Kaplan American Genizah Project, The Sabato Morais
+description: Our third Jesselson-Kaplan American Genizah Project, The Sabato Morais
   Papers, resulted in the digitization and TEI encoding of the Sabato Morais Papers.  We
   are in the process of building a searchable database that performs full-text searching
   of almost every document in the Sabato Morais Papers and displays the images of
@@ -35,7 +35,7 @@ description: "Our third Jesselson-Kaplan American Genizah Project, The Sabato Mo
   of England, France, Italy, and the Orient. The New York Times remembered Morais
   as 'the most eminent rabbi in this country . . . a powerful and aggressive factor
   in discussions of vast import and interest to millions of people; a deep, incisive,
-  fearless thinker, speaker, and writer.'"
+  fearless thinker, speaker, and writer.'
 projectlink: http://sceti.library.upenn.edu/morais/index.cfm
 ---
 
