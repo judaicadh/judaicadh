@@ -1,6 +1,6 @@
 ---
 title: "The Arnold and Deanne Kaplan Collection of Early American Judaica: An Interactive Map"
-date: 2016-10-01 00:00:00 Z
+date: 2016-12-01 16:22:15.117000000 Z
 categories:
 - Web Development
 subtitle: 
