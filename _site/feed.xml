@@ -5,8 +5,8 @@
     <description>The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.</description>
     <link>https://judaicadh.github.io/</link>
     <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Jul 2017 17:19:43 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Jul 2017 17:19:43 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Jul 2017 17:22:32 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Jul 2017 17:22:32 +0000</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -21,30 +21,15 @@
       </item>
     
       <item>
-        <title>Project 1</title>
+        <title>Against the Grain: the Farming Life in Jewish History</title>
         <description>
-&lt;hr /&gt;
-&lt;p&gt;title: “Against the Grain: the Farming Life in Jewish History”
-date: 2016-11-01 00:00:00 Z
-subtitle: 
-courtesy: Three Young Men in a Wheat Field at the Ḥakla’i (Farmer) Settlement, ca.
-  1920s. YIVO.
-link: http://www.yivoencyclopedia.org/article.aspx/ukraine
-layout: default
-modal-id: 4
-img: agricultural
-thumbnail: agriculturalthumbnail
-alt: image-alt
-project-date: February 2017
-partners: Jonathan Dekel-Chen, Senior Lecturer in Russian Studies and Contemporary Jewry, at The Hebrew University of Jerusalem
-description: This project is an ambitious, multi-disciplinary effort that takes an unprecedented approach to the study of global agrarianism, particularly at the intersection between physical space and communities in the Jewish world. A comprehensive research corpus produced by this project will provide the inspiration, metadata content and scholarly vehicle for cutting-edge, free-access digital educational packages that can restructure the ways in which Jewish history is accessed by the general public. These digital platforms will provide exciting points of entry into that history from Biblical times onward for new audiences throughout the academy and general public, particularly young people previously unexposed or uninterested in Jewish history, culture or identity. It is hoped that these products can spark vibrant public and scholarly discourses that will contribute forcefully to current debates on the balance between the modern growth of the Land of Israel and historic developments in the communities of the diaspora.
-projectlink: 
-—&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
         <link>https://judaicadh.github.io/frontmatter</link>
         <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
+        
+        <category>Web Development</category>
         
       </item>
     
