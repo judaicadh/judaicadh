@@ -1,5 +1,5 @@
 ---
-title: Holy Land Images Facial Recognition Exhibit
+title: "Envisaging the Holy Land: Facial Recognition Software Applied to Early Photography"
 date: 2016-10-01 16:22:15.117000000 Z
 categories:
 - Web Development
@@ -14,8 +14,7 @@ img: holyland
 thumbnail: holylandthumbnail
 alt: Bédouins
 project-date: October 2016
-partners: The Lenkin Family Collection of Photography </br>  Instructor and Lecturer,
-  Hila Fishman, with the Tel Aviv Museum of Art
-description: 
+partners: "Laura Eckstein, Judaica Digital Humanites Project Coordinator and tool designer; Hila Fishman, Exhibition Curator; Laurie Allen, Director of Digital Scholarship; The Lenkin Family Collection of Photography, University of Pennsylvania Libraries."
+description: "Building on a recent exhibition of early photographs of the Holy, Laura Eckstein, the Judaica Digital Humanities Coordinator at Penn’s Judaica DH lab, experimented with a Python script in order to find a way to use facial recognition to comb a corpus of more than 5,000 images to bring to life the otherwise lost individual faces found in these photos. <br>  After compiling, editing, and transforming these faces into a rotating slide show, Laura then created a “how-to” manual in video format to show anyone interested in this tool how to run the python script she created and extract your own faces from your own set of photographs."
 ---
 
