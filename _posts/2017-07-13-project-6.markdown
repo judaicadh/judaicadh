@@ -10,7 +10,7 @@ link: http://artgallery.yale.edu/collections/objects/49867
 layout: default
 modal-id: 2
 img: geniza
-thumbnail: bibliothecahebraicaatlanticathumbnail
+thumbnail: biblothecaamericaatlanticathumbnail
 alt: Ezra Stiles
 project-date: May 2017
 partners: Laura Newman Eckstein; John Pollack; Peter Stallybrass (Penn); Michelle
