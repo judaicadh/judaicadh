@@ -7,8 +7,8 @@ subtitle:
 courtesy: 
 link: 
 layout: default
-modal-id: 7
-img: morais
+modal-id: 11
+img: zuker
 thumbnail: zukerthumbnail
 alt: Zuker Holy Land Travel Manuscript
 project-date: November 2011 
