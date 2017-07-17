@@ -3,7 +3,7 @@ title: 'The Arnold and Deanne Kaplan Collection of Early American Judaica: An In
   Map'
 date: 2016-10-01 00:00:00 Z
 categories:
-- Web Development
+- current
 subtitle: 
 courtesy: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Flag,
   with Raised Features advertising “Cohen & Brumberg ...The Great One Price Clothier.”

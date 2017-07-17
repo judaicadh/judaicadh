@@ -2,7 +2,7 @@
 title: 'Envisaging the Holy Land: Facial Recognition Software Applied to Early Photography'
 date: 2016-10-01 16:22:15.117000000 Z
 categories:
-- Web Development
+- current
 subtitle: 
 courtesy: Fiorillo, L. Bédouins. Photograph, Albumen, Unidentified. CAJS Image Collection
   XT FIO 2717 XT80 The Lenkin Family Collection of Photography, University of Pennsylvania
