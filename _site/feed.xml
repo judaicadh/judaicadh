@@ -5,8 +5,8 @@
     <description>The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.</description>
     <link>https://judaicadh.github.io/</link>
     <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Jul 2017 21:22:49 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jul 2017 21:22:49 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Jul 2017 16:03:07 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Jul 2017 16:03:07 +0000</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -127,15 +127,33 @@
       </item>
     
       <item>
-        <title>Jesselson-Kaplan American Genizah Project and the Gershwind-Bennett Isaac Leeser Digital Repository</title>
-        <description>
+        <title>Project 3</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;title: Moldovan Holy Land Map Collection
+date: 2015-09-01 16:22:15.117000000 Z
+categories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;legacy
+subtitle: 
+courtesy: 
+link: 
+layout: default
+modal-id: 13
+img: moldovan
+thumbnail: moldovanthumbnail
+alt: Moldovan Holy Land Map Collection
+project-date: 2010
+partners: “In 2010, his son Joseph T. Moldovan, C’76 and daughter-in-law Susan Alkalay Moldovan, C’76 established the Moldovan Family Rare Judaica collection at the Penn Libraries in honor of Al and his wife Jean Sorkin Moldovan.”
+description: “The Moldovan family Holy Land Map Collection was built over several decades by Dr. Alfred Moldovan and his family. It consists of 94 discrete maps dating from 1480-1797, printed in 23 distinct locations across Europe. The majority of the maps were printed in the 17th and 18th centuries in Amsterdam, Antwerp, Basel, Lyon, Paris, Rome, Strassburg, Tuebingen, and Venice. There are over fifty cartographers and engravers represented, including Adrichem, Bunting, Calmet, Hole, Mercator, Munster, Ortelius, Visscher, Wit, and Ziegler. It also features the unique surviving copy of Antonio De Angelis’s map of Jerusalem, printed in Rome in 1578. The map, the first view of Jerusalem based on direct observation and a key source for subsequent Holy Land cartography, was discovered by Dr. Moldovan and subsequently published in a study by him in 1983 in an article entitled “The Lost De Angelis Map of Jerusalem, 1578” in The Map Collector vol. 24 (1983), 17-25,
+http://www.artwis.com/articles/the-lost-de-angelis-map-of-jerusalem-1578/ )”
+projectlink: http://sceti.library.upenn.edu/moldovanmaps/index.cfm 
+___&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        <pubDate>Tue, 01 Sep 2015 16:22:15 +0000</pubDate>
+        <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
         <link>https://judaicadh.github.io/frontmatter</link>
         <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
         
-        
-        <category>legacy</category>
         
       </item>
     
