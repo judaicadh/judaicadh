@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Lab for Judaica DH</title>
-    <description>The Lab for Judaica Digital Humanities at the University of Pennsylvania featuring projects that connect the Judaic past to the technological present and future.</description>
+    <title>Judaica DH at the Penn Libraries</title>
+    <description>Judaica Digital Humanities at the University of Pennsylvania Libraries features projects that connect the Judaic past to the technological present and future.</description>
     <link>https://judaicadh.github.io/</link>
     <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Jul 2017 16:11:25 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Jul 2017 16:11:25 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Jul 2017 17:35:58 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Jul 2017 17:35:58 +0000</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>

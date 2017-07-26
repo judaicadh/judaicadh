@@ -1,5 +1,5 @@
 ---
-title: The Lab for Judaica DH
+title: Judaica DH at the Penn Libraries
 timezone: UTC
 collections:
   posts:
@@ -9,10 +9,10 @@ collections:
     title: Uploads
     output: true
 url: https://judaicadh.github.io
-baseurl: 
+baseurl:
 email: your-email@domain.com
-description: The Lab for Judaica Digital Humanities at the University of Pennsylvania
-  featuring projects that connect the Judaic past to the technological present and
+description: Judaica Digital Humanities at the University of Pennsylvania Libraries
+  features projects that connect the Judaic past to the technological present and
   future.
 plugins:
 - jekyll-sitemap
