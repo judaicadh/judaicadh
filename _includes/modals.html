@@ -19,25 +19,32 @@
                                <ul class="list-inline item-details">
                                <strong> <li>Partners:</strong>
                                     {{ post.partners }}</a>
-                                    
+
                                 </li>
                                 </br>
                                 </br>
                                  <li><strong>Project Date: </strong>
                                     {{ post.project-date }}</a>
-                                  
+
                                 </li>
                                 </br>
                                 </br>
                                 <li>
                                     <strong>{% if post.link contains 'http' %}Image Source: </strong><a target=_blank href="{{ post.link }}">{{ post.courtesy }}</a>{% endif %}
-                                   
+
                                 </li>
                              </br>
                              </br>
+
                             </ul>
-                            
-                           <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Coming Soon</button></a>
+                            {% if post.projectlink== null %}
+  <p>Coming Soon</p>
+{% else %}
+  {% for post in post.projectlink %}
+ <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Hi</button></a>
+  {% endfor %}
+{% endif %}
+
                         </div>
                     </div>
                 </div>
