@@ -1,5 +1,5 @@
  <!-- Portfolio Modals -->
- <section>
+ 
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -7,7 +7,7 @@
                 <div class="lr">
                     <div class="rl">
                     </div>
-                </div>
+              
             
             <div class="container">
                 <div class="row">
@@ -31,7 +31,8 @@
                                 </br>
                                 </br>
                                 <li>
-                                    <strong>{% if post.link contains 'http' %}Image Source: </strong><a target=_blank href="{{ post.link }}">{{ post.courtesy }}</a>{% endif %}
+                                    <strong>{% if post.link contains 'http' %}Image Source:</strong> 
+                                    <a target=_blank href="{{ post.link }}">{{ post.courtesy }}</a>{% endif %}
 
                                 </li>
                              </br>
@@ -40,12 +41,7 @@
                             </ul>
  <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Coming Soon</button></a>
 
-                        </div>
-                    </div>
-                </div>
-                </div>
-           </div>
-      
+   
                 
 {% endfor %}
-</section>
+ 
