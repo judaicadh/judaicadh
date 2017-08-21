@@ -1,11 +1,11 @@
 ---
-title: The Zuker Holy Land Travel Manuscript
+title: The Zucker Holy Land Travel Manuscript
 date: 2015-12-01 16:22:15.117000000 Z
 categories:
 - legacy
-subtitle: 
-courtesy: 
-link: 
+subtitle:
+courtesy:
+link:
 layout: default
 modal-id: 11
 img: zuker
@@ -28,4 +28,3 @@ description: The Zucker Holy Land Travel Manuscript takes us on a tour through t
   just a few examples. - Anna Baechtold
 projectlink: http://sceti.library.upenn.edu/zucker/
 ---
-

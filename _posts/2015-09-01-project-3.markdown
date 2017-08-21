@@ -3,9 +3,9 @@ title: Moldovan Holy Land Map Collection
 date: 2015-09-01 00:00:00 Z
 categories:
 - legacy
-subtitle: 
-courtesy: 
-link: 
+subtitle:
+courtesy:
+link:
 layout: default
 modal-id: 13
 img: moldovan
@@ -29,4 +29,3 @@ description: The Moldovan family Holy Land Map Collection was built over several
   1578' in The Map Collector vol. 24 (1983), 17-25, (http://www.artwis.com/articles/the-lost-de-angelis-map-of-jerusalem-1578/)
 projectlink: http://sceti.library.upenn.edu/moldovanmaps/index.cfm
 ---
-
