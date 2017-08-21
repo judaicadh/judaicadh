@@ -37,13 +37,9 @@
                              </br>
 
                             </ul>
-                            {% if post.projectlink== null %}
-  <p>Coming Soon</p>
-{% else %}
-  {% for post in post.projectlink %}
- <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Hi</button></a>
-  {% endfor %}
-{% endif %}
+                            
+                            <strong>{% if post.projectlink contains 'http' %}: <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Go to Project</button></a>{% endif %}
+                   
 
                         </div>
                     </div>
