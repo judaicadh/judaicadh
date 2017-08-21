@@ -5,8 +5,13 @@
     <description>Judaica Digital Humanities at the University of Pennsylvania Libraries features projects that connect the Judaic past to the technological present and future.</description>
     <link>https://judaicadh.github.io/</link>
     <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
+<<<<<<< HEAD
     <pubDate>Mon, 21 Aug 2017 18:23:54 +0000</pubDate>
     <lastBuildDate>Mon, 21 Aug 2017 18:23:54 +0000</lastBuildDate>
+=======
+    <pubDate>Wed, 09 Aug 2017 18:35:53 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Aug 2017 18:35:53 +0000</lastBuildDate>
+>>>>>>> parent of 6045534... Ed
     <generator>Jekyll v3.5.0</generator>
     
       <item>
