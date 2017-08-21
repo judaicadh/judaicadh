@@ -40,7 +40,7 @@
                             
                             
               
-                           <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Coming Soon</button></a>
+                          {% if post.projectlink contains 'http' %} <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Coming Soon</button></a>{% endif %}
 
                         </div>
                     </div>
