@@ -1,15 +1,13 @@
 ---
-title: Project 2
-date: 2016-10-02 00:00:00 Z
-title: Cairo Geniza Zooniverse Project
+title: "Cairo Geniza Zooniverse Project"
 date: 2016-10-02 00:00:00 Z
 categories:
 - current
 subtitle:
-courtesy: Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection,
+courtesy: "Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection,
   University of Pennsylvania Center for Advanced Judaic Studies. Accessed November
-  30, 2016.
-link: http://sceti.library.upenn.edu/pages/index.cfm?so_id=21140
+  30, 2016."
+  link: http://sceti.library.upenn.edu/pages/index.cfm?so_id=21140
 layout: default
 modal-id: 1
 img: geniza
@@ -28,7 +26,7 @@ partners: "Marina Rustow, Khedouri A. Zilkha Professor of Near Eastern Studies a
   for Genizah Research and Education in Haifa, and the chair of the Early Judaism
   and Rabbinic Program in the European Association of Biblical Studies; Sinai Rusinek;
   The Zooniverse."
-description: We are the recipients of an in kind grant from the Zooniverse to transcribe
+description: "We are the recipients of an in kind grant from the Zooniverse to transcribe
   medieval manuscript fragments from the Cairo Genizah. Zooniverse is a non-profit
   crowdsourcing platform that has over 1.5 million 'citizen scientists' who will help
   to work on transcribing these fragments. The in-kind grant is part of an approximately
@@ -45,7 +43,7 @@ description: We are the recipients of an in kind grant from the Zooniverse to tr
   levels from around the world to meet in a common endeavor. We also see this as a
   way to develop new tools for citizen scientists throughout the world to learn to
   read a variety of scribal hands and to open texts accessible only to a handful of
-  specialists to millions of people.
+  specialists to millions of people."
   projectlink:
   https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza
   ---
