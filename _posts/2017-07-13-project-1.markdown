@@ -3,7 +3,7 @@ title: 'Against the Grain: the Farming Life in Jewish History'
 date: 2017-07-13 00:00:00 Z
 categories:
 - current
-subtitle:
+subtitle: 
 courtesy: Three Young Men in a Wheat Field at the Ḥakla’i (Farmer) Settlement, ca.
   1920s. YIVO.
 link: http://www.yivoencyclopedia.org/article.aspx/ukraine
@@ -28,5 +28,5 @@ description: This project is an ambitious, multi-disciplinary effort that takes 
   public and scholarly discourses that will contribute forcefully to current debates
   on the balance between the modern growth of the Land of Israel and historic developments
   in the communities of the diaspora.
-
 ---
+
