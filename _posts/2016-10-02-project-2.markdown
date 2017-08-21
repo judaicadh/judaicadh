@@ -1,9 +1,4 @@
 ---
-title: Project 2
-date: 2016-10-02 00:00:00 Z
----
-
----
 title: "Cairo Geniza Zooniverse Project"
 date: 2016-10-02 00:00:00 Z
 categories:
@@ -51,4 +46,4 @@ description: "We are the recipients of an in kind grant from the Zooniverse to t
   specialists to millions of people."
   projectlink:
   https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza
-  ---
+ ---
