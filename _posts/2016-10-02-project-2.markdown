@@ -1,9 +1,6 @@
 ---
 title: Project 2
 date: 2016-10-02 00:00:00 Z
----
-
----
 title: Cairo Geniza Zooniverse Project
 date: 2016-10-02 00:00:00 Z
 categories:
