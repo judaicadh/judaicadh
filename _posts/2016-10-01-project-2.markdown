@@ -46,4 +46,4 @@ description: We are the recipients of an in kind grant from the Zooniverse to tr
   specialists to millions of people.
   projectlink:
   https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza
----
+  ---
