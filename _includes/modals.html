@@ -35,15 +35,15 @@
                                 </li>
                              </br>
                              </br>
+
                             </ul>
-
-                          {% if post.projectlink == null %}
-  Hello tobi
-{% elsif post.projectlink != 'null' %}
-<a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Link to Project</button></a>
+                            {% if post.projectlink== null %}
+  <p>Coming Soon</p>
+{% else %}
+  {% for post in post.projectlink %}
+ <a target=_blank href="{{ post.projectlink }}"<button type="button" class="btn btn-xl">Hi</button></a>
+  {% endfor %}
 {% endif %}
-
-
 
                         </div>
                     </div>
