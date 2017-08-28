@@ -8,7 +8,7 @@ courtesy: King, Samuel. Ezra Stiles. 1770-1771. Yale University Art Gallery, New
   Connecticut. Yale University Art Gallery. Yale University. Web. 13 July 2017. <http://artgallery.yale.edu/collections/objects/49867>.
 link: http://artgallery.yale.edu/collections/objects/49867
 layout: default
-modal-id: 2
+modal-id: 4
 img: geniza
 thumbnail: biblothecaamericaatlanticathumbnail
 alt: Ezra Stiles

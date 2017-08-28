@@ -8,7 +8,7 @@ courtesy: Three Young Men in a Wheat Field at the Ḥakla’i (Farmer) Settlemen
   1920s. YIVO.
 link: http://www.yivoencyclopedia.org/article.aspx/ukraine
 layout: default
-modal-id: 4
+modal-id: 5
 img: agricultural
 thumbnail: agriculturalthumbnail
 alt: image-alt
