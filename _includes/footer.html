@@ -2,10 +2,8 @@
         <div class="container">
         <hr>
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
+              
+                <div class="col-md-6">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -13,12 +11,11 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <ul class="list-inline quicklinks">
                       <!-- <li><a href="#">Privacy Policy</a> 
                        </li> --> 
-                      <li><a href="{{site.baseurl}}/credits">Site Credits</a> 
-                       </li> 
+                     
                      <li>
                         <a href ="http://library.upen.edu"> <img border="0" alt="W3Schools" src="../img/logos/lib_gray_high.png" width="100"></a>
                         </li>
