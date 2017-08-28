@@ -1,7 +1,7 @@
 ---
 title: 'The Arnold and Deanne Kaplan Collection of Early American Judaica: An Interactive
   Map'
-date: 2016-10-01 00:00:00 Z
+date: 2017-11-01 00:00:00 Z
 categories:
 - current
 subtitle: 
@@ -10,7 +10,7 @@ courtesy: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Fl
   Lithograph, ca 1870. The Arnold and Deanne Kaplan Collection of Early American Judaica.
 link: https://www.flickr.com/photos/arts_at_penn/14018331445/
 layout: default
-modal-id: 7
+modal-id: 2
 img: kaplan
 thumbnail: kaplanthumbnail
 alt: Kaplan Collection

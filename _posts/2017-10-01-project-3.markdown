@@ -1,6 +1,6 @@
 ---
 title: 'Envisaging the Holy Land: Facial Recognition Software Applied to Early Photography'
-date: 2016-10-01 16:22:15.117000000 Z
+date: 2017-10-01 16:22:15.117000000 Z
 categories:
 - current
 subtitle: 
