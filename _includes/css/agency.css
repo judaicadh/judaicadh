@@ -27,7 +27,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 1.15em;
     line-height: 1.75;
 }
 
@@ -402,7 +402,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    /* Fallback when no plugin support */
+    background: rgba(201,103,77,.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
