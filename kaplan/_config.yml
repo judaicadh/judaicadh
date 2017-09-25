@@ -10,10 +10,10 @@ exclude:
   - "*.gemspec"
   - "map/bower_components/**.md"
   - "map/bower.json"
-  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example3.md"
-  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example2.md"
-  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example1.md"
-  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example.md"
+  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example3.md"
+  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example2.md"
+  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example1.md"
+  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example.md"
   - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple.md"
   - "bower_components"
   - "bower.json"
@@ -40,6 +40,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-assets
 - jekyll_search 
+
 
 
 
