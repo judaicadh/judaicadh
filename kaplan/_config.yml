@@ -8,14 +8,12 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
-<<<<<<< HEAD
   - "map/bower_components/**.md"
   - "map/bower.json"
   - "bower_components"
   - "bower.json"
-=======
->>>>>>> parent of 7c72912... Edit
-  
+  -
+
 
 keep_files:
   - "CNAME"
@@ -31,13 +29,9 @@ url: "" # the base hostname & protocol for your site
 baseurl: "/kaplan"
 plugins:
 - jekyll-sitemap
-- jekyll-paginate
-- jekyll-gist
 - jekyll-feed
 - jekyll-mentions
-- jekyll-seo-tag
-- jekyll-assets
-- jekyll_search 
+
 
 
 

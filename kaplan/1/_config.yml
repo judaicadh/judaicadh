@@ -8,8 +8,8 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
-  - "bower_components"
-  - "bower.json"
+ exclude: ["Gemfile", "Gemfile.lock", "node_modules", "map/bower_components/"]
+
   
 
 keep_files:
