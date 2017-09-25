@@ -214,7 +214,7 @@ var artifacts = L.geoJson(null, {
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         }
       });
-   $("#featureΩß-table tbody").append('<tr style="cursor: pointer;" onclick="sidebarClick('+L.stamp(layer)+'); return false;"><td class="feature-name">'+layer.feature.properties.name+'<i class="fa fa-chevron-right pull-right"></td></tr>');      
+   $("#feature-table tbody").append('<tr style="cursor: pointer;" onclick="sidebarClick('+L.stamp(layer)+'); return false;"><td class="feature-name">'+layer.feature.properties.name+'<i class="fa fa-chevron-right pull-right"></td></tr>');      
    artifactsSearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
@@ -540,6 +540,8 @@ map.addControl(attributionControl);
 var zoomHome = L.Control.zoomHome({position: "topleft"}).addTo(map);
 
 /* GPS enabled geolocation control set to follow the user's location */
+var locateControl = L.control.locate({
+  position: "topleft" }).addTo(map);
 
 /* Larger screens get expanded layer control and visible sidebar */
 if (document.body.clientWidth <= 767) {
