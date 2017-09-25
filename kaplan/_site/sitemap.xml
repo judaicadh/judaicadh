@@ -4,6 +4,12 @@
 <loc>http://localhost:4000/kaplan/about</loc>
 </url>
 <url>
+<loc>http://localhost:4000/kaplan/about</loc>
+</url>
+<url>
+<loc>http://localhost:4000/kaplan/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/kaplan/</loc>
 </url>
 </urlset>

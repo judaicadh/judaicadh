@@ -1,20 +1,15 @@
 
 exclude:
   - "/vendor/"
-  - "map/**"
-  - "pie/**"
+  - "/map/"
+  - "/pie/"
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
-<<<<<<< HEAD
-  - "map/bower_components/**.md"
-  - "map/bower.json"
   - "bower_components"
   - "bower.json"
-=======
->>>>>>> parent of 7c72912... Edit
   
 
 keep_files:
@@ -26,20 +21,9 @@ keep_files:
 # Site settings
 title: Kaplan Collection of Early American Judaica
 subtitle: "1555-1890"
-url: "" # the base hostname & protocol for your site
+url: "http://judaicadh.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/kaplan"
-plugins:
-- jekyll-sitemap
-- jekyll-paginate
-- jekyll-gist
-- jekyll-feed
-- jekyll-mentions
-- jekyll-seo-tag
-- jekyll-assets
-- jekyll_search 
-
-
 
 
 # Build settings
