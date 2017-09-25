@@ -1,7 +1,15 @@
 ---
-layout: post
 title: Leaflet 0.4.3 and a New Tutorial
-description: Leaflet 0.4.3 released with several bugfixes and improvements, and comes with a new tutorial on creating a colorful interactive choropleth map.
+date: 2012-08-07 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: Leaflet 0.4.3 released with several bugfixes and improvements, and comes
+  with a new tutorial on creating a colorful interactive choropleth map.
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

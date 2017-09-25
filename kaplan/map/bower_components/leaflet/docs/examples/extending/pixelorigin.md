@@ -1,7 +1,8 @@
 ---
-layout: tutorial_frame
 title: Grid coordinates
+layout: tutorial_frame
 ---
+
 <style>
 
 #info {

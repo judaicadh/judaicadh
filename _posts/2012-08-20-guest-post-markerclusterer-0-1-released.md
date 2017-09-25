@@ -1,7 +1,15 @@
 ---
-layout: post
 title: Leaflet.MarkerCluster 0.1 Released
-description: Introducing Leaflet.MarkerCluster, a beautiful, fast, customizable plugin to reduce the visual clutter on crowded maps.
+date: 2012-08-20 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: Introducing Leaflet.MarkerCluster, a beautiful, fast, customizable plugin
+  to reduce the visual clutter on crowded maps.
 author: Dave Leaver
 authorsite: https://github.com/danzel/
 ---

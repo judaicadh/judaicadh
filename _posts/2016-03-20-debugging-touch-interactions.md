@@ -1,11 +1,17 @@
 ---
-layout: post
 title: Debugging touch interactions
+date: 2016-03-20 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
 description: To debug Leaflet, sometimes you need to create a new tool.
 author: Iván Sánchez
 authorsite: http://ivan.sanchezortega.es
 ---
-
 
 Most of the time, fixing bugs in the Leaflet code is a breeze. The code is simple, easy to read (for the most part) and well structured. Code conventions and unit tests make it easy for newcomers to try some modifications to the core code. During the past few months we've sent a few simple bug reports to the folks at [Your First PR](https://yourfirstpr.github.io/) - we love to see first-timers contributing fixes to Leaflet!
 

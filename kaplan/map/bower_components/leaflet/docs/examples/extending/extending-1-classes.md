@@ -1,6 +1,6 @@
 ---
-layout: tutorial_v2
 title: Extending Leaflet, Class Theory
+layout: tutorial_v2
 ---
 
 ## Extending Leaflet

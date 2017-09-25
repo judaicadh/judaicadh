@@ -1,7 +1,8 @@
 ---
-layout: tutorial_frame
 title: Tilt handler
+layout: tutorial_frame
 ---
+
 <style>
 
 #info {

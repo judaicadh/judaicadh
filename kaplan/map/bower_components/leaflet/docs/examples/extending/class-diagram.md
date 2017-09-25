@@ -1,7 +1,8 @@
 ---
-layout: tutorial_frame
 title: Leaflet class diagram
+layout: tutorial_frame
 ---
+
 <script type='text/javascript'>
 
 	var bounds = [[0,0], [1570,1910]];

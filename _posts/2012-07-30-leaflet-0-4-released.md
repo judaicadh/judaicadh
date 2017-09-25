@@ -1,7 +1,17 @@
 ---
-layout: post
 title: Leaflet 0.4 Released
-description: After 5.5 months of development with 33 contributors involved, I'm proud to announce the release of Leaflet 0.4! It comes with a simpler API and <em>lots</em> of great improvements, along with a major update to documentation, a plugins page and the launch of the developer blog.
+date: 2012-07-30 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: After 5.5 months of development with 33 contributors involved, I'm proud
+  to announce the release of Leaflet 0.4! It comes with a simpler API and <em>lots</em>
+  of great improvements, along with a major update to documentation, a plugins page
+  and the launch of the developer blog.
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

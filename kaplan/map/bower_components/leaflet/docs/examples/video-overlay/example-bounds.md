@@ -1,7 +1,8 @@
 ---
-layout: tutorial_frame
 title: Video Overlay Tutorial
+layout: tutorial_frame
 ---
+
 <script>
 	var map = L.map('map');
 

@@ -1,7 +1,16 @@
 ---
-layout: post
 title: Leaflet 0.7 Release, MapBox and Plans for Future
-description: Leaflet 0.7 Released &mdash; with IE11 touch support, upscaling tiles and tons of other improvements and bugfixes! Meanwhile, I've joined the MapBox team full-time.
+date: 2013-11-18 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: Leaflet 0.7 Released &mdash; with IE11 touch support, upscaling tiles
+  and tons of other improvements and bugfixes! Meanwhile, I've joined the MapBox team
+  full-time.
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

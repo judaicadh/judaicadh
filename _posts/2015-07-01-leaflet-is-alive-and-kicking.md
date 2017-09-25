@@ -1,7 +1,16 @@
 ---
-layout: post
 title: Leaflet is Alive and Kicking, Stay Tuned for 1.0!
-description: We're on the finishing line of releasing Leaflet 1.0 &mdash; the biggest and greatest Leaflet release ever. Meanwhile, I'm happy to present you the new redesigned Leaflet website!
+date: 2015-07-01 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: We're on the finishing line of releasing Leaflet 1.0 &mdash; the biggest
+  and greatest Leaflet release ever. Meanwhile, I'm happy to present you the new redesigned
+  Leaflet website!
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

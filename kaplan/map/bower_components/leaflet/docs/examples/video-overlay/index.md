@@ -1,6 +1,6 @@
 ---
-layout: tutorial_v2
 title: Leaflet on Mobile
+layout: tutorial_v2
 ---
 
 ## Video on webpages

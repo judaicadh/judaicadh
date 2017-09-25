@@ -1,6 +1,6 @@
 ---
-layout: tutorial_v2
 title: Extending Leaflet, New Handlers and Controls
+layout: tutorial_v2
 ---
 
 <br>

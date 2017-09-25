@@ -1,7 +1,15 @@
 ---
-layout: post
 title: Leaflet Plugin Authoring Guide
-description: A number of best practices and tips for publishing your own perfect Leaflet plugin
+date: 2013-06-28 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: A number of best practices and tips for publishing your own perfect Leaflet
+  plugin
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

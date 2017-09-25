@@ -1,7 +1,16 @@
 ---
-layout: post
 title: Leaflet 0.5 Released
-description: Leaflet 0.5 released &mdash; with IE10 touch support, retina-enabled markers, better panning inertia, new zoom control and about a hundred of other improvements and bugfixes!
+date: 2013-01-17 00:00:00 Z
+categories:
+- kaplan
+- map
+- bower_components
+- leaflet
+- docs
+layout: post
+description: Leaflet 0.5 released &mdash; with IE10 touch support, retina-enabled
+  markers, better panning inertia, new zoom control and about a hundred of other improvements
+  and bugfixes!
 author: Vladimir Agafonkin
 authorsite: http://agafonkin.com/en
 ---

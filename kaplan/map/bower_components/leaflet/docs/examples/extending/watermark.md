@@ -1,7 +1,8 @@
 ---
-layout: tutorial_frame
 title: Watermark control
+layout: tutorial_frame
 ---
+
 <script type='text/javascript'>
 	var map = L.map('map', {
 		center: [40, 0],
