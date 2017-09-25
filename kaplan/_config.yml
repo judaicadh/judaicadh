@@ -11,6 +11,11 @@ exclude:
   - "map/bower_components/**.md"
   - "map/bower.json"
   - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example3.md"
+  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example2.md"
+  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example1.md"
+  - "map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example.md"
+  - "bower_components"
+  - "bower.json"
   
 
 keep_files:
