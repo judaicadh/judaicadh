@@ -1,8 +1,8 @@
 
 exclude:
   - "/vendor/"
-  - "/map/"
-  - "/pie/"
+  - "map/**"
+  - "pie/**"
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
