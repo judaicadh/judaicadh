@@ -8,8 +8,9 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
-  - "bower_components"
+  - "/bower_components/"
   - "bower.json"
+  - "/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example3.md"
   
 
 keep_files:
