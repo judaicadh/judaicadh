@@ -3,4 +3,4 @@ _site/
 .jekyll-metadata
 map/bower_components/leaflet/**.md
 map/
-
+map/bower_components/**
