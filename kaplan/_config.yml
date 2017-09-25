@@ -14,7 +14,7 @@ exclude:
   - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example2.md"
   - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example1.md"
   - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example.md"
-  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple.md"
+  - ["kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple.md"]
   - "bower_components"
   - "bower.json"
   
