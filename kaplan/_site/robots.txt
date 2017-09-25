@@ -1,1 +1,1 @@
-Sitemap: /kaplan/sitemap.xml
+Sitemap: http://localhost:4000/kaplan/sitemap.xml
