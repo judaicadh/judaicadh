@@ -1,1 +1,1 @@
-Sitemap: http://judaicadh.github.io/kaplan/sitemap.xml
+Sitemap: /kaplan/sitemap.xml

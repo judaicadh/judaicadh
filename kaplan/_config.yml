@@ -10,11 +10,6 @@ exclude:
   - "*.gemspec"
   - "map/bower_components/**.md"
   - "map/bower.json"
-  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example3.md"
-  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example2.md"
-  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example1.md"
-  - "kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple-example.md"
-  - ["kaplan/map/bower_components/leaflet/docs/examples/crs-simple/crs-simple.md"]
   - "bower_components"
   - "bower.json"
   
@@ -28,7 +23,7 @@ keep_files:
 # Site settings
 title: Kaplan Collection of Early American Judaica
 subtitle: "1555-1890"
-url: "http://judaicadh.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/kaplan"
 plugins:
