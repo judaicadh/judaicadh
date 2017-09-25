@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="Kaplan Collection Map">
+    <meta name="author" content="Judaica DH Lab at Penn">
+    <title>Kaplan Collection MAp</title>
+
+    <link rel="stylesheet" href="assets/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/leaflet-0.7.3/leaflet.css">
+    <link rel="stylesheet" href="assets/leaflet-sidebar-0.1.5/L.Control.Sidebar.css">
+    <link rel="stylesheet" href="assets/leaflet-markercluster-0.4.0/MarkerCluster.css">
+    <link rel="stylesheet" href="assets/leaflet-markercluster-0.4.0/MarkerCluster.Default.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/leaflet-markercluster-0.4.0/MarkerCluster.Default.ie.css"><![endif]-->
+    <link rel="stylesheet" href="assets/leaflet-locatecontrol-0.27.0/L.Control.Locate.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/leaflet-locatecontrol-0.27.0/L.Control.Locate.ie.css"><![endif]-->
+    <link rel="stylesheet" href="assets/css/app.css">
+ 
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
+    <link rel="apple-touch-icon" href="assets/img/favicon-152.png">
+    <link rel="shortcut icon" sizes="196x196" href="assets/img/favicon-196.png">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kaplan Collection</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group has-feedback navbar-right">
+              <input id="searchbox" type="text" placeholder="Search" class="form-control">
+              <span id="searchicon" class="fa fa-search form-control-feedback"></span>
+          </div>
+        </form>
+        <ul class="nav navbar-nav">
+          <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#aboutModal').modal('show'); return false;"><i class="fa fa-question-circle" style="color: white"></i>&nbsp;&nbsp;About</a></li>
+          <li class="dropdown">
+            <a id="toolsDrop" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe" style="color: white"></i>&nbsp;&nbsp;Tools <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="map.fitBounds(artifacts.getBounds()); return false;"><i class="fa fa-arrows-alt"></i>&nbsp;&nbsp;Zoom To Full Extent</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+              <a class="dropdown-toggle" id="downloadDrop" href="#" role="button" data-toggle="dropdown"><i class="fa fa-cloud-download" style="color: white"></i>&nbsp;&nbsp;Download <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="data/artifacts.geojson" download="artifacts.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Artifacts</a></li>
+	            <li><a href="data/documents.geojson" download="documents.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Documents</a></li>
+                <li><a href="data/photographicimages.geojson" download="photographicimages.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Photographic Images</a></li>
+                <li><a href="data/printedworks.geojson" download="printedworks.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Printed Works</a></li>
+                <li><a href="data/tradecards.geojson" download="tradecards.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Trade Cards</a></li>
+                <li><a href="data/kaplancollection.geojson" download="kaplancollection.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Kaplan Collection (one file)</a></li>
+              </ul>
+          </li>
+          <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="sidebar.toggle(); return false;"><i class="fa fa-list" style="color: white"></i>&nbsp;&nbsp;POI List</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+
+ <div id="map"></div>
+     <div id="sidebar">
+        <div class="sidebar-wrapper">
+          <div class="panel panel-default" id="features">
+            <div class="panel-heading">
+              <h3 class="panel-title">Explore Kaplan Data</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                    <div class="col-xs-8 col-md-8">
+                      <input type="text" class="form-control search" placeholder="Search" />
+                    </div>
+                    <div class="col-xs-4 col-md-4">
+                      <button type="button" class="btn btn-primary pull-right sort" data-sort="feature-name"><i class="fa fa-sort"></i>&nbsp;&nbsp;Sort</button>
+                    </div>
+                  </div>
+
+                <div class="sidebar-table">
+                 <table class="table table-hover" id="feature-table">
+                <thead class="hidden">
+                  <tr>
+                    <th>Icon</th>
+                  </tr>
+                  <tr>
+                    <th>Name</th>
+                  </tr>
+                  <tr>
+                    <th>Chevron</th>
+                  </tr>
+                </thead>
+                <tbody class="list"></tbody>
+              </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <div id="loading">
+      <div class="loading-indicator">
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-info" style="width: 100%"></div>
+        </div>
+      </div>
+    </div>
+
+        <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Information about the Kaplan Collection Map</h4>
+          </div>
+          <div class="modal-body">
+            <ul class="nav nav-tabs" id="aboutTabs">
+              <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;About the project</a></li>
+              <li><a href="#disclaimer" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Disclaimer</a></li>
+                            </ul>
+            
+          
+            <div class="tab-content" id="aboutTabsContent" style="padding-top: 10px;">
+              <div class="tab-pane fade active in" id="about">
+                <p>Open source, MIT licensed, and available on <a href="https://github.com/judaicadh/kaplancollectionmap" target="_blank">GitHub</a>.</p>
+                                <div class="panel panel-primary">
+                  <div class="panel-heading">Kaplan Collection Information</div>
+                  <ul class="list-group">
+                    <li class="list-group-item">Name: Name of the Object</li>
+                    <li class="list-group-item">People/Businesses Affiliated: The names of the people or businesses affiliated with an object if known. If more than one person or business is associated than a "|" will be placed in between the names.</li>
+                    <li class="list-group-item">Location: Location of the object (either where it was made or where it was owned)</li>
+                    <li class="list-group-item">Date: Year, month, and day, if known, associated with Object</li>                    
+                    <li class="list-group-item">Sub Genre: The sub genre within the genre associated with the object.</li>
+                    <li class="list-group-item">Image: Currently only for trade cards, image for each tradecard</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="disclaimer" class="tab-pane fade text-danger">
+                <p>The data provided on this site is for informational and planning purposes only.</p>
+                <p>Absolutely no accuracy or completeness guarantee is implied or intended. All information on this map is subject to such variations and corrections as might result from a complete title search and/or accurate field survey.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title text-primary" id="feature-title"></h4>
+          </div>
+          <div class="modal-body" id="feature-info"></div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="attributionModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">
+              <a href="https://github.com/bmcbride/bootleaf" target="_blank">Bootleaf</a> template modified by <a href="http://www.judaciadh.github.io" target="_blank">Laura Newman Eckstein for the Judaica DH Lab at Penn</a>
+            </h4>
+            
+          </div>
+          <div class="modal-body">
+            <div id="attribution"></div>	      <p>      <a href="http://davidrumsey.georeferencer.com/maps/400938382023">Map Showing Geographical Divisions of the U.S. Geological Survey, 1880 by Clarence King, Created with the David Rumsey Georeferencer</a></p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script src="assets/typeahead-0.10.2/typeahead.bundle.js"></script>
+    <script src="assets/handlebars-1.3.0/handlebars.js"></script>
+    <script src="assets/list-1.1.1/list.min.copy.js"></script>
+    <script src="assets/leaflet-0.7.3/leaflet.js"></script>
+    <script src="assets/leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.js"></script>
+    <script src="assets/leaflet-activearea/L.activearea.js"></script>
+    <script src="assets/leaflet-sidebar-0.1.5/L.Control.Sidebar.js"></script>
+    <script src="assets/leaflet-markercluster-0.4.0/leaflet.markercluster.js"></script>
+    <script src="assets/leaflet-locatecontrol-0.27.0/L.Control.Locate.js"></script>
+    <script src="assets/js/app.js"></script>
+	<script src="assets/js/leaflet-markercluster.placementstrategies.js"></script>
+	<script src="assets/js/leaflet-hash.js"></script>
+	   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+  </body>
+</html>
