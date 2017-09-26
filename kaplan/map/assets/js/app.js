@@ -128,13 +128,15 @@ function syncSidebar() {
 /* Basemap Layers */
 
 
-
+var North_Star = L.tileLayer("https://api.mapbox.com/styles/v1/judaicadh/cj48ntjlr1xgp2spt7d0nzz9y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoianVkYWljYWRoIiwiYSI6ImNpdm8xM25uaTAxZGgyeXA3MWs0a3l5YngifQ.8g6WnfX6e-gz3tp6LR1zfQ",{
+  attribution::'© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
+});
 
 var Toner = L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 });
-var Terrain = L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
+ Terrain = L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 });
@@ -433,7 +435,7 @@ Satellite : L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Wo
 map = L.map("map", {
   zoom: 3,
   center: [35.82, -49.57],
-  layers: [Toner, markerClusters, highlight],
+  layers: [North_Star, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false,
    fullscreenControl: true
@@ -546,6 +548,12 @@ if (document.body.clientWidth <= 767) {
 
 
 var baseLayersCopy = {
+
+
+var North_Star : L.tileLayer("https://api.mapbox.com/styles/v1/judaicadh/cj48ntjlr1xgp2spt7d0nzz9y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoianVkYWljYWRoIiwiYSI6ImNpdm8xM25uaTAxZGgyeXA3MWs0a3l5YngifQ.8g6WnfX6e-gz3tp6LR1zfQ",{
+  attribution:'© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
+}),
+
   Toner: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: 'abcd',
@@ -591,6 +599,13 @@ var miniMap = new L.Control.MiniMap(baseLayersCopy.Toner, { toggleDisplay: true 
     map.on('baselayerchange', function (e) {
             miniMap.changeLayer(baseLayersCopy[e.name]);
        });
+var baseLayers = {
+  "North Star": North_Star,
+  "Toner": Terrain,
+  "Toner": Toner,
+  "Satellite": Satellite,
+  "Watercolor": Watercolor
+};
 
 var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, {
   collapsed: isCollapsed
