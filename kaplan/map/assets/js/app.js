@@ -400,10 +400,15 @@ $.getJSON("data/tradecards.geojson", function (data) {
   tradecards.addData(data);
   map.addLayer(tradecardsLayer);
 });
+var Esri_WorldImagery = L.tileLayer.provider('Esri.WorldImagery');
+   Watercolor = L.tileLayer.provider('Stamen.Watercolor');
+   Toner = L.tileLayer.provider('Stamen.Toner');
+   Terrain = L.tileLayer.provider('Stamen.Terrain');
+   OSM = L.tileLayer.provider('OpenStreetMap.Mapnik');
+   
 
-var Toner = L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{ attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>, under <a href="https://www.openstreetmap.org/copyright">ODbL</a>."'}),
-  Terrain = L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{ attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>, under <a href="https://www.openstreetmap.org/copyright">ODbL</a>."'}),
-  Watercolor = L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>, under <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'});
+
+ 
 map = L.map("map", {
   zoom: 3,
   center: [35.82, -49.57],
@@ -417,7 +422,8 @@ var baseLayers = {
     "Toner": Toner,
     "Terrain": Terrain,
     "Watercolor": Watercolor,
-    "Satellite": Satellite
+    "Satellite": Esri_WorldImagery,
+    "Open Street Map": OSM
 
   };
 
