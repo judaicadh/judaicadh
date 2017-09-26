@@ -401,19 +401,19 @@ $.getJSON("data/tradecards.geojson", function (data) {
   map.addLayer(tradecardsLayer);
 });
 
-var toner = L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
+var Toner = L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-var terrain = L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
+var Terrain = L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-var watercolor = L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
+var Watercolor = L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
 }),
-var satellite = L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
+var Satellite = L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
   maxZoom: 15,
 }), L.tileLayer.wms("https://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
   maxZoom: 19,
@@ -427,20 +427,20 @@ var satellite = L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgi
 map = L.map("map", {
   zoom: 3,
   center: [35.82, -49.57],
-  layers: [toner, markerClusters, highlight],
+  layers: [Toner, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false,
    fullscreenControl: true
 });
 
 var baseLayers = {
-    "Toner": toner,
-    "Terrain": terrain,
-    "Watercolor": watercolor,
-    "Satellite": satellite
+    "Toner": Toner,
+    "Terrain": Terrain,
+    "Watercolor": Watercolor,
+    "Satellite": Satellite
 
   };
-L.control.layers(baseLayers).addTo(map);
+
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
   if (e.layer === artifactsLayer) {
@@ -608,7 +608,7 @@ var miniMap = new L.Control.MiniMap(baseLayersCopy.Toner, { toggleDisplay: true 
        })
 
 var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, {
-  collapsed: isCollapsed
+  collapsed: false
 }).addTo(map)
 
 
