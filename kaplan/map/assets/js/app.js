@@ -589,7 +589,7 @@ var miniMap = new L.Control.MiniMap(baseLayersCopy.North_Star, { toggleDisplay: 
        });
 var baseLayers = {
   "North Star": North_Star,
-  "Toner": Terrain,
+  "Terrain": Terrain,
   "Toner": Toner,
   "Satellite": Satellite,
   "Watercolor": Watercolor
