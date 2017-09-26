@@ -405,11 +405,9 @@ var Esri_WorldImagery = L.tileLayer.provider('Esri.WorldImagery');
    Toner = L.tileLayer.provider('Stamen.Toner');
    Terrain = L.tileLayer.provider('Stamen.Terrain');
    OSM = L.tileLayer.provider('OpenStreetMap.Mapnik');
-   
-
 
  
-map = L.map("map", {
+var map = L.map("map", {
   zoom: 3,
   center: [35.82, -49.57],
   layers: [Toner, markerClusters, highlight],
