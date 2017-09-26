@@ -401,21 +401,21 @@ $.getJSON("data/tradecards.geojson", function (data) {
   map.addLayer(tradecardsLayer);
 });
  var baseLayers = {
- Toner : L.tileLayer("http://tile.stamen.com/toner/{z}/{x}/{y}.png",{
+ Toner : L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-Terrain: L.tileLayer("http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
+Terrain: L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-Watercolor: L.tileLayer("http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
+Watercolor: L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
 }),
- Satellite: L.layerGroup([L.tileLayer("http://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
+ Satellite: L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
   maxZoom: 15,
-}), L.tileLayer.wms("http://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
+}), L.tileLayer.wms("https://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
   maxZoom: 19,
   layers: "0",
   format: 'image/jpeg',
@@ -425,8 +425,8 @@ Watercolor: L.tileLayer("http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
 };
 
 map = L.map("map", {
-  zoom: 10,
-  center: [42.48814, -71.25861],
+  zoom: 3,
+  center: [35.82, -49.57],
   layers: [Toner, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false,
@@ -520,7 +520,7 @@ var attributionControl = L.control({
 });
 attributionControl.onAdd = function (map) {
   var div = L.DomUtil.create("div", "leaflet-control-attribution");
-  div.innerHTML = "<span class='hidden-xs'>Developed by <a href='http://bryanmcbride.com'>bryanmcbride.com</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
+  div.innerHTML = "<span class='hidden-xs'>Developed by <a href='https://bryanmcbride.com'>bryanmcbride.com</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
   return div;
 };
 map.addControl(attributionControl);
@@ -556,22 +556,22 @@ if (document.body.clientWidth <= 767) {
 
 
 var baseLayersCopy = {
-  Toner : L.tileLayer("http://tile.stamen.com/toner/{z}/{x}/{y}.png",{
+  Toner : L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-Terrain: L.tileLayer("http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
+Terrain: L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
 }),
-Watercolor: L.tileLayer("http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
+Watercolor: L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
   maxZoom: 19,
-  attribution: '"Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
 }),
  
- Satellite: L.layerGroup([L.tileLayer("http://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
+ Satellite: L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
   maxZoom: 15,
-}), L.tileLayer.wms("http://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
+}), L.tileLayer.wms("https://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
   maxZoom: 19,
   layers: "0",
   format: 'image/jpeg',
