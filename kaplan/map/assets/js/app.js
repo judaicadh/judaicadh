@@ -144,21 +144,9 @@ var Watercolor = L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
   maxZoom: 19,
   attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
 });
-var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.svg", {
-  maxZoom: 19,
-   layers: "0",
-  transparent: true,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'
+var Satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });
-var usgsImagery = L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
-  maxZoom: 15,
-}), L.tileLayer.wms("https://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
-  maxZoom: 19,
-  layers: "0",
-  format: 'image/jpeg',
-  transparent: true,
-  attribution: "Aerial Imagery courtesy USGS"
-})]);
 
 var us1859 = L.tileLayer("https://maps.georeferencer.com/georeferences/46827090911/2017-06-26T11:43:17.994838Z/map/{z}/{x}/{y}.svg?key=hmpAOeUBKMlwNo4fmiyl", {
   maxZoom: 19,
