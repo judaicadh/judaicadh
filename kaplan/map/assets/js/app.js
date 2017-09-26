@@ -531,18 +531,6 @@ attributionControl.onAdd = function (map) {
 };
 map.addControl(attributionControl);
 
-  
- new L.Control.GPlaceAutocomplete({
-  position: "topleft",
-   collapsed_mode: true,
-  callback: function(location){
-    // object of google place is given
-    map.panTo(location);
-
-  }
-})
-.addTo(map);
- 
 var zoomHome = L.Control.zoomHome({position: "topleft"}).addTo(map);
 
 /* GPS enabled geolocation control set to follow the user's location */
