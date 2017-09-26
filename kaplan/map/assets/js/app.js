@@ -118,7 +118,9 @@ function syncSidebar() {
 
   /* Update list.js featureList */
   featureList = new List("features", {
-    valueNames: ["feature-name"]
+    valueNames: ["feature-name"],
+    page: 20 , 
+    pagination: true
   });
   featureList.sort("feature-name", {
     order: "asc"
@@ -626,7 +628,7 @@ $(document).one("ajaxStop", function () {
   $("#loading").hide();
   /* Fit map to boroughs bounds */
   map.fitBounds(artifacts.getBounds());
-  featureList = new List("features", {valueNames: ["feature-name"]});
+  featureList = new List("features", {valueNames: ["feature-name"], page: 20 , pagination: true});
   featureList.sort("feature-name", {order:"asc"});
 
  
