@@ -594,7 +594,7 @@ var groupedOverlays = {
    "<img src='assets/img/tradecards-15.svg'>&nbsp;Trade Cards": tradecardsLayer
   }
 };
-var miniMap = new L.Control.MiniMap(baseLayersCopy.Toner, { toggleDisplay: true }).addTo(map);
+var miniMap = new L.Control.MiniMap(baseLayersCopy.North_Star, { toggleDisplay: true }).addTo(map);
     
     map.on('baselayerchange', function (e) {
             miniMap.changeLayer(baseLayersCopy[e.name]);
