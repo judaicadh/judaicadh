@@ -415,7 +415,7 @@ Terrain: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/
   minZoom: 0,
   maxZoom: 18,
   ext: 'png'
-});
+}),
 Watercolor: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: 'abcd',
@@ -426,7 +426,8 @@ Watercolor: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z
  
 Satellite : L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-})};
+})
+};
 
 
 map = L.map("map", {
@@ -555,10 +556,6 @@ if (document.body.clientWidth <= 767) {
   var isCollapsed = true;
 }
 
-  
- 
-
-
 
 var baseLayersCopy = {
   Toner: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
@@ -586,9 +583,7 @@ Terrain: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/
  
 Satellite : L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-});
-
-  
+})};
  
 var groupedOverlays = {
 "Historic Maps": {
@@ -607,11 +602,11 @@ var miniMap = new L.Control.MiniMap(baseLayersCopy.Toner, { toggleDisplay: true 
     
     map.on('baselayerchange', function (e) {
             miniMap.changeLayer(baseLayersCopy[e.name]);
-       })
+       });
 
 var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, {
   collapsed: isCollapsed
-}).addTo(map)
+}).addTo(map);
 
 
 var hash = new L.Hash(map);
