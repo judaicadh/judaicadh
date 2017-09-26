@@ -14,10 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
-
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
@@ -25,8 +22,6 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <style>
 	
-
-                
 table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after {
    padding: 5px;
 }
@@ -57,21 +52,14 @@ table.dataTable {
 div.dataTables_wrapper div.dataTables_info {
     padding-top: 0;
 }
-                	</style>
+                
+		</style>
     <!-- Custom styles for this template -->
        </head>
-<script>
-	$(document).ready(function() {
-    $('#example').DataTable();
-    $('select').addClass('mdb-select');
-    $('.mdb-select').material_select();
-});
-</script>
 
   <body>
- <div id="fullTable" >
-	 
-	 <div class="card card-cascade narrower mt-5">
+ <div id="fullTable" class="card card-cascade narrower mt-5">
+<script id="fullTable_template" type="text/html">
     <!--Card image-->
     <div  class="view gradient-card-header purple-gradient narrower py-4 mx-4 mb-3 d-flex justify-content-center align-items-center">
 
@@ -81,18 +69,18 @@ div.dataTables_wrapper div.dataTables_info {
 
     </div>
     <!--/Card image-->
- <div id="example">Loading...</div>
+
     <div class="px-3">
 
         <!--Table-->
-     <table  class="table table-striped table-bordered table-responsive" cellspacing="0" width="100%">
-   
+     <table class="table table-hover table-responsive mb-0">
+
     
-     <input id="fullTableFilter" type="text" placeholder="filter by.."></input>
+     
     
 	        
              
-
+    
     
   <thead>
                 <tr>
