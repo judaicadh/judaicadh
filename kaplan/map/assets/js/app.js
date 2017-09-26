@@ -1,4 +1,4 @@
-var map, featureList, artifactsSearch = [], documentsSearch = [], photographicimagesSearch = [], printedworksSearch = [], tradecardsSearch = [];
+var map, featureList, artifactsSearch = [], documentsSearch = [], photographicimagesSearch = [], printedworksSearch = [];
 
 $(document).on("click", ".feature-row", function(e) {
   $(document).off("mouseout", ".feature-row", clearHighlight);
@@ -108,19 +108,17 @@ function syncSidebar() {
     }
   });
 
-   tradecards.eachLayer(function (layer) {
+/*   tradecards.eachLayer(function (layer) {
     if (map.hasLayer(tradecardsLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
         $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/tradecards-15.svg"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
-  });
+  });*/
 
   /* Update list.js featureList */
   featureList = new List("features", {
-    valueNames: ["feature-name"],
-    page: 20 , 
-    pagination: true
+    valueNames: ["feature-name"]
   });
   featureList.sort("feature-name", {
     order: "asc"
@@ -351,7 +349,7 @@ $.getJSON("data/printedworks.geojson", function (data) {
   map.addLayer(printedworksLayer);
 });
 
-var tradecardsLayer = L.geoJson(null);
+/*var tradecardsLayer = L.geoJson(null);
 var tradecards = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
@@ -391,7 +389,7 @@ var tradecards = L.geoJson(null, {
 $.getJSON("data/tradecards.geojson", function (data) {
   tradecards.addData(data);
   map.addLayer(tradecardsLayer);
-});
+});*/
 var baseLayers = {
  Toner: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -477,7 +475,7 @@ map.on("overlayremove", function(e) {
     markerClusters.removeLayer(printedworks);
   }
 });
-
+/*
 map.on("overlayadd", function(e) {
   if (e.layer === tradecardsLayer) {
     markerClusters.addLayer(tradecards);
@@ -487,7 +485,7 @@ map.on("overlayremove", function(e) {
   if (e.layer === tradecardsLayer) {
     markerClusters.removeLayer(tradecards);
   }
-});
+});*/
 
 
 map.on("moveend", function (e) {
@@ -580,8 +578,7 @@ var groupedOverlays = {
     "<img src='assets/img/artifacts-15.svg' width='28' height='28'>&nbsp;Artifacts": artifactsLayer, 
    "<img src='assets/img/documents-15.svg' width='28' height='28'>&nbsp;Documents": documentsLayer,
    "<img src='assets/img/photographicimages-15.svg' width='28' height='28'>&nbsp;Photographic Images": photographicimagesLayer, 
-   "<img src='assets/img/printedworks-15.svg' width='28' height='28'>&nbsp;Printed Works": printedworksLayer,
-   "<img src='assets/img/tradecards-15.svg'>&nbsp;Trade Cards": tradecardsLayer
+   "<img src='assets/img/printedworks-15.svg' width='28' height='28'>&nbsp;Printed Works": printedworksLayer
   }
 };
 var miniMap = new L.Control.MiniMap(baseLayersCopy.North_Star, { toggleDisplay: true }).addTo(map);
@@ -628,7 +625,7 @@ $(document).one("ajaxStop", function () {
   $("#loading").hide();
   /* Fit map to boroughs bounds */
   map.fitBounds(artifacts.getBounds());
-  featureList = new List("features", {valueNames: ["feature-name"], page: 20 , pagination: true});
+  featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
 
  
@@ -679,7 +676,7 @@ var photographicimagesBH = new Bloodhound({
     
   });
 
-  var tradecardsBH = new Bloodhound({
+/*  var tradecardsBH = new Bloodhound({
     name: "tradecards",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
@@ -687,7 +684,7 @@ var photographicimagesBH = new Bloodhound({
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: tradecardsSearch,
     limit: 10
-  });
+  });*/
 
   var geonamesBH = new Bloodhound({
     name: "GeoNames",
@@ -723,7 +720,7 @@ var photographicimagesBH = new Bloodhound({
   documentsBH.initialize();
   photographicimagesBH.initialize();
   printedworksBH.initialize();
-  tradecardsBH.initialize();
+  // tradecardsBH.initialize();
   geonamesBH.initialize();
 
   /* instantiate the typeahead UI */
@@ -736,7 +733,7 @@ var photographicimagesBH = new Bloodhound({
     displayKey: "name",
     source: artifactsBH.ttAdapter(),
     templates: {
-      header: "<h4 class='typeahead-header'><img src='assets/img/artifacts-15.svg' width='24' height='28'>&nbsp;Theaters</h4>",
+      header: "<h4 class='typeahead-header'><img src='assets/img/artifacts-15.svg' width='24' height='28'>&nbsp;Artifacts</h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
     }
   }, {
@@ -744,7 +741,7 @@ var photographicimagesBH = new Bloodhound({
     displayKey: "name",
     source: documentsBH.ttAdapter(),
     templates: {
-      header: "<h4 class='typeahead-header'><img src='assets/img/documents-15.svg' width='24' height='28'>&nbsp;Theaters</h4>",
+      header: "<h4 class='typeahead-header'><img src='assets/img/documents-15.svg' width='24' height='28'>&nbsp;Documents</h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
     }
   }, {
@@ -752,7 +749,7 @@ var photographicimagesBH = new Bloodhound({
     displayKey: "name",
     source: photographicimagesBH.ttAdapter(),
     templates: {
-      header: "<h4 class='typeahead-header'><img src='assets/img/photographicimages-15.svg' width='24' height='28'>&nbsp;Museums</h4>",
+      header: "<h4 class='typeahead-header'><img src='assets/img/photographicimages-15.svg' width='24' height='28'>&nbsp;Photgraphic Images</h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
     }
   }, {
@@ -760,17 +757,17 @@ var photographicimagesBH = new Bloodhound({
   displayKey: "name",
   source: printedworksBH.ttAdapter(),
   templates: {
-    header: "<h4 class='typeahead-header'><img src='assets/img/printedworks-15.svg' width='24' height='28'>&nbsp;Museums</h4>",
+    header: "<h4 class='typeahead-header'><img src='assets/img/printedworks-15.svg' width='24' height='28'>&nbsp;Printed Works</h4>",
     suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
     }
-  }, {
+/*  }, {
   name: "tradecards",
   displayKey: "name",
   source: tradecardsBH.ttAdapter(),
   templates: {
-    header: "<h4 class='typeahead-header'><img src='assets/img/tradecards-15.svg' width='24' height='28'>&nbsp;Museums</h4>",
+    header: "<h4 class='typeahead-header'><img src='assets/img/tradecards-15.svg' width='24' height='28'>&nbsp;Trade Cards</h4>",
     suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
-  }
+  }*/
   }, {
     name: "GeoNames",
     displayKey: "name",
@@ -815,7 +812,7 @@ var photographicimagesBH = new Bloodhound({
         map._layers[datum.id].fire("click");
       }
     }
-      if (datum.source === "Tradecards") {
+   /*   if (datum.source === "Tradecards") {
       if (!map.hasLayer(tradecardsLayer)) {
         map.addLayer(tradecardsLayer);
       }
@@ -823,7 +820,7 @@ var photographicimagesBH = new Bloodhound({
       if (map._layers[datum.id]) {
         map._layers[datum.id].fire("click");
       }
-    }
+    }*/
     if (datum.source === "GeoNames") {
       map.setView([datum.lat, datum.lng], 14);
     }
