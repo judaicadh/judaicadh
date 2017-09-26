@@ -400,14 +400,31 @@ $.getJSON("data/tradecards.geojson", function (data) {
   tradecards.addData(data);
   map.addLayer(tradecardsLayer);
 });
-var Esri_WorldImagery = L.tileLayer.provider('Esri.WorldImagery');
-   Watercolor = L.tileLayer.provider('Stamen.Watercolor');
-   Toner = L.tileLayer.provider('Stamen.Toner');
-   Terrain = L.tileLayer.provider('Stamen.Terrain');
-   OSM = L.tileLayer.provider('OpenStreetMap.Mapnik');
+ var baseLayers = {
+ Toner : L.tileLayer("https://tile.stamen.com/toner/{z}/{x}/{y}.png",{
+  maxZoom: 19,
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+}),
+Terrain: L.tileLayer("https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",{
+  maxZoom: 19,
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>."'
+}),
+Watercolor: L.tileLayer("https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",{
+  maxZoom: 19,
+  attribution: '"Map tiles by <a href="https://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>."'
+}),
+ Satellite: L.layerGroup([L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", {
+  maxZoom: 15,
+}), L.tileLayer.wms("https://raster.nationalmap.gov/arcgis/services/Orthoimagery/USGS_EROS_Ortho_SCALE/ImageServer/WMSServer?", {
+  maxZoom: 19,
+  layers: "0",
+  format: 'image/jpeg',
+  transparent: true,
+  attribution: "Aerial Imagery courtesy USGS" 
+})])
+};
 
- 
-var map = L.map("map", {
+map = L.map("map", {
   zoom: 3,
   center: [35.82, -49.57],
   layers: [Toner, markerClusters, highlight],
@@ -416,14 +433,6 @@ var map = L.map("map", {
    fullscreenControl: true
 });
 
-var baseLayers = {
-    "Toner": Toner,
-    "Terrain": Terrain,
-    "Watercolor": Watercolor,
-    "Satellite": Esri_WorldImagery,
-    "Open Street Map": OSM
-
-  };
 
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
@@ -592,7 +601,7 @@ var miniMap = new L.Control.MiniMap(baseLayersCopy.Toner, { toggleDisplay: true 
        })
 
 var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, {
-  collapsed: false
+  collapsed: isCollapsed
 }).addTo(map)
 
 
