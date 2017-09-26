@@ -550,7 +550,7 @@ if (document.body.clientWidth <= 767) {
 var baseLayersCopy = {
 
 
-var North_Star : L.tileLayer("https://api.mapbox.com/styles/v1/judaicadh/cj48ntjlr1xgp2spt7d0nzz9y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoianVkYWljYWRoIiwiYSI6ImNpdm8xM25uaTAxZGgyeXA3MWs0a3l5YngifQ.8g6WnfX6e-gz3tp6LR1zfQ",{
+ North_Star : L.tileLayer("https://api.mapbox.com/styles/v1/judaicadh/cj48ntjlr1xgp2spt7d0nzz9y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoianVkYWljYWRoIiwiYSI6ImNpdm8xM25uaTAxZGgyeXA3MWs0a3l5YngifQ.8g6WnfX6e-gz3tp6LR1zfQ",{
   attribution:'© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
 }),
 
