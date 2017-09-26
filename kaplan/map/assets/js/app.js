@@ -195,7 +195,7 @@ var artifacts = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-     var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>People/Businesses Affliated</th><td>" + feature.properties.merger + "</td></tr>" + "<tr><th>Location</th><td>" + feature.properties.address + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.date + "</td></tr>" + "<tr><th>Sub Genre</th><td>" + feature.properties.genre_subl + "</td></tr><table>";      
+     var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" +  "<tr><th>People/Businesses Affliated</th><td>" + feature.properties.merger + "</td></tr>" + "<tr><th>Location</th><td>" + feature.properties.address + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.date + "</td></tr>" + "<tr><th>Sub Genre</th><td>" + feature.properties.genre_subl + "</td></tr><table>";      
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
@@ -208,6 +208,8 @@ var artifacts = L.geoJson(null, {
    artifactsSearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
+        merger: layer.feature.properties.merger,
+        genre: layer.feature.properties.genre_subl,
         source: "artifacts",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -251,6 +253,8 @@ var documents = L.geoJson(null, {
       documentsSearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
+        merger: layer.feature.properties.merger,
+        genre: layer.feature.properties.genre_subl,
         source: "documents",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -294,6 +298,8 @@ layer.on({
       photographicimagesSearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
+        merger: layer.feature.properties.merger,
+        genre: layer.feature.properties.genre_subl,
         source: "photographicimages",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -336,6 +342,8 @@ var printedworks = L.geoJson(null, {
       printedworksSearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
+        merger: layer.feature.properties.merger,
+        genre: layer.feature.properties.genre_subl,
         source: "printedworks",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -625,7 +633,7 @@ $(document).one("ajaxStop", function () {
   $("#loading").hide();
   /* Fit map to boroughs bounds */
   map.fitBounds(artifacts.getBounds());
-  featureList = new List("features", {valueNames: ["feature-name"]});
+  featureList = new List("features", {valueNames: ["feature-name", "feature-merger", "feature-genre"]});
   featureList.sort("feature-name", {order:"asc"});
 
  
@@ -638,6 +646,7 @@ var artifactsBH = new Bloodhound({
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: artifactsSearch,
+    minLength: 2,
     limit: 10
    
   });
@@ -649,6 +658,7 @@ var documentsBH = new Bloodhound({
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: documentsSearch,
+     minLength: 2,
     limit: 10
  
   });
@@ -660,6 +670,7 @@ var photographicimagesBH = new Bloodhound({
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: photographicimagesSearch,
+     minLength: 2,
     limit: 10
     
   });
@@ -672,6 +683,7 @@ var photographicimagesBH = new Bloodhound({
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: printedworksSearch,
+     minLength: 2,
     limit: 10
     
   });
@@ -701,6 +713,7 @@ var photographicimagesBH = new Bloodhound({
             lat: result.lat,
             lng: result.lng,
             source: "GeoNames"
+
           };
         });
       },
@@ -714,7 +727,8 @@ var photographicimagesBH = new Bloodhound({
         }
       }
     },
-    limit: 10
+    limit: 10,
+     minLength: 2
   });
   artifactsBH.initialize();
   documentsBH.initialize();
@@ -726,8 +740,8 @@ var photographicimagesBH = new Bloodhound({
   /* instantiate the typeahead UI */
   $("#searchbox").typeahead({
     minLength: 3,
-    highlight: true,
-    hint: true
+     minLength: 2,
+    highlight: true
   }, {
     name: "artifacts",
     displayKey: "name",

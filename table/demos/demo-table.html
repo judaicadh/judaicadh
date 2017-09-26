@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Sheetsee Table Demo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  
+    <link rel="shortcut icon" href="../favicon.png">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script type='text/javascript' src='../js/sheetsee.js'></script>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  </head>
+     <body>
+    <div class="container">
+     
+      <input id="fullTableFilter" type="text" placeholder="filter by.."></input>
+      <a class="clear">Clear</a>
+      <div id="fullTable">Loading...</div>
+ 
+             
+    <script id="fullTable_template" type="text/html">
+      <table>
+       <table class="table table-hover">
+  <thead>
+    <tr>
+		<th></th>
+		<th>Excerpt</th>
+		<th>Article</th>
+		<th>Website</th>
+		<th>Tags</th>
+		<th>Date</th>
+		<th>Media</th>
+		<th>Location</th>
+		<th>Type</th>
+		<th>Status</th>
+		<th>Languages</th>
+		<th>Creator</th>
+		<th>Contact</th>
+		<th>Copyright</th>
+		<th>Notes</th>
+ 
+
+    </tr>
+  </thead>          {{#rows}}
+            <tr><td>{{excerpt}}</td><td>{{article}}</td><td>{{website}}</td><td>{{tags}}</td><td>{{date}}</td><td>{{media}}</td><td>{{geography}}</td><td>{{Type}}</td><td>{{status}}</td><td>{{languages}}</td><td>{{creator}}</td><td>{{contact}}</td><td>{{copyright}}</td><td>{{notes}}</td></tr>
+          {{/rows}}
+      </table>
+      
+    </script>
+
+    <script type="text/javascript">
+	    
+      document.addEventListener('DOMContentLoaded', function() {
+        var URL = "https://spreadsheet.glitch.me/?key=1uWu4UKCwKmxo6S_YK1dxcWfAPYyUWQ3POmFbvmT1Xw8"
+        Tabletop.init({key: URL, callback: showInfo, simpleSheet: true})
+      })
+
+      function showInfo (data) {
+        var tableOptions = {
+          "data": data,
+          "pagination": 5,
+          "tableDiv": "#fullTable",
+          "filterDiv": "#fullTableFilter"
+        }
+        Sheetsee.makeTable(tableOptions)
+        Sheetsee.initiateTableFilter(tableOptions)
+      }
+    </script>
+    
+</div>
+  </body>
+</html>
