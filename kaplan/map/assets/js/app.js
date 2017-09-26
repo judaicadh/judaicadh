@@ -440,7 +440,7 @@ var baseLayers = {
     "Satellite": satellite
 
   };
-
+L.control.layers(baseLayers).addTo(map);
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
   if (e.layer === artifactsLayer) {
