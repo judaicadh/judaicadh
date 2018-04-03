@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Oswald" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Geniza Genre Tree</title>
+    
+
+    <style>
+	
+	.node {
+		cursor: pointer;
+	}
+
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+
+	.node text {
+		
+		font-family: 'Oswald', sans-serif;
+		
+	  font-size: 1em;
+	}
+	:lang(hb) {
+			font-family: 'Arimo', sans-serif;
+	  font-size: 1em;
+	  }
+		
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+	}
+	
+    </style>
+
+  </head>
+
+  <body>
+
+<!-- load the d3.js library -->	
+<script src="https://d3js.org/d3.v3.min.js"></script>
+	
+<script>
+
+var treeData = [
+  {
+  "name": "Genre",
+  "parent": "Documentary Geniza",
+  "children": [
+    {
+      "name": "Bill of Sale",
+      "parent": "Genre",
+      "children": [
+        {
+          "name": "מן צמאן דרכה ואחריות זבינין",
+          "parent": "Bill of Sale"
+        },
+        {
+          "name": "ואחריות זבינין (זביני) אילין עלאי",
+          "parent": "Bill of Sale"
+        }
+      ]
+    },
+    {
+      "name": "Letter",
+      "parent": "Genre",
+      "children": [
+        {
+          "name": "כתב",
+          "parent": "Letter",
+          "children": [
+            {
+              "name": "כתאבי",
+              "parent": "כתב"
+            },
+            {
+              "name": "כתאבנא",
+              "parent": "כתב"
+            },
+            {
+              "name": "כתבת",
+              "parent": "כתב"
+            },
+            {
+              "name": "כאן קד תקדם כתאבי",
+              "parent": "כתב"
+            },
+            {
+              "name": "קד צדרת כתבי",
+              "parent": "כתב"
+            },
+            {
+              "name": "תקדמת כתבי",
+              "parent": "כתב"
+            }
+          ]
+        },
+        {
+          "name": "מולאי",
+          "parent": "Letter",
+          "children": [
+            {
+              "name": "חצרה מולאי אלשיך",
+              "parent": "מולאי"
+            },
+            {
+              "name": "יאמולאי",
+              "parent": "מולאי"
+            },
+            {
+              "name": "יאסיידי ומולאי",
+              "parent": "מולאי"
+            },
+            {
+              "name": "סידי ומולאי",
+              "parent": "מולאי"
+            }
+          ]
+        },
+        {
+          "name": "עלם",
+          "parent": "Letter",
+          "children": [
+            {
+              "name": "אעלם",
+              "parent": "עלם"
+            },
+            {
+              "name": "ממא אעלם",
+              "parent": "עלם"
+            },
+            {
+              "name": "נעלם",
+              "parent": "עלם"
+            }
+          ]
+        },
+        {
+          "name": "צל",
+          "parent": "Letter",
+          "children": [
+            {
+              "name": "וצל",
+              "parent": "צל"
+            },
+            {
+              "name": "וצלני כתאב",
+              "parent": "צל"
+            },
+            {
+              "name": "וצלת כתב",
+              "parent": "צל"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Letter to an Intimate",
+      "parent": "Genre",
+      "children": [
+        {
+          "name": "כתאבי אליך",
+          "parent": "Letter to an Intimate",
+          "children": [
+            {
+              "name": "כתאבי אליך יאכי וסידי",
+              "parent": "כתאבי אליך"
+            },
+            {
+              "name": "כתאבי אליך יאכתי אלעזיזה עלי",
+              "parent": "כתאבי אליך"
+            },
+            {
+              "name": "כתאבי אליך יאכתי וחביבה קלבי",
+              "parent": "כתאבי אליך"
+            }
+          ]
+        },
+        {
+          "name": "עזיז",
+          "parent": "Letter to an Intimate",
+          "children": [
+            {
+              "name": "אלי אכתי ואלעזיזה עליّ ",
+              "parent": "עזיז"
+            },
+            {
+              "name": "אלי אלאך אלעזיז עליّ",
+              "parent": "עזיז"
+            },
+            {
+              "name": "אלי ואלדתי אלעזיזה עליّ",
+              "parent": "עזיז"
+            },
+            {
+              "name": "ואלדי אל עזיז עליّ",
+              "parent": "עזיז"
+            },
+            {
+              "name": "שיכי ואלעזיז עליّ",
+              "parent": "עזיז"
+            },
+            {
+              "name": "שיכי ורייסי ואלעזיז עלי",
+              "parent": "עזיז"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Petition",
+      "parent": "Genre",
+      "children": [
+        {
+          "name": "אלממאליך",
+          "parent": "Petition"
+        },
+        {
+          "name": "אלממלוך",
+          "parent": "Petition"
+        },
+        {
+          "name": "אלממלוך יקבל אלארץ",
+          "parent": "Petition"
+        },
+        {
+          "name": "אלממלוכה תנהי",
+          "parent": "Petition"
+        }
+      ]
+    },
+    {
+      "name": "Testimony (Rabbinical Court)",
+      "parent": "Genre",
+      "children": [
+        {
+          "name": "אנו",
+          "parent": "Testimony (Rabbinical Court)",
+          "children": [
+            {
+              "name": "אנחנו העדים החתומים למטה",
+              "parent": "אנו"
+            },
+            {
+              "name": "בא לפנינו אנו בית דין",
+              "parent": "אנו"
+            },
+            {
+              "name": "בפנינו אנו עדים חתומי מטה",
+              "parent": "אנו"
+            },
+            {
+              "name": "מעשה שהיה בפנינו אנו החתומים מטה",
+              "parent": "אנו"
+            },
+            {
+              "name": "מעשה שהיה לפנינו אנו העדים החתומים למטה",
+              "parent": "אנו"
+            }
+          ]
+        },
+        {
+          "name": "חצר",
+          "parent": "Testimony (Rabbinical Court)",
+          "children": [
+            {
+              "name": "חצר אלי בית דין",
+              "parent": "חצר"
+            },
+            {
+              "name": "חצר אלינא",
+              "parent": "חצר"
+            },
+            {
+              "name": "חצר אלינא אנן חתומי מטה",
+              "parent": "חצר"
+            },
+            {
+              "name": "חצר לבית דין",
+              "parent": "חצר"
+            }
+          ]
+        },
+        {
+          "name": "למא כאן",
+          "parent": "Testimony (Rabbinical Court)",
+          "children": [
+            {
+              "name": "למא כאן יום אל",
+              "parent": "למא כאן"
+            },
+            {
+              "name": "למא כאן פי יום אל",
+              "parent": "למא כאן"
+            }
+          ]
+        },
+        {
+          "name": "קול",
+          "parent": "Testimony (Rabbinical Court)",
+          "children": [
+            {
+              "name": "יקול מן כטה פי אכר הדא אלמחצר",
+              "parent": "קול"
+            },
+            {
+              "name": "נקול אנן מקבלי עדות חותמין לתחתא",
+              "parent": "קול"
+            },
+            {
+              "name": "נקול נחן אלשהוד אלואצעין כטוטנא באכרה",
+              "parent": "קול"
+            }
+          ]
+        },
+        {
+          "name": "שהדו",
+          "parent": "Testimony (Rabbinical Court)",
+          "children": [
+            {
+              "name": "שהדו אלשהוד אלמסמאון",
+              "parent": "שהדו"
+            },
+            {
+              "name": "שהדותא דהות באנפנא",
+              "parent": "שהדו"
+            },
+            {
+              "name": "שהדותא דהות קדמנא",
+              "parent": "שהדו"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}];
+
+
+// ************** Generate the tree diagram	 *****************
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+	width = 960 - margin.right - margin.left,
+	height = 500 - margin.top - margin.bottom;
+	
+var i = 0,
+	duration = 750,
+	root;
+
+var tree = d3.layout.tree()
+	.size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+	.attr("width", width + margin.right + margin.left)
+	.attr("height", height + margin.top + margin.bottom)
+  .append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData[0];
+root.x0 = height / 2;
+root.y0 = 0;
+
+
+function collapse(d) {
+    if (d.children) {
+        d._children = d.children;
+        d._children.forEach(collapse);
+        d.children = null;
+    }
+}
+root.children.forEach(collapse);  
+update(root);
+
+d3.select("#body").style("height", "800px");
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+	  links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+     var node = svg.selectAll("g.node")
+        .data(nodes, function (d) {
+        return d.id || (d.id = ++i);
+    });
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+	  .attr("class", "node")
+	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+	  .on("click", click);
+
+  nodeEnter.append("circle")
+	  .attr("r", 1e-6)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("text")
+	  .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+	  .text(function(d) { return d.name; })
+	  .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+	  .attr("r", 10)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+	  .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+        .duration(duration)
+        .attr("transform", function (d) {
+        return "translate(" + source.x + "," + source.y + ")";
+    })
+        .remove();
+
+  nodeExit.select("circle")
+	  .attr("r", 1e-6);
+
+  nodeExit.select("text")
+	  .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+	  .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+	  .attr("class", "link")
+	  .attr("d", function(d) {
+		var o = {x: source.x0, y: source.y0};
+		return diagonal({source: o, target: o});
+	  });
+
+  // Transition links to their new position.
+  link.transition()
+	  .duration(duration)
+	  .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+	  .duration(duration)
+	  .attr("d", function(d) {
+		var o = {x: source.x, y: source.y};
+		return diagonal({source: o, target: o});
+	  })
+	  .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+	d.x0 = d.x;
+	d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+	d._children = d.children;
+	d.children = null;
+  } else {
+	d.children = d._children;
+	d._children = null;
+  }
+  update(d);
+}
+
+</script>
+	
+  </body>
+</html>

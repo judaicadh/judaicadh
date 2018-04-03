@@ -14,15 +14,7 @@ email: your-email@domain.com
 description: Judaica Digital Humanities at the University of Pennsylvania Libraries
   features projects that connect the Judaic past to the technological present and
   future.
-plugins:
-- jekyll-sitemap
-- jekyll-paginate
-- jekyll-gist
-- jekyll-feed
-- jekyll-mentions
-- jekyll-seo-tag
-- jekyll-assets
-- jekyll_search
+
 google_analytics: UA-88257588-1
 people:
 - name: Laurie Allen

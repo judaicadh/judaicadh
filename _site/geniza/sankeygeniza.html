@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<svg width="960" height="500"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://unpkg.com/d3-sankey@0.6"></script>
+<script src="https://unpkg.com/d3-array@1"></script>
+<script src="https://unpkg.com/d3-collection@1"></script>
+<script src="https://unpkg.com/d3-path@1"></script>
+<script src="https://unpkg.com/d3-shape@1"></script>
+<script src="https://unpkg.com/d3-sankey@0"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var formatNumber = d3.format(",.0f"),
+    format = function(d) { return formatNumber(d) + " TWh"; },
+    color = d3.scaleOrdinal(d3.schemeCategory10);
+
+var sankey = d3.sankey()
+    .nodeWidth(15)
+    .nodePadding(10)
+    .extent([[1, 1], [width - 1, height - 6]]);
+
+var link = svg.append("g")
+    .attr("class", "links")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+    .attr("stroke-opacity", 0.2)
+  .selectAll("path");
+
+var node = svg.append("g")
+    .attr("class", "nodes")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+  .selectAll("g");
+  
+  var nodes = [
+ 
+{"node":0,"name":"אלממלוך"},
+{"node":1,"name":"אלממלוך יקבל אלארץ"},
+{"node":2,"name":"אלממלוך"},
+{"node":3,"name":"אלממלוכה תנהי"},
+{"node":4,"name":"אלממאליך"},
+{"node":5,"name":"אנו"},
+{"node":6,"name":"אנחנו העדים החתומים למטה"},
+{"node":7,"name":"בפנינו אנו עדים חתומי מטה"},
+{"node":8,"name":"בא לפנינו אנו בית דין"},
+{"node":9,"name":"מעשה שהיה בפנינו אנו החתומים מטה"},
+{"node":10,"name":"מעשה שהיה לפנינו אנו העדים החתומים למטה"},
+{"node":11,"name":"וצל"},
+{"node":12,"name":"וצל"},
+{"node":13,"name":"וצלני כתאב"},
+{"node":14,"name":"וצלת כתב"},
+{"node":15,"name":"זבינין"},
+{"node":16,"name":"מן צמאן דרכה ואחריות זבינין"},
+{"node":17,"name":"ואחריות זבינין (זביני) אילין עלאי"},
+{"node":18,"name":"חצר"},
+{"node":19,"name":"חצר אלי בית דין"},
+{"node":20,"name":"חצר אלינא"},
+{"node":21,"name":"חצר אלינא אנן חתומי מטה"},
+{"node":22,"name":"חצר לבית דין"},
+{"node":23,"name":"יקול"},
+{"node":24,"name":"יקול מן כטה פי אכר הדא אלמחצר"},
+{"node":25,"name":"נקול אנן מקבלי עדות חותמין לתחתא"},
+{"node":26,"name":"נקול נחן אלשהוד אלואצעין כטוטנא באכרה"},
+{"node":27,"name":"כתב"},
+{"node":28,"name":"כתאבי"},
+{"node":29,"name":"כתאבנא"},
+{"node":30,"name":"כתבת"},
+{"node":31,"name":"תקדמת כתבי"},
+{"node":32,"name":"כאן קד תקדם כתאבי"},
+{"node":32,"name":"קד צדרת כתבי"},
+{"node":34,"name":"למא כאן"},
+{"node":35,"name":"למא כאן יום אל"},
+{"node":36,"name":"למא כאן פי יום אל"},
+{"node":37,"name":"מולאי"},
+{"node":38,"name":"חצרה מולאי אלשיך"},
+{"node":39,"name":"יאמולאי"},
+{"node":40,"name":"יאסיידי ומולאי"},
+{"node":41,"name":"סידי ומולאי"},
+{"node":42,"name":"עזיז"},
+{"node":43,"name":"אלי אכתי ואלעזיזה עליّ "},
+{"node":44,"name":"אלי אלאך אלעזיז עליّ"},
+{"node":45,"name":"אלי ואלדתי אלעזיזה עליّ"},
+{"node":46,"name":"ואלדי אל עזיז עליّ"},
+{"node":47,"name":"שיכי ואלעזיז עליّ"},
+{"node":48,"name":"שיכי ורייסי ואלעזיז עלי"},
+{"node":49,"name":"עלם"},
+{"node":50,"name":"אעלם"},
+{"node":51,"name":"ממא אעלם"},
+{"node":52,"name":"נעלם"},
+{"node":53,"name":"שהדו"},
+{"node":54,"name":"שהדו אלשהוד אלמסמאון"},
+{"node":55,"name":"שהדותא דהות באנפנא"},
+{"node":56,"name":"שהדותא דהות קדמנא"},
+{"node":57,"name":"Letter"},
+{"node":58,"name":"Bill of Sale"},
+{"node":59,"name":"Petition"},
+{"node":60,"name":"Testimony (Rabbinical Court)"}
+
+
+
+];
+
+d3.json("energy.json", function(error, energy) {
+  if (error) throw error;
+
+  sankey(energy);
+
+  link = link
+    .data(energy.links)
+    .enter().append("path")
+      .attr("d", d3.sankeyLinkHorizontal())
+      .attr("stroke-width", function(d) { return Math.max(1, d.width); });
+
+  link.append("title")
+      .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+  node = node
+    .data(energy.nodes)
+    .enter().append("g");
+
+  node.append("rect")
+      .attr("x", function(d) { return d.x0; })
+      .attr("y", function(d) { return d.y0; })
+      .attr("height", function(d) { return d.y1 - d.y0; })
+      .attr("width", function(d) { return d.x1 - d.x0; })
+      .attr("fill", function(d) { return color(d.name.replace(/ .*/, "")); })
+      .attr("stroke", "#000");
+
+  node.append("text")
+      .attr("x", function(d) { return d.x0 - 6; })
+      .attr("y", function(d) { return (d.y1 + d.y0) / 2; })
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "end")
+      .text(function(d) { return d.name; })
+    .filter(function(d) { return d.x0 < width / 2; })
+      .attr("x", function(d) { return d.x1 + 6; })
+      .attr("text-anchor", "start");
+
+  node.append("title")
+      .text(function(d) { return d.name + "\n" + format(d.value); });
+});
+
+</script>
