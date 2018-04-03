@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 url: https://judaicadh.github.io
-baseurl: 
+baseurl:
 email: your-email@domain.com
 description: Judaica Digital Humanities at the University of Pennsylvania Libraries
   features projects that connect the Judaic past to the technological present and
@@ -28,13 +28,13 @@ people:
 - name: Laurie Allen
   modal-id: laurieallen
   pic: allenheadshot
-  position: Assistant Director for Digital Scholarship
-  bio: 'Laurie is the Assistant Director for Digital Scholarship in the Penn Libraries,
+  position: Director for Digital Scholarship
+  bio: 'Laurie is the Director for Digital Scholarship in the Penn Libraries,
     where she leads a group working to expand the capacity of researchers at Penn
     to create and share scholarship in new forms. The group engages in digital project
     development, data management and curation, mapping, experimentations with emerging
     research methods, and open access publishing. </br></br> Laurie has been involved
-    in a number of Digital Humanities projects, including her continued work on Ticha:
+    in a number of Digital Humanities projects, including her work on Ticha:
     a digital text explorer for Colonial Zapotec and her role as Research Director
     for Monument Lab a public art and research project focused on 21st century memory
     practices in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy
