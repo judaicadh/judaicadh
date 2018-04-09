@@ -42,6 +42,6 @@ description: We are the recipients of an in kind grant from the Zooniverse to tr
   way to develop new tools for citizen scientists throughout the world to learn to
   read a variety of scribal hands and to open texts accessible only to a handful of
   specialists to millions of people.
-projectlink: https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza
+projectlink: https://judaicadh.github.io/projects/cairogeniza
 ---
 
