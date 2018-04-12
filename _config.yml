@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 url: https://judaicadh.github.io
-baseurl:
+baseurl: 
 email: judaicadh@gmail.com
 description: Judaica Digital Humanities at the University of Pennsylvania Libraries
   features projects that connect the Judaic past to the technological present and
