@@ -11,8 +11,8 @@ modal-id: 6
 img: judaicaamericana
 thumbnail: judaicaamericanathumbnail
 alt: Judaica Americana
-project-date: October 2017
-partners: 
-description: 
+project-date: 
+partners: Coming soon
+description: Coming Soon
 ---
 
