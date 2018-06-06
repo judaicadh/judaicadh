@@ -1,5 +1,5 @@
 ---
-title: Bibliotheca Hebraica Americana
+title: Bibliotheca Hebraica Atlantica
 date: 2017-07-01 16:11:09.869000000 Z
 categories:
 - current
@@ -27,5 +27,6 @@ description: While the history of Latin and Greek texts as well as Hebrew Bibles
   held volumes of Hebraic texts in these locations. We want this map to illustrate
   Hebraic texts at each library location as well as the text’s location and other
   details.
+projectlink: http://judaicadh.github.io/bibliothecahebraicaatlantica
 ---
 
