@@ -41,6 +41,6 @@ description: "<a target= '_blank' href= 'http://ubuwebser.cajs.upenn.edu/agproje
   from the Gershwind-Bennett Families, we began transcribing and scanning the correspondence,
   ultimately creating the Gershwind-Bennett <a target= '_blank' href = 'http://leeser.library.upenn.edu/ilproject.php'>Isaac
   Leeser Digital Repository.</a>"
-projectlink: http://ubuwebser.cajs.upenn.edu/agproject.php
+projectlink: http://ubuwebser.cajs.upenn.edu/index.php
 ---
 
