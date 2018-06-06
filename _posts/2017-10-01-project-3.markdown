@@ -25,5 +25,6 @@ description: Building on a recent exhibition of early photographs of the Holy, L
   faces into a rotating slide show, Laura then created a “how-to” manual in video
   format to show anyone interested in this tool how to run the python script she created
   and extract your own faces from your own set of photographs.
+projectlink: http://pennds.org/holyland/
 ---
 
