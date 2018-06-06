@@ -12,7 +12,7 @@ img: judaicaamericana
 thumbnail: judaicaamericanathumbnail
 alt: Judaica Americana
 project-date: 
-partners: Coming soon
+partners: 
 description: Coming Soon
 ---
 
