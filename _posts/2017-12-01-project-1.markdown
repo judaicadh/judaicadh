@@ -17,7 +17,7 @@ partners: 'Research Partners: University of Pennsylvania Libraries, Princeton Ge
   the Cairo Genizah at the University of Haifa.<br/> Image Partners: Taylor-Schechter
   Genizah Research Unit at Cambridge University Library, The Library of the Jewish
   Theological Seminary, University of Pennsylvania Libraries, The University of Manchester
-  Library.'
+  Library, The Bodleian Libraries at the University of Oxford.'
 description: We are the recipients of an in kind grant from the Zooniverse to transcribe
   pre-modern and medieval manuscript fragments from the Cairo Geniza. Zooniverse is
   a non-profit crowdsourcing platform that has over 1.5 million 'citizen scientists'
