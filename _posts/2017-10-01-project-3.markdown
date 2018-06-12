@@ -22,9 +22,9 @@ description: Building on a recent exhibition of early photographs of the Holy, L
   with a Python script in order to find a way to use facial recognition to comb a
   corpus of more than 5,000 images to bring to life the otherwise lost individual
   faces found in these photos. <br>  After compiling, editing, and transforming these
-  faces into a rotating slide show, Laura then created a “how-to” manual in video
-  format to show anyone interested in this tool how to run the python script she created
-  and extract your own faces from your own set of photographs.
+  faces into a rotating slide show, Laura then created a [“how-to” manual in video
+  format](https://www.youtube.com/watch?v=DKcOY5z6EP0) to show anyone interested in this tool how use the python script she created
+  and extract the faces from their own collections of photographs.
 projectlink: http://pennds.org/holyland/
 ---
 
