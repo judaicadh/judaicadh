@@ -17,6 +17,7 @@ description: Judaica Digital Humanities at the University of Pennsylvania Librar
 google_analytics: UA-88257588-1
 people:
 - name: Laurie Allen
+  category: current
   modal-id: laurieallen
   pic: allenheadshot
   position: Director for Digital Scholarship
@@ -34,6 +35,7 @@ people:
   social:
   - title: twitter
 - name: Laura Newman Eckstein
+  category: alum
   modal-id: lauranewmaneckstein
   pic: ecksteinheadshot
   position: Judaica Digital Humanities Coordinator
@@ -49,6 +51,7 @@ people:
   social:
   - title: twitter
 - name: Arthur Kiron
+  category: current
   modal-id: arthurkiron
   pic: kironheadshot
   position: Schottenstein-Jesselson Curator of Judaica Collections
