@@ -11,7 +11,10 @@
             </div>
              
                 <div class="row">
-           {% for member in site.people.current %}
+           {% for member in site.people %}
+		  {% if member.category == "alum" %}
+    		{% continue %}
+  	{% endif %}
                 <div class="col-sm-4">
 	                    
                     <div class="team-member">
