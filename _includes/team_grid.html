@@ -11,7 +11,7 @@
             </div>
              
                 <div class="row">
-           {% for member in site.people %}
+           {% for member in site.people.current %}
                 <div class="col-sm-4">
 	                    
                     <div class="team-member">
@@ -46,7 +46,42 @@
      
               {% endfor %} 
             </div>
-                                 
+                   <div class="row">
+           {% for member in site.people.alum %}
+                <div class="col-sm-4">
+	                    
+                    <div class="team-member">
+  <img src="../img/people/{{ member.pic }}.jpg" class="img-responsive img-circle img-thumbnail" alt="">
+	                                           <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                         <!-- <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul> -->
+                       <a href="#portfolioModal{{ member.modal-id }}" class="portfolio-link" data-toggle="modal">
+	                         <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                            
+                        </div>
+                       
+                      
+ <i class="fa fa-chevron-down fa-2x" data-toggle="modal"></i>
+	                   </a>
+
+                    </div>
+                       
+                </div>          
+     
+              {% endfor %} 
+            </div>                   
              
               
               <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
