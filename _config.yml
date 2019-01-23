@@ -34,12 +34,30 @@ people:
     College.'
   social:
   - title: twitter
+- name: Laurie Allen
+  category: current
+  modal-id: laurieallen
+  pic: allenheadshot
+  position: Director for Digital Scholarship
+  bio: 'Laurie is the Director for Digital Scholarship in the Penn Libraries, where
+    she leads a group working to expand the capacity of researchers at Penn to create
+    and share scholarship in new forms. The group engages in digital project development,
+    data management and curation, mapping, experimentations with emerging research
+    methods, and open access publishing. </br></br> Laurie has been involved in a
+    number of Digital Humanities projects, including her work on Ticha: a digital
+    text explorer for Colonial Zapotec and her role as Research Director for Monument
+    Lab a public art and research project focused on 21st century memory practices
+    in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy from
+    Bard College, and a Master''s of Library and Information Science from Simmons
+    College.'
+  social:
+  - title: twitter
 - name: Laura Newman Eckstein
   category: alum
   modal-id: lauranewmaneckstein
   pic: ecksteinheadshot
   position: Inaugural Judaica Digital Humanities Coordinator
-  bio: Laura worked as the Judaica Digital Humanities Coordinator at the Penn Libraries from October 2016-June 2018. She left the position in order to pursue her PhD in Early Atlantic Jewish History at University of Pennsylvania. Laura holds a bachelor's degree with the highest honors in religion from Haverford
+  bio: 'Laura worked as the Judaica Digital Humanities Coordinator at the Penn Libraries from October 2016-June 2018. She left the position in order to pursue her PhD in Early Atlantic Jewish History at University of Pennsylvania. Laura holds a bachelor's degree with the highest honors in religion from Haverford
     College. Laura's senior thesis at Haverford focused on Jewish peddlers, their
     business networks, and their religious practices along the Lower Mississippi River
     between 1820-1865. Laura is the recipient of a 2014 Tri-College, Mellon Foundation
@@ -47,7 +65,7 @@ people:
     in his lab for Viral Maps, Texts and Networks at Northeastern University, mapping
     the spread and reprinting of 19th century newspapers and magazines. Laura is also
     the recipient of a John B. Hurford Arts and Humanities Center Summer Research
-    Fellowship.
+    Fellowship.'
   social:
   - title: twitter
 - name: Emily Esten
@@ -55,7 +73,7 @@ people:
   modal-id: emilyesten
   pic: estenheadshot
   position: Judaica Digital Humanities Coordinator
-  bio: Emily uses digital humanities methods to deepen public and scholarly engagement with our Judaica materials. She has been involved in a number of Digital Humanities projects, and was a 2016-2018 HASTAC Scholars Fellow. Before Penn, she worked at several museums and cultural heritage sites, including the Smithsonian Center for Learning and Digital Access, the Kennedey Institute for the United States Senate, and the New Bedford Whaling Museum. Emily holds a Master's Degree in public humanities from Brown University, and a Bachelor of Arts degree, with majors in history and digital humanities, from the University of Massachusetts Amherst.
+  bio: 'Emily uses digital humanities methods to deepen public and scholarly engagement with our Judaica materials. She has been involved in a number of Digital Humanities projects, and was a 2016-2018 HASTAC Scholars Fellow. Before Penn, she worked at several museums and cultural heritage sites, including the Smithsonian Center for Learning and Digital Access, the Kennedey Institute for the United States Senate, and the New Bedford Whaling Museum. Emily holds a Master's Degree in public humanities from Brown University, and a Bachelor of Arts degree, with majors in history and digital humanities, from the University of Massachusetts Amherst.'
   social:
   - title: twitter
 - name: Arthur Kiron
