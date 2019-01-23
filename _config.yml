@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 url: https://judaicadh.github.io
-baseurl: 
+baseurl:
 email: judaicadh@gmail.com
 description: Judaica Digital Humanities at the University of Pennsylvania Libraries
   features projects that connect the Judaic past to the technological present and
@@ -38,7 +38,7 @@ people:
   category: alum
   modal-id: lauranewmaneckstein
   pic: ecksteinheadshot
-  position: Inagural Judaica Digital Humanities Coordinator
+  position: Inaugural Judaica Digital Humanities Coordinator
   bio: Laura worked as the Judaica Digital Humanities Coordinator at the Penn Libraries from October 2016-June 2018. She left the position in order to pursue her PhD in Early Atlantic Jewish History at University of Pennsylvania. Laura holds a bachelor's degree with the highest honors in religion from Haverford
     College. Laura's senior thesis at Haverford focused on Jewish peddlers, their
     business networks, and their religious practices along the Lower Mississippi River
@@ -50,6 +50,14 @@ people:
     Fellowship.
   social:
   - title: twitter
+  - name: Emily Estent=
+    category: current
+    modal-id: emilyesten
+    pic: estenheadshot
+    position: Judaica Digital Humanities Coordinator
+    bio: Emily uses digital humanities methods to deepen public and scholarly engagement with our Judaica materials. She has been involved in a number of Digital Humanities projects, and was a 2016-2018 HASTAC Scholars Fellow. Before Penn, she worked at several museums and cultural heritage sites, including the Smithsonian Center for Learning and Digital Access, the Kennedey Institute for the United States Senate, and the New Bedford Whaling Museum. Emily holds a Master's Degree in public humanities from Brown University, and a Bachelor of Arts degree, with majors in history and digital humanities, from the University of Massachusetts Amherst.
+    social:
+    - title: twitter
 - name: Arthur Kiron
   category: current
   modal-id: arthurkiron
