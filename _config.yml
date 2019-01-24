@@ -1,4 +1,6 @@
----
+# This config file is meant for settings that affect your whole blog, values which you are expected to set up once and rarely edit after that.
+# Site settings---
+#title of your website, as you want it to appear in the header of the website
 title: Judaica DH at the Penn Libraries
 timezone: UTC
 collections:
@@ -11,6 +13,7 @@ collections:
 url: https://judaicadh.github.io
 baseurl:
 email: judaicadh@gmail.com
+# description for RSS feeds
 description: Judaica Digital Humanities at the University of Pennsylvania Libraries
   features projects that connect the Judaic past to the technological present and
   future.
@@ -88,6 +91,7 @@ people:
     Advanced Judaic Studies, University of Pennsylvania.'
   social:
   - title: twitter
+#we use social instead of twitter_username
 social:
 - title: twitter
   url: http://twitter.com/judaicadh

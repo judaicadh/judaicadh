@@ -11,7 +11,7 @@ modal-id: 1
 img: geniza
 thumbnail: genizathumbnail
 alt: Cairo Geniza Fragment
-project-date: October 2016
+project-date: October 2016-Present
 partners: 'Research Partners: University of Pennsylvania Libraries, Princeton Geniza
   Lab, The Zooniverse, e-Lijah Lab and the Centre for Interdisciplinary Research of
   the Cairo Genizah at the University of Haifa.<br/> Image Partners: Taylor-Schechter
@@ -38,4 +38,3 @@ description: We are the recipients of an in kind grant from the Zooniverse to tr
   millions of people.
 projectlink: https://judaicadh.github.io/cairogeniza
 ---
-
