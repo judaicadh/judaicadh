@@ -2,8 +2,8 @@
 title: 'Envisaging the Holy Land: Facial Recognition and Early Photography'
 date: 2017-10-01 16:22:15.117000000 Z
 categories:
-- current
-subtitle: 
+- legacy
+subtitle:
 courtesy: Fiorillo, L. Bédouins. Photograph, Albumen, Unidentified. CAJS Image Collection
   XT FIO 2717 XT80 The Lenkin Family Collection of Photography, University of Pennsylvania
   Libraries.
@@ -28,4 +28,3 @@ description: Building on a recent exhibition of early photographs of the Holy, L
   own collections of photographs.
 projectlink: http://pennds.org/holyland/
 ---
-
