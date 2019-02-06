@@ -3,9 +3,9 @@ title: The Zucker Holy Land Travel Manuscript
 date: 2015-12-01 16:22:15.117000000 Z
 categories:
 - legacy
-subtitle: 
-courtesy: 
-link: 
+subtitle:
+courtesy:
+link:
 layout: default
 modal-id: 11
 img: zuker
@@ -14,7 +14,7 @@ alt: Zuker Holy Land Travel Manuscript
 project-date: November 2011
 partners: Anna Baechtold, University of Bern, Switzerland; Dr. Arthur Kiron, Schottenstein-Jesselson
   Curator of Judaica Collections; Dennis Mullen, Web Design Expert at SCETI; David
-  McKnight, Director of Penn's Rare Book and Manuscript Library; Benjamin Zuker; Moldovan
+  McKnight, Director of Penn's Rare Book and Manuscript Library; Benjamin Zucker; Moldovan
   Family.
 description: The Zucker Holy Land Travel Manuscript takes us on a tour through the
   Holy Land as it was known, geographically, both in Biblical times and at the end
@@ -28,4 +28,3 @@ description: The Zucker Holy Land Travel Manuscript takes us on a tour through t
   just a few examples. - Anna Baechtold
 projectlink: http://sceti.library.upenn.edu/zucker/
 ---
-
