@@ -2,10 +2,10 @@
 title: Sabato Morais Papers Digitization Project
 date: 2015-12-01 16:22:15.117000000 Z
 categories:
-- legacy
-subtitle: 
-courtesy: 
-link: 
+- current
+subtitle:
+courtesy:
+link:
 layout: default
 modal-id: 9
 img: morais
@@ -40,4 +40,3 @@ description: Our third Jesselson-Kaplan American Genizah Project, The Sabato Mor
   fearless thinker, speaker, and writer.'
 projectlink: http://sceti.library.upenn.edu/morais/index.cfm
 ---
-
