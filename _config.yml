@@ -19,24 +19,6 @@ description: Judaica Digital Humanities at the University of Pennsylvania Librar
   future.
 google_analytics: UA-88257588-1
 people:
-- name: Laurie Allen
-  category: alum
-  modal-id: laurieallen
-  pic: allenheadshot
-  position: Director for Digital Scholarship
-  bio: 'Laurie is the Director for Digital Scholarship in the Penn Libraries, where
-    she leads a group working to expand the capacity of researchers at Penn to create
-    and share scholarship in new forms. The group engages in digital project development,
-    data management and curation, mapping, experimentations with emerging research
-    methods, and open access publishing. </br></br> Laurie has been involved in a
-    number of Digital Humanities projects, including her work on Ticha: a digital
-    text explorer for Colonial Zapotec and her role as Research Director for Monument
-    Lab a public art and research project focused on 21st century memory practices
-    in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy from
-    Bard College, and a Master''s of Library and Information Science from Simmons
-    College.'
-  social:
-  - title: twitter
 - name: Emily Esten
   category: current
   modal-id: emilyesten
@@ -59,6 +41,24 @@ people:
     the spread and reprinting of 19th century newspapers and magazines. Laura is also
     the recipient of a John B. Hurford Arts and Humanities Center Summer Research
     Fellowship.'
+  social:
+  - title: twitter
+- name: Laurie Allen
+  category: alum
+  modal-id: laurieallen
+  pic: allenheadshot
+  position: Director for Digital Scholarship
+  bio: 'Laurie is the Director for Digital Scholarship in the Penn Libraries, where
+    she leads a group working to expand the capacity of researchers at Penn to create
+    and share scholarship in new forms. The group engages in digital project development,
+    data management and curation, mapping, experimentations with emerging research
+    methods, and open access publishing. </br></br> Laurie has been involved in a
+    number of Digital Humanities projects, including her work on Ticha: a digital
+    text explorer for Colonial Zapotec and her role as Research Director for Monument
+    Lab a public art and research project focused on 21st century memory practices
+    in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy from
+    Bard College, and a Master''s of Library and Information Science from Simmons
+    College.'
   social:
   - title: twitter
 - name: Arthur Kiron
