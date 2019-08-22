@@ -19,12 +19,22 @@ description: Judaica Digital Humanities at the University of Pennsylvania Librar
   future.
 google_analytics: UA-88257588-1
 people:
-- name: Emily Esten
-  category: current
-  modal-id: emilyesten
-  pic: estenheadshot
-  position: Judaica Digital Humanities Coordinator
-  bio: "Emily uses digital humanities methods to deepen public and scholarly engagement with our Judaica materials. She has been involved in a number of Digital Humanities projects, and was a 2016-2018 HASTAC Scholars Fellow. Before Penn, she worked at several museums and cultural heritage sites, including the Smithsonian Center for Learning and Digital Access, the Kennedey Institute for the United States Senate, and the New Bedford Whaling Museum. Emily holds a Master's Degree in public humanities from Brown University, and a Bachelor of Arts degree, with majors in history and digital humanities, from the University of Massachusetts Amherst."
+- name: Laurie Allen
+  category: alum
+  modal-id: laurieallen
+  pic: allenheadshot
+  position: Director for Digital Scholarship
+  bio: "Laurie is the Director for Digital Scholarship in the Penn Libraries, where
+    she leads a group working to expand the capacity of researchers at Penn to create
+    and share scholarship in new forms. The group engages in digital project development,
+    data management and curation, mapping, experimentations with emerging research
+    methods, and open access publishing. </br></br> Laurie has been involved in a
+    number of Digital Humanities projects, including her work on Ticha: a digital
+    text explorer for Colonial Zapotec and her role as Research Director for Monument
+    Lab a public art and research project focused on 21st century memory practices
+    in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy from
+    Bard College, and a Master''s of Library and Information Science from Simmons
+    College."
   social:
   - title: twitter
 - name: Laura Newman Eckstein
@@ -43,22 +53,20 @@ people:
     Fellowship."
   social:
   - title: twitter
-- name: Laurie Allen
-  category: alum
-  modal-id: laurieallen
-  pic: allenheadshot
-  position: Director for Digital Scholarship
-  bio: "Laurie is the Director for Digital Scholarship in the Penn Libraries, where
-    she leads a group working to expand the capacity of researchers at Penn to create
-    and share scholarship in new forms. The group engages in digital project development,
-    data management and curation, mapping, experimentations with emerging research
-    methods, and open access publishing. </br></br> Laurie has been involved in a
-    number of Digital Humanities projects, including her work on Ticha: a digital
-    text explorer for Colonial Zapotec and her role as Research Director for Monument
-    Lab a public art and research project focused on 21st century memory practices
-    in the city of Philadelphia. She holds a Bachelor''s degree in Philosophy from
-    Bard College, and a Master''s of Library and Information Science from Simmons
-    College."
+#- name: Kim Eke
+  #category: current
+  #modal-id: kimeke
+  #pic: ekeheadshot
+  #position: Director for Digital Scholarship
+  #bio: "Kim leads a team of library professionals that actively engage the Penn community in new library services designed to meet the changing needs of scholars. The Teaching, Research, and Learning Services team enables digital scholarship and multimodal research, open access publishing, technology-enhanced pedagogies, collection development, and interactive, experiential media production in support of Penn's mission. Kim provides strategic oversight for the campus learning management system serving 23,000 students daily and Penn's open access repository that hosts nearly 2.5 million downloads of scholarly content annually. TRL spans informal and formal learning spaces ranging from high-tech Commons spaces and active learning classrooms to the iconic Fisher Fine Arts and the Penn Museum Libraries. Learn more about current projects at penntrl.wordpress.com Before working at Penn, Kim managed enterprise-wide learning technologies, MOOC production, course design, and custom educational multimedia development at the University of North Carolina-Chapel Hill. Prior to UNC, Kim served in a variety of roles including instructional designer, faculty developer, instructor, media developer, and project manager/designer of online courses. She earned a Ph.D. in Environmental Resource Development from Michigan State University."
+  #social:
+  #- title: twitter
+- name: Emily Esten
+  category: current
+  modal-id: emilyesten
+  pic: estenheadshot
+  position: Judaica Digital Humanities Coordinator
+  bio: "Emily uses digital humanities methods to deepen public and scholarly engagement with our Judaica materials. She has been involved in a number of Digital Humanities projects, and was a 2016-2018 HASTAC Scholars Fellow. Before Penn, she worked at several museums and cultural heritage sites, including the Smithsonian Center for Learning and Digital Access, the Kennedey Institute for the United States Senate, and the New Bedford Whaling Museum. Emily holds a Master's Degree in public humanities from Brown University, and a Bachelor of Arts degree, with majors in history and digital humanities, from the University of Massachusetts Amherst."
   social:
   - title: twitter
 - name: Arthur Kiron
@@ -91,14 +99,6 @@ people:
     Advanced Judaic Studies, University of Pennsylvania.'
   social:
   - title: twitter
-#- name: Kim Eke
-  #category: current
-  #modal-id: kimeke
-  #pic: ekeheadshot
-  #position: Director for Digital Scholarship
-  #bio: "Kim leads a team of library professionals that actively engage the Penn community in new library services designed to meet the changing needs of scholars. The Teaching, Research, and Learning Services team enables digital scholarship and multimodal research, open access publishing, technology-enhanced pedagogies, collection development, and interactive, experiential media production in support of Penn's mission. Kim provides strategic oversight for the campus learning management system serving 23,000 students daily and Penn's open access repository that hosts nearly 2.5 million downloads of scholarly content annually. TRL spans informal and formal learning spaces ranging from high-tech Commons spaces and active learning classrooms to the iconic Fisher Fine Arts and the Penn Museum Libraries. Learn more about current projects at penntrl.wordpress.com Before working at Penn, Kim managed enterprise-wide learning technologies, MOOC production, course design, and custom educational multimedia development at the University of North Carolina-Chapel Hill. Prior to UNC, Kim served in a variety of roles including instructional designer, faculty developer, instructor, media developer, and project manager/designer of online courses. She earned a Ph.D. in Environmental Resource Development from Michigan State University."
-  #social:
-  #- title: twitter
 #we use social instead of twitter_username
 social:
 - title: twitter
