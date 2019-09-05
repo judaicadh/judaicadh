@@ -17,7 +17,7 @@ partners: Anna Baechtold, University of Bern, Switzerland; Dr. Arthur Kiron, Sch
   McKnight, Director of Penn's Rare Book and Manuscript Library; Benjamin Zucker; Moldovan
   Family.
 description: The Zucker Holy Land Travel Manuscript takes us on a tour through the
-  Holy Land as it was known, geographically, both in Biblical times and at the end
+  Holy Land as it was known, geographically understood at the end
   of the 17th century.<br>It describes many sites of Biblical significance, starting
   with Damascus and ending with the grave of Mary. The author of this German manuscript
   was equally interested in the Holy Land’s geography and cartography; flora and fauna;

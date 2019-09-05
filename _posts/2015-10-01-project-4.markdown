@@ -2,8 +2,8 @@
 title: Freedman Jewish Sound Archive
 date: 2015-10-01 16:22:15.117000000 Z
 categories:
-- legacy
-subtitle: 
+- current
+subtitle:
 courtesy: Marc Chagall. “The Fiddler (Le violoniste),” 1912-1913. Collection Stedelijk
   Museum Amsterdam. (Collection Stedelijk Museum Amsterdam).https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
 link: https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
@@ -12,7 +12,7 @@ modal-id: 12
 img: freedman
 thumbnail: freedmanthumbnail
 alt: Freedman Jewish Sound Archive
-project-date: 
+project-date:
 partners: "Robert (C '54) and Molly Freedman, Founders and Curators of the archive;
   Robert A. Friedman,\tArchivist, Ruthann Dorn, Audio Engineer and Assistant Archivist;
   Chava Kramer, Editor; Gilead Gevarayhu, Editor; David McKnight, Curator of SCETI;
@@ -25,4 +25,3 @@ description: Located in Penn's Van Pelt-Dietrich Library, Room 453, this musical
   and cassette tapes, compact discs, videos and DVDs).
 projectlink: http://sceti.library.upenn.edu/freedman/
 ---
-

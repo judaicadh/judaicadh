@@ -3,7 +3,7 @@ title: Jesselson-Kaplan American Genizah Project and the Gershwind-Bennett Isaac
   Digital Repository
 date: 2015-08-01 16:22:15.117000000 Z
 categories:
-- legacy
+- current
 subtitle:
 courtesy:
 link:
@@ -13,7 +13,7 @@ img: leeser
 thumbnail: leeserthumbnail
 alt: Jesselson-Kaplan American Genizah Project and the Gershwind-Bennett Isaac Leeser
   Digital Repository
-project-date:
+project-date: January 2005
 partners: The American Jewish Archives, Cincinnati, OH; American Jewish Historical
   Society, New York, NY; Michael Jesselson, New York, NY, Jesselson-Kaplan American
   Genizah Project Advisory Board Member and Board member of the American Jewish Historical
