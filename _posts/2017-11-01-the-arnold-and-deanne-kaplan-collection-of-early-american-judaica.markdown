@@ -16,17 +16,5 @@ alt: Kaplan Collection
 project-date: October 2016
 partners: Arnold and Deanne Kaplan; Laura Newman Eckstein, Penn Judaica DH project
   coordinator.
-description: In November of 2012, the Penn Libraries received the Arnold and Deanne
-  Kaplan Collection of Early American Judaica. This gift of nearly 11,000 items was
-  appraised at $8.5 million. It continues to grow and currently consists of over 13,000
-  items. It is the most important private collection of its kind, documenting the
-  social and economic development of early Jewish life in the Western Hemisphere.
-  The core of the Kaplan Collection covers the period before mass Jewish migration
-  to the Americas in the late 1880s. Laura Newman Eckstein, our inaugural Judaica DH coordinator,
-developed a prototype for an interactive mapping tool of the Arnold and Deanne
-  Kaplan Collection of Early American Judaica. Through this interactive mapping tool,
-  we not only will provide the locations at which objects from the collection originate,
-  but we will provide full viewing access. In addition, as part of the "interactive" component,
-  the map will contain ways for users to filter both with temporal space, with type
-  of object, and through merely elastic searching.
+description: In November of 2012, the Penn Libraries received the Arnold and Deanne Kaplan Collection of Early American Judaica. This gift of nearly 11,000 items was appraised at $8.5 million. It continues to grow and currently consists of over 13,000 items. It is the most important private collection of its kind, documenting the social and economic development of early Jewish life in the Western Hemisphere. The core of the Kaplan Collection covers the period before mass Jewish migration to the Americas in the late 1880s. Laura Newman Eckstein, our inaugural Judaica DH coordinator, developed a prototype for an interactive mapping tool of the Arnold and Deanne Kaplan Collection of Early American Judaica. Through this interactive mapping tool, we not only will provide the locations at which objects from the collection originate, but we will provide full viewing access. In addition, as part of the "interactive" component, the map will contain ways for users to filter both with temporal space, with type of object, and through merely elastic searching.
 ---

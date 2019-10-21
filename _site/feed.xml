@@ -3,22 +3,20 @@
   <channel>
     <title>Judaica DH at the Penn Libraries</title>
     <description>Judaica Digital Humanities at the University of Pennsylvania Libraries features projects that connect the Judaic past to the technological present and future.</description>
-    <link>https://judaicadh.github.io/</link>
-    <atom:link href="https://judaicadh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Apr 2018 20:43:16 +0000</pubDate>
-    <lastBuildDate>Thu, 12 Apr 2018 20:43:16 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 21 Oct 2019 14:34:01 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2019 14:34:01 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>Cairo Geniza Zooniverse Project</title>
+        <title></title>
         <description>
 </description>
-        <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <pubDate>Mon, 21 Oct 2019 14:34:01 +0000</pubDate>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
-        
-        <category>current</category>
         
       </item>
     
@@ -27,8 +25,8 @@
         <description>
 </description>
         <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>current</category>
@@ -40,11 +38,11 @@
         <description>
 </description>
         <pubDate>Sun, 01 Oct 2017 16:22:15 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
-        <category>current</category>
+        <category>legacy</category>
         
       </item>
     
@@ -53,8 +51,8 @@
         <description>
 </description>
         <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>current</category>
@@ -62,12 +60,12 @@
       </item>
     
       <item>
-        <title>Bibliotheca Hebraica Americana</title>
+        <title>Bibliotheca Hebraica Atlantica</title>
         <description>
 </description>
         <pubDate>Sat, 01 Jul 2017 16:11:09 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>current</category>
@@ -79,24 +77,11 @@
         <description>
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Sabato Morais Papers Digitization Project</title>
-        <description>
-</description>
-        <pubDate>Tue, 01 Dec 2015 16:22:15 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
-        
-        
-        <category>legacy</category>
         
       </item>
     
@@ -105,11 +90,24 @@
         <description>
 </description>
         <pubDate>Tue, 01 Dec 2015 16:22:15 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>legacy</category>
+        
+      </item>
+    
+      <item>
+        <title>Sabato Morais Papers Digitization Project</title>
+        <description>
+</description>
+        <pubDate>Tue, 01 Dec 2015 16:22:15 +0000</pubDate>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
+        
+        
+        <category>current</category>
         
       </item>
     
@@ -118,11 +116,11 @@
         <description>
 </description>
         <pubDate>Thu, 01 Oct 2015 16:22:15 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
-        <category>legacy</category>
+        <category>current</category>
         
       </item>
     
@@ -131,8 +129,8 @@
         <description>
 </description>
         <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-        <link>https://judaicadh.github.io/frontmatter</link>
-        <guid isPermaLink="true">https://judaicadh.github.io/frontmatter</guid>
+        <link>http://localhost:4000/frontmatter</link>
+        <guid isPermaLink="true">http://localhost:4000/frontmatter</guid>
         
         
         <category>legacy</category>

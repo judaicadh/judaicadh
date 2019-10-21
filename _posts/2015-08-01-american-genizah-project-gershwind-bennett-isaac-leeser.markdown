@@ -3,7 +3,7 @@ title: Jesselson-Kaplan American Genizah Project and the Gershwind-Bennett Isaac
   Digital Repository
 date: 2015-08-01 16:22:15.117000000 Z
 categories:
-- current
+- legacy
 subtitle:
 courtesy:
 link:
