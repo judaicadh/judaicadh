@@ -39,3 +39,4 @@ description: We are the recipients of an in kind grant from the Zooniverse to tr
   of scribal hands and to open texts accessible only to a handful of specialists to
   millions of people.
 projectlink: https://judaicadh.github.io/cairogeniza
+---
