@@ -1,5 +1,5 @@
 ---
-title: TEST
+title: Cairo Geniza Zooniverse Project
 date: 2017-11-01 00:00:00 Z
 categories:
 - current
@@ -10,11 +10,33 @@ courtesy: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Fl
 link: https://www.flickr.com/photos/arts_at_penn/14018331445/
 layout: default
 modal-id: 13
-img: kaplan
-thumbnail: kaplanthumbnail
-alt: Kaplan Collection
-project-date: October 2016
-partners: Arnold and Deanne Kaplan; Laura Newman Eckstein, Penn Judaica DH project
-  coordinator.
-description: In November of 2012, the Penn Libraries received the Arnold and Deanne Kaplan Collection of Early American Judaica. This gift of nearly 11,000 items was appraised at $8.5 million. It continues to grow and currently consists of over 13,000 items. It is the most important private collection of its kind, documenting the social and economic development of early Jewish life in the Western Hemisphere. The core of the Kaplan Collection covers the period before mass Jewish migration to the Americas in the late 1880s. Laura Newman Eckstein, our inaugural Judaica DH coordinator, developed a prototype for an interactive mapping tool of the Arnold and Deanne Kaplan Collection of Early American Judaica. Through this interactive mapping tool, we not only will provide the locations at which objects from the collection originate, but we will provide full viewing access. In addition, as part of the "interactive" component, the map will contain ways for users to filter both with temporal space, with type of object, and through merely elastic searching.
+img: geniza
+thumbnail: genizathumbnail
+alt: Cairo Geniza Fragment
+project-date: October 2016-Present
+partners: 'Research Partners: University of Pennsylvania Libraries, Princeton Geniza
+  Lab, The Zooniverse, e-Lijah Lab and the Centre for Interdisciplinary Research of
+  the Cairo Genizah at the University of Haifa.<br/> Image Partners: Taylor-Schechter
+  Genizah Research Unit at Cambridge University Library, The Library of the Jewish
+  Theological Seminary, University of Pennsylvania Libraries, The University of Manchester
+  Library, The Bodleian Libraries at the University of Oxford, Columbia University Libraries, National Library of Israel'
+description: We are the recipients of an in kind grant from the Zooniverse to transcribe
+  pre-modern and medieval manuscript fragments from the Cairo Geniza. Zooniverse is
+  a non-profit crowdsourcing platform that has over 1.5 million 'citizen scientists'
+  who will help to work on transcribing these fragments. The in-kind grant is part
+  of an approximately 1.2 million dollar IMLS grant Zooniverse was awarded and is
+  dispersing over four transcription projects, two text and two audio. Over the next
+  three years we will receive extensive developer time from Zooniverse to build a
+  framework that not only allows for the transcription of Geniza fragments but also
+  allows for the classification of these fragments into their general genre, whether
+  literary (religious text), or documentary (non-religious- text), and then their
+  more specific genre, as well as language and script characteristics. Students and
+  the general public will have the opportunity to benefit from encountering these
+  fragments online and from learning how to transcribe them as members of this citizen
+  scientist community. We see this project as a way for people with shared interests
+  and different skill levels from around the world to meet in a common endeavor. We
+  see this as a way to develop new tools for the public to learn to read a variety
+  of scribal hands and to open texts accessible only to a handful of specialists to
+  millions of people.
+projectlink: https://judaicadh.github.io/cairogeniza
 ---
