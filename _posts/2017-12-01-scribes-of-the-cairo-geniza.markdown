@@ -3,11 +3,13 @@ title: Cairo Geniza Zooniverse Project
 date: 2017-12-01 00:00:00 Z
 categories:
 - current
+subtitle:
 courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection,
   University of Pennsylvania Center for Advanced Judaic Studies. Accessed November
   30, 2016.link: http://sceti.library.upenn.edu/pages/index.cfm?so_id=21140'
+link: https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
 layout: default
-modal-id: 1
+modal-id: 13
 img: geniza
 thumbnail: genizathumbnail
 alt: Cairo Geniza Fragment
@@ -17,8 +19,8 @@ partners: 'Research Partners: University of Pennsylvania Libraries, Princeton Ge
   the Cairo Genizah at the University of Haifa.<br/> Image Partners: Taylor-Schechter
   Genizah Research Unit at Cambridge University Library, The Library of the Jewish
   Theological Seminary, University of Pennsylvania Libraries, The University of Manchester
-  Library, The Bodleian Libraries at the University of Oxford, Columbia University Libraries'
-description: 'We are the recipients of an in kind grant from the Zooniverse to transcribe
+  Library, The Bodleian Libraries at the University of Oxford, Columbia University Libraries, National Library of Israel'
+description: We are the recipients of an in kind grant from the Zooniverse to transcribe
   pre-modern and medieval manuscript fragments from the Cairo Geniza. Zooniverse is
   a non-profit crowdsourcing platform that has over 1.5 million 'citizen scientists'
   who will help to work on transcribing these fragments. The in-kind grant is part
@@ -35,6 +37,5 @@ description: 'We are the recipients of an in kind grant from the Zooniverse to t
   and different skill levels from around the world to meet in a common endeavor. We
   see this as a way to develop new tools for the public to learn to read a variety
   of scribal hands and to open texts accessible only to a handful of specialists to
-  millions of people.'
+  millions of people.
 projectlink: https://judaicadh.github.io/cairogeniza
----

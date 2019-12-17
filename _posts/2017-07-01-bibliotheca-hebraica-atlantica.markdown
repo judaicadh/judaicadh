@@ -2,7 +2,7 @@
 title: Bibliotheca Hebraica Atlantica
 date: 2017-07-01 16:11:09.869000000 Z
 categories:
-- stop
+- current
 subtitle: 
 courtesy: King, Samuel. Ezra Stiles. 1770-1771. Yale University Art Gallery, New Haven,
   Connecticut. Yale University Art Gallery. Yale University. Web. 13 July 2017. <http://artgallery.yale.edu/collections/objects/49867>.

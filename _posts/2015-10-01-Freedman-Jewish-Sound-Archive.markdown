@@ -2,7 +2,7 @@
 title: Freedman Jewish Sound Archive
 date: 2015-10-01 16:22:15.117000000 Z
 categories:
-- stop
+- current
 subtitle:
 courtesy: Marc Chagall. “The Fiddler (Le violoniste),” 1912-1913. Collection Stedelijk
   Museum Amsterdam. (Collection Stedelijk Museum Amsterdam).https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall

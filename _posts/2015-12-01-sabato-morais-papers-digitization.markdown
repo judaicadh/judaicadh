@@ -2,7 +2,7 @@
 title: Sabato Morais Papers Digitization Project
 date: 2015-12-01 16:22:15.117000000 Z
 categories:
-- stop
+- current
 subtitle:
 courtesy:
 link:
