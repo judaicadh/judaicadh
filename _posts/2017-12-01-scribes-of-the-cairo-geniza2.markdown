@@ -9,7 +9,7 @@ courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Co
   30, 2016.link: http://sceti.library.upenn.edu/pages/index.cfm?so_id=21140'
 link: scribesofthecairogeniza.org 
 layout: default
-modal-id: 1
+modal-id: 13
 img: geniza
 thumbnail: genizathumbnail
 alt: Cairo Geniza Fragment
