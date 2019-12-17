@@ -1,5 +1,5 @@
 ---
-title: The Arnold and Deanne Kaplan Collection of Early American Judaica
+title: TEST
 date: 2017-11-01 00:00:00 Z
 categories:
 - current
