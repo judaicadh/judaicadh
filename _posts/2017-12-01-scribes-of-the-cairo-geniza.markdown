@@ -2,7 +2,7 @@
 title: Cairo Geniza Zooniverse Project
 date: 2017-12-01 00:00:00 Z
 categories:
-- legacy
+- old
 subtitle:
 courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection,
   University of Pennsylvania Center for Advanced Judaic Studies. Accessed November
