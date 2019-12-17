@@ -4,9 +4,9 @@ date: 2017-11-01 00:00:00 Z
 categories:
 - current
 subtitle:
-courtesy: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Flag,
-  with Raised Features advertising “Cohen & Brumberg ...The Great One Price Clothier.”
-  Lithograph, ca 1870. The Arnold and Deanne Kaplan Collection of Early American Judaica.
+courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection,
+  University of Pennsylvania Center for Advanced Judaic Studies. Accessed November
+  30, 2016.'
 link: https://www.flickr.com/photos/arts_at_penn/14018331445/
 layout: default
 modal-id: 13
