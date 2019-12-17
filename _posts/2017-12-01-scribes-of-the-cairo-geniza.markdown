@@ -9,7 +9,7 @@ courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Co
   30, 2016.link: http://sceti.library.upenn.edu/pages/index.cfm?so_id=21140'
 link: https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
 layout: default
-modal-id: 13
+modal-id: 2
 img: geniza
 thumbnail: genizathumbnail
 alt: Cairo Geniza Fragment
