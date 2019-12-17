@@ -2,7 +2,7 @@
 title: Digital Second Edition of Judaica Americana
 date: 2017-06-01 00:00:00 Z
 categories:
-- current
+- stop
 subtitle:
 courtesy: Judaica DH at the University of Pennsylvania
 link:
