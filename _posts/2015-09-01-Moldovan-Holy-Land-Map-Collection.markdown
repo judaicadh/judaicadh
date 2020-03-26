@@ -7,7 +7,7 @@ subtitle:
 courtesy:
 link:
 layout: default
-modal-id: 13
+modal-id: 10
 img: moldovan
 thumbnail: moldovanthumbnail
 alt: Moldovan Holy Land Map Collection

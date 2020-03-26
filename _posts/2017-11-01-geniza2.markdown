@@ -9,7 +9,7 @@ courtesy: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Co
   30, 2016.'
 link: https://www.flickr.com/photos/arts_at_penn/14018331445/
 layout: default
-modal-id: 13
+modal-id: 2
 img: geniza
 thumbnail: genizathumbnail
 alt: Cairo Geniza Fragment

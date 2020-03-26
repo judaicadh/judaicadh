@@ -7,7 +7,7 @@ subtitle:
 courtesy:
 link:
 layout: default
-modal-id: 11
+modal-id: 7
 img: zuker
 thumbnail: zukerthumbnail
 alt: Zuker Holy Land Travel Manuscript

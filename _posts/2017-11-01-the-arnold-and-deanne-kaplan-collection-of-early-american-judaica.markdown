@@ -9,7 +9,7 @@ courtesy: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Fl
   Lithograph, ca 1870. The Arnold and Deanne Kaplan Collection of Early American Judaica.
 link: https://www.flickr.com/photos/arts_at_penn/14018331445/
 layout: default
-modal-id: 2
+modal-id: 1
 img: kaplan
 thumbnail: kaplanthumbnail
 alt: Kaplan Collection

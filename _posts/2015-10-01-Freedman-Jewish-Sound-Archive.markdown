@@ -8,7 +8,7 @@ courtesy: Marc Chagall. “The Fiddler (Le violoniste),” 1912-1913. Collection
   Museum Amsterdam. (Collection Stedelijk Museum Amsterdam).https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
 link: https://www.facinghistory.org/resource-library/image/fiddler-1912-marc-chagall
 layout: default
-modal-id: 12
+modal-id: 9
 img: freedman
 thumbnail: freedmanthumbnail
 alt: Freedman Jewish Sound Archive

@@ -8,7 +8,7 @@ subtitle:
 courtesy:
 link:
 layout: default
-modal-id: 14
+modal-id: 11
 img: leeser
 thumbnail: leeserthumbnail
 alt: Jesselson-Kaplan American Genizah Project and the Gershwind-Bennett Isaac Leeser
