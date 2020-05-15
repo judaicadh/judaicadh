@@ -5,7 +5,7 @@ first_name: Laurie
 last_name: Allen
 layout: people
 name: Laurie Allen
-position: Director for Digital Scholarship
+position: Director for Digital Scholarship, Founding Member of Judaica DH at the Penn Libraries
 short_bio: ''
 slug: laurie-allen
 status: not_current

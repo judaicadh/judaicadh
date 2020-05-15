@@ -5,7 +5,7 @@ first_name: Laura
 last_name: Newman Eckstein
 layout: people
 title: Laura Newman Eckstein
-position: Judaica Digital Humanities Coordinator 
+position: Judaica Digital Humanities Coordinator, Founding Member of Judaica DH at the Penn Libraries
 short_bio: ''
 slug: lauraneckstein
 status: not_current

@@ -9,7 +9,7 @@ order: 1
 
 <a href="#what-is-judaica-dh">What is the Judaica DH at the Penn Libraries?</a>  
 <a href="#how-can-judaica-dh-fit-into-my-work-what-do-you-do">How can Judaica DH fit into my work? What do you do?</a>  
-<a href="#can-we-collaborate">Can we collaborate?</a>  
+<a href="#can-we-work-together-on-a-project">Can we work together on a project?</a>  
 <a href="#how-does-judaica-dh-fit-into-penn-libraries">How does Judaica DH fit into Penn Libraries?</a>  
 <a href="#how-do-i-contact-you">How do I contact you?</a>  
 <a href="#how-was-this-website-made">How was this website made?</a>  
@@ -19,17 +19,17 @@ order: 1
 Judaica Digital Humanities at the [Penn Libraries](http://library.upenn.edu) (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. 
 
 ## How can Judaica DH fit into my work? What do you do?
-* We pursue short-term digital scholarship projects related to Penn's Judaica collections through collaboration.
-* Along with our collaborators in the [Kislak Center](https://www.library.upenn.edu/kislak/about), we foster innovative approaches to integrating material and digital research and advocating for open data.
+* We pursue short-term digital scholarship projects related to Penn's Judaica collections.
+* Along with our partners in the [Kislak Center](https://www.library.upenn.edu/kislak/about), we foster innovative approaches to integrating material and digital research and advocating for open data.
 * As part of the [Center for Research Data and Digital Scholarship](https://guides.library.upenn.edu/digital-scholarship), we support new scholarly creation through data curation and management; develop and engage with new methods for digital research projects, including the digital humanities; and explore new publishing models, especially open access publishing.
 
-## Can we collaborate?
-We love to work together with other folks at Penn and beyond! Our decisions about longer-term research collaboration are based on the resources, skills, and interests/mission of all parties. Please [contact us](mailto:judaicadh@gmail.com) for an initial consult to discuss ideas for collaborations.
+## Can we work together on a project?
+We love to team up with other folks at Penn and beyond! Our decisions about longer-term research collaboration are based on the resources, skills, and interests/mission of all parties. Please [contact us](mailto:judaicadh@gmail.com) for an initial consult to discuss ideas.
 
 ## How does Judaica DH fit into Penn Libraries?
-JudaicaDH was formally founded in 2016, thanks to a gift from the Gershwind-Bennett families. We're part of [Penn Libraries](http://library.upenn.edu) and its mission to provide high-quality information resources and push the frontiers of innovation and empterprise to impact teaching, learning and research. 
+JudaicaDH was formally founded in 2016, thanks to a gift from the Gershwind-Bennett families. We're part of [Penn Libraries](http://library.upenn.edu) and its mission to provide high-quality information resources and push the frontiers of innovation and enterprise to impact teaching, learning and research. 
 
-Organizationally, we sit in the Library's Center for Research Data and Digital Scholarship unit led by AUL [Nicky Agate](people/nicky-agate). We frequently collaborate with our Library colleagues, including Kislak Center for Special Collections, Rare Books, and Manuscripts; Learning Design; Library Technology Services & Strategic Initiatives, and subject liaison librarians. We're also part of the  digital humanities ecosystem of teams and people doing digital humanities work at Penn.
+Organizationally, we sit in the Library's Center for Research Data and Digital Scholarship unit led by AUL [Nicky Agate](people/nicky-agate). Our project team members often include Library colleagues from Kislak Center for Special Collections, Rare Books, and Manuscripts; Learning Design; Library Technology Services & Strategic Initiatives, and subject liaison librarians. We're also part of the digital humanities ecosystem of teams and people doing digital humanities work at Penn.
 
 ## How do I contact you?
 For general inquiries, write to [judaicadh@gmail.com](mailto:judaicadh@gmail.com).
@@ -37,7 +37,7 @@ For general inquiries, write to [judaicadh@gmail.com](mailto:judaicadh@gmail.com
 We are also on Twitter at <a hfef="https://twitter.com/judaicadh">@judaicadh</a>.
 
 ## How was this website made?
-This website contains the collective effort of our [staff and collaborators](/people), past and present. It is a Jekyll site, and site code can be found on our [GitHub repository](github.com/judaicadh/judaicadh.github.io). We forked the site design of this website from the [Scholar's Lab at the University of Virginia](https://scholarslab.lib.virginia.edu).
+This website contains the collective effort of our [team](/people), past and present. It is a Jekyll site, and site code can be found on our [GitHub repository](github.com/judaicadh/judaicadh.github.io). We forked the site design of this website from the [Scholar's Lab at the University of Virginia](https://scholarslab.lib.virginia.edu).
 
 ## How did Judaica DH at Penn Libraries begin?
 View our [history](/history) page. 

@@ -5,7 +5,7 @@ first_name: Arthur
 last_name: Kiron
 layout: people
 title: Arthur Kiron
-position: Schottenstein-Jesselson Curator of Judaica Collections
+position: Schottenstein-Jesselson Curator of Judaica Collections, Founding Member of Judaica DH at the Penn Libraries
 short_bio: ''
 slug: arthur-kiron
 status: current
