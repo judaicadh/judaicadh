@@ -1,8 +1,8 @@
 ---
 author: admin
-date: 2020-07-23
+date: 2019-07-23
 layout: post
-slug: 2020-07-23-datadeepdive
+slug: 2019-07-23-datadeepdive
 title: "DataDeepDive: Angelology"
 categories:
 - Scribes of the Cairo Geniza

@@ -1,8 +1,8 @@
 ---
 author: admin
-date: 2020-07-09
+date: 2019-07-09
 layout: post
-slug: 2020-07-09-datadeepdive
+slug: 2019-07-09-datadeepdive
 title: "DataDeepDive: Writing Exercises"
 categories:
 - Scribes of the Cairo Geniza

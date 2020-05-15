@@ -53,12 +53,12 @@ conferences:
     date: July 2020
     type: Panel
     event: "DH 2020"
-  - title: "Judaica Digital Humanities at the Penn Libraries"
-    institution: Association of Jewish Libraries
-    location: Evanston, IL//Virtual
-    date: June/July 2020
-    type: 
-    event: "DH 2020"
+#  - title: "Judaica Digital Humanities at the Penn Libraries"
+#    institution: Association of Jewish Libraries
+#    location: Evanston, IL//Virtual
+#    date: June/July 2020
+#    type: 
+#    event: "AJL 2020"
   - title: "Interpreting Jewish History in Museums and Public History Settings"
     institution: National Council for Public History
     location: Atlanta, Georgia//Virtual

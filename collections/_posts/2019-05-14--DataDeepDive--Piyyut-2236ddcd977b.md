@@ -1,8 +1,8 @@
 ---
 author: admin
-date: 2020-05-14
+date: 2019-05-14
 layout: post
-slug: 2020-05-14-datadeepdive
+slug: 2019-05-14-datadeepdive
 title: "DataDeepDive: Piyyut"
 categories:
 - Scribes of the Cairo Geniza
