@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>#MCN2019: Cultivating Community with the Cairo Geniza | Judaica DH at the Penn Libraries </title>
+  
+  
+  <meta name="description" content="The following transcript and slides were part of a lightning talk at the Museum Computer Network conference in San Diego, November 2019.">
+  
+  <!-- Open Graph http://ogp.me/ -->
+  <meta property="og:title" content="#MCN2019: Cultivating Community with the Cairo Geniza">
+  <meta property="og:description" content="The following transcript and slides were part of a lightning talk at the Museum Computer Network conference in San Diego, November 2019.">
+  <meta property="og:site_name" content="Judaica DH at the Penn Libraries">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/blog/mcn-2019//">
+  
+
+  
+  
+    
+    
+        
+  <meta property="og:author" content="Emily Esten">
+        
+    
+  
+  
+
+  <!-- Twitter Cards https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="judaicadh">
+  <meta name="twitter:title" content="#MCN2019: Cultivating Community with the Cairo Geniza | Judaica DH at the Penn Libraries">
+  <meta name="twitter:description" content="The following transcript and slides were part of a lightning talk at the Museum Computer Network conference in San Diego, November 2019.">
+  
+
+  <link href="https://fonts.googleapis.com/icon?family=Raleway:200,400,400i,600,700,700i,900|Oswald:200,400,600,700|Inconsolata:400,700|VT323" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/print.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/zenburn.css">
+  <link rel="canonical" href="http://localhost:4000/blog/mcn-2019//">
+  <link rel="alternate" type="application/rss+xml" title="Judaica DH at the Penn Libraries" href="/feed.xml">
+  
+  <!--  favicon -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  
+  <!-- UVA Library Analytics -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.lib.virginia.edu/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '35']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End UVA Library Analytics Code -->
+
+  
+</head>
+
+
+	<body>
+		<div id="library-banner">
+    <a href="https://www.library.upenn.edu" aria-label="Penn Libraries" id="library-link"><img src="/assets/img/svg/penn-libraries%20copy.png" alt="Penn Libraries logo">
+
+</a>
+</div>
+<div class="flexnav-wrapper">
+	<div class="flexnav-main">
+		<div class="flexnav__home-icon">
+			<a href="http://localhost:4000" id="slab-logo" aria-label="Judaica DH at the Penn Libraries Home">
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="438.94" height="87.75" viewBox="0 0 438.94 87.75" enable-background="new 0 0 438.938 87.75" xml:space="preserve">
+          <path d="M29.33 63.06c0 12.25-7.7 20.45-23.11 24.62l-5.13-11c4.75-1.37 8.21-2.8 10.36-4.29 3.36-2.37 5.04-5.47 5.04-9.33 0-2.92-1.43-6.49-4.28-10.72 -2.6-3.85-5.2-7.74-7.8-11.65 -2.85-5.03-4.28-9.95-4.28-14.73 0-6.15 2.54-11.71 7.61-16.69 4.63-4.66 10.27-7.74 16.92-9.23l3.8 11.8c-10.33 2.8-15.49 7.49-15.49 14.08 0 3.5 1.4 7.5 4.3 11.84 2.6 3.8 5.2 7.6 7.8 11.4C27.91 54 29.3 58.6 29.3 63.06z"/>
+          <path d="M61.16 85.1c-3.6 1.11-6.19 1.67-7.77 1.67 -7.2 0-12.8-3.4-16.81-10.22 -4.01-6.81-6.02-16.38-6.02-28.7 0-12.32 2.01-21.89 6.02-28.7 4.01-6.81 9.61-10.22 16.81-10.22 1.58 0 4.2 0.6 7.8 1.67l-3.22 9.1c-1.58-0.56-3.1-0.84-4.55-0.84 -7.58 0-11.37 9.66-11.37 29 0 19.3 3.8 29 11.4 28.98 1.45 0 2.97-0.28 4.55-0.84L61.16 85.1z"/>
+          <path d="M100.15 85.93h-11.46V55.28H77.61v30.65H66.15V55.28h-3.88v-9.94h3.88V9.76h11.46v35.58h11.08V9.76h11.46V85.93z"/>
+          <path d="M140.41 47.85c0 25.95-5.84 38.92-17.52 38.92 -11.74 0-17.62-12.97-17.62-38.92 0-12.57 1.1-21.83 3.32-27.77 2.71-7.43 7.49-11.15 14.3-11.15 6.57 0 11.3 3.7 14.1 11.1C139.27 26.1 140.4 35.4 140.4 47.85zM129.05 47.85c0-19.32-2.05-28.98-6.16-28.98 -4.1 0-6.15 9.66-6.15 28.98 0 19.3 2 29 6.2 28.98C126.99 76.8 129 67.2 129 47.85z"/>
+          <path d="M169.45 85.93h-23.11V9.76h11.46v66.23h11.65V85.93z"/>
+          <path d="M213.17 85.93h-11.94l-1.32-6.78h-10.89l-1.32 6.78h-11.94l1.52-6.78h-4.55l2.27-9.94h4.36l13.45-61.12h3.32L213.17 85.93zM198.02 69.21l-3.51-18.86 -3.69 18.86H198.02z"/>
+          <path d="M248.45 83.7l-11.18 3.44 -10.61-31.21v30h-11.46V9.76h11.46c6.69 0 11.8 2.5 15.3 7.4 3.16 4.5 4.7 10.5 4.7 18.13 0 8.06-2.53 14.73-7.58 20L248.45 83.7zM234.81 35.3c0-10.4-2.72-15.6-8.15-15.6v32.6c2.4 0 4.36-1.58 5.87-4.74C234.05 44.4 234.8 40.3 234.8 35.3z"/>
+          <path d="M276.04 64.94c0 10.84-6.85 18.11-20.56 21.83l-4.55-9.75c4.23-1.24 7.29-2.54 9.19-3.9 3.03-2.04 4.55-4.77 4.55-8.18 0-2.6-1.26-5.76-3.79-9.47 -2.34-3.47-4.67-6.93-7.01-10.4 -2.52-4.46-3.79-8.82-3.79-13.1 0-5.51 2.24-10.46 6.73-14.86 4.17-4.15 9.19-6.87 15.06-8.17l3.41 10.5c-9.16 2.54-13.73 6.72-13.73 12.54 0 3.1 1.2 6.6 3.7 10.5 2.33 3.3 4.7 6.7 7 10.1C274.77 56.8 276 60.9 276 64.94z"/>
+          <path d="M298.87 3.7l-12.22 29.82 -6.82-2.04 6.82-31.4L298.87 3.7z"/>
+          <path d="M357.1 85.93H331.15V0.47h12.79v74.31h13.17V85.93z"/>
+          <path d="M401.6 85.93h-11.93l-1.33-6.78h-10.89l-1.33 6.78h-11.93l1.52-6.78h-4.55l2.27-9.94h4.36l13.45-61.12h3.31L401.6 85.93zM386.44 69.21l-3.5-18.86 -3.69 18.86H386.44z"/>
+          <path d="M438.87 66.05c0 6.26-1.67 11.12-5.02 14.59 -3.54 3.53-8.62 5.29-15.25 5.29h-11.46V9.76H418.6c6.63 0 11.7 2 15.3 6.04 3.35 3.8 5 9.2 5 15.98 0 8.61-2.24 14.4-6.73 17.4C436.63 52.9 438.9 58.6 438.9 66.05zM427.79 31.78c0-8.05-3.06-12.07-9.19-12.07v25.64c3.15 0 5.48-1.04 6.96-3.11C427.04 40.2 427.8 36.7 427.8 31.78zM427.79 66.1c0-7.18-3.06-10.77-9.19-10.77v20.71C424.72 76 427.8 72.7 427.8 66.05z"/>
+</svg>
+
+            </a>
+		</div>
+
+		<ul class="flexnav-main-grid">
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/">Home</a></li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/about/">About</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/work/">Projects</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/people/">People</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/blog/">Blog</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/cv/">CV</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/search/">Search</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/libraries/">Penn Libraries</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/charter/">Charter</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/history/">History</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/sitemap/">Site Map</a></li>
+		
+		
+		
+			<li class="flexnav__more-menu">
+				<div class="flexnav-more__prompt" aria-label="More menu items">More<span>&rsaquo;</span></div>
+				<ul class="flexnav-more__wrapper">
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/">Home</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/about/">About</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/work/">Projects</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/people/">People</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/blog/">Blog</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/cv/">CV</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/search/">Search</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/libraries/">Penn Libraries</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/charter/">Charter</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/history/">History</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/sitemap/">Site Map</a></li>
+				
+				
+				
+				</ul>
+			</li>
+		</ul>
+	</div> <!-- end content -->
+</div> <!-- end wrapper -->
+
+
+		<main id="main" role="main">
+			
+<article class="post-wrapper">
+
+  <div class="post-main-content">
+
+    <div class="post__big-title" id="print-byline"><span aria-label="page type">Judaica DH at the Penn Libraries Blog //</span>#MCN2019: Cultivating Community with the Cairo Geniza</div>
+
+    <div class="post__big-title" id="non-print-byline"><span aria-label="page type">Blog //</span>#MCN2019: Cultivating Community with the Cairo Geniza</div>
+
+    <!-- make span an <a> tag to blog home and put h1 tags around page.title w/ the font styles when finalizing -->
+
+    <div class="post__metadata">
+
+      
+      <div class="post-meta__quote">&ldquo;A presentation by Judaica DH Coordinator Emily Esten from the MCN2019 conference.&rdquo;</div>
+      
+
+      <div class="post-meta__author">
+        <span>By</span> <a href="/people/emily-esten/">Emily Esten</a> on <time datetime="2019-11-07T00:00:00-05:00">November 7, 2019</time>
+      </div>
+
+      
+<!--  
+      <div class="post-meta__categories">Filed to:
+        
+        
+         scribes of the cairo geniza,
+        
+        
+         presentations
+        
+      </div>
+      
+-->
+
+<!--    
+      <div class="post-meta__tags">Tagged as:
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#scribes-of-the-cairo-geniza">Scribes of the Cairo Geniza</a>,
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#conferences">Conferences</a>
+        
+      </div>
+      
+-->
+
+    </div> <!-- end metadata -->
+
+    <!-- text of post -->
+    <div class="post__content">
+        
+      <p><em>The following transcript and slides were part of a lightning talk at the Museum Computer Network conference in San Diego, November 2019.</em></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*iusdLDk47HgWTJys_Mj7lQ.jpeg" alt="" /></p>
+
+<p>Every day when I go to work, before I check my email or start coding or talk to my supervisor — the first thing I do is dive into the chat forums, or Talk boards. I’m not slacking off — I’m the project coordinator for Scribes of the Cairo Geniza, a crowdsourcing project led by Penn Libraries and the Zooniverse.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*bm_xnx6OiYlzrGm-0FvB_w.jpeg" alt="" /></p>
+
+<p>This project seeks to identify, classify, and transcribe medieval Hebrew and Arabic fragments once located at a historical synagogue in Cairo, Egypt. These fragments are now located in libraries around the world, from St. Petersburg to Cambridge to Los Angeles, and virtually all of them have been digitized. Over two years, we’ve mobilized nearly 8,000 people in reviewing over 50,000 fragments. Our site includes Arabic, Hebrew, and English interfaces for the world to participate.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*WHmcQW9X1Z77UHArhvwX1A.jpeg" alt="" /></p>
+
+<p>This project in itself could be an entire lightning talk, but what I want to focus in on here are the Talk boards. That’s where I spend a lot of my time. Most Talk boards for crowdsourcing projects are used for troubleshooting issues, or specific help questions. But the volunteers in this project have made use of the Talk boards to create their own classifications systems, work together to teach each other, and generate conversations about Jewish history and culture, linguistics, and the work of libraries in the preservation of materials. We have participants commenting on the Talk boards in all three languages of our project. And with all of these people talking to each other, it’s made me think about what fostering public participation in research really looks like once you have a crowdsourcing project up and running.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*wYz33cTIBGw1y81GNlKZdw.jpeg" alt="" /></p>
+
+<p>So I want to show you two examples of what I mean. For volunteers who don’t read Hebrew or Arabic, visual features on these fragments are often striking — like this alama, outlined in the red rectangle in the corner. This visual characteristic is important to understanding and identifying fragments, but there aren’t nearly enough of them for our research team to make it a task or question in the project.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*yFQerEmqR5ramxU4M1zQeQ.jpeg" alt="" /></p>
+
+<p>But volunteers started noticing an alama here or there, and one volunteer contacted me, asking if they could have a list of all the fragments in the project. So we said yes, handed over our data, and in about two weeks they came back with a tag, a definition for our glossary, and a collection of fragments they identified as definitely having an alama or possibly having the feature.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*HN6zz92fHT73M7XruWX-Ow.jpeg" alt="" /></p>
+
+<p>And the takeaway from this moment was that it demonstrated user participation in project-level research, trusting engaged volunteers with tasks — helping them on their way to achieving researcher status. They’re asking questions like a historian, so why not help them on their way?</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*aIjzNZxsck-KNUOHelhogg.jpeg" alt="" /></p>
+
+<p>On the other side of things, sometimes volunteers are interested in questions our team hasn’t spent a lot of time thinking about. Volunteers generated dozens of tags related to art, doodles, decorations, or drawings. And one volunteer was so impressed by the variety of artwork, she asked others to join her in creating a collection. So I reached and supported her, sharing all of these tagged fragments — and she, in turn, developed item-level metadata describing what she saw.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*T9iwi4tsPfS3WMNMYJ0Kuw.jpeg" alt="" /></p>
+
+<p>And as she did this, and wanted to promote what she found, our team shared the fragments &amp; descriptions on social media — which wound up back in the hands of our project partners, amazed by things in their collections they hadn’t known existed before.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*TnlaMUBuQ5tRAlyBrLJS6g.jpeg" alt="" /></p>
+
+<p>Which takes me to the other side of the spectrum: opening your collection to answer the research questions you intended is one thing, but following user-generated research can help spark new interests that we haven’t even begun to ask as teams or institutions.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*utDfmsMM8JonwJ77b9DDQg.jpeg" alt="" /></p>
+
+<p>So crowdsourcing projects are certainly not new to museum professionals at this point, and they are a great space for public participation in research. But having this open dialogue space, where people feel empowered to write in their languages, ask questions, and take on responsibility in a project supports that work is what takes this unique project to another level. It’s helped our project grow into a space of learning, communication, and collective ownership of the data that’s created. It takes a lot of investment on our team’s end to be responsive, in-the-know, and OK with sharing things in-progress, but it’s also incredibly rewarding to see how volunteers can inform, develop and transform a project over time.</p>
+
+<p>By <a href="https://medium.com/@judaicadh">Judaica DH at the Penn Libraries</a> on <a href="https://medium.com/p/eaf5182c28cd">November 7, 2019</a>.</p>
+
+<p><a href="https://medium.com/@judaicadh/mcn2019-cultivating-community-with-the-cairo-geniza-eaf5182c28cd">Canonical link</a></p>
+
+<p>Exported from <a href="https://medium.com">Medium</a> on April 14, 2020.</p>
+
+    </div>
+
+    <footer class="post__credits">
+      
+        <!-- cite post -->
+        <div class="post-credits__citation">
+            <span>Cite this post: </span><a href="/people/emily-esten/">Emily Esten</a>. &ldquo;#MCN2019: Cultivating Community with the Cairo Geniza&rdquo;. Published November 07, 2019. <a href="http://localhost:4000/blog/mcn-2019/">http://localhost:4000/blog/mcn-2019/</a>. Accessed on
+<script>
+<!--
+var now = new Date();
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number) {
+    return (number < 1000) ? number + 1900 : number;
+}
+today =  months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+document.write(today);
+-->
+</script>.
+        </div>
+
+    </footer> <!-- end post footer -->
+  </div> <!-- end post-main-content -->
+</article> <!-- end post wrapper -->
+
+		</main>
+
+		<footer class="footer-wrapper">
+  <div class="footer-main-grid">
+
+    <div class="footer__to-top">
+        <a href="#main" aria-label="Back to top">
+          <img src="/assets/img/svg/thin-up-arrow-white.svg" alt="Up arrow">
+          <span>Back<br/>to top</span>
+        </a><br><br>
+    </div>
+
+    <div class="footer__sitemap">
+      <div class="footer-map__title">Explore</div>
+      <div class="footer-map__links">
+        <a href="http://localhost:4000">Home</a>
+        <a href="http://localhost:4000/about">About</a>
+        <a href="http://localhost:4000/work">Projects</a>
+        <a href="http://localhost:4000/blog">Blog</a>
+      </div>
+    </div>
+
+    <div class="footer__connect">
+      <div class="footer-connect__title">Connect</div>
+      <div class="footer-connect__social">
+        <a href="https://www.facebook.com/judaicadh/">
+          <img src="/assets/img/svg/facebook-white.svg" alt="Facebook icon">
+          <span>Facebook</span>
+        </a>
+        <a href="https://twitter.com/judaicadh">
+          <img src="/assets/img/svg/twitter-white.svg" alt="Twitter icon">
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.instagram.com/judaica_dh/">
+          <img src="/assets/img/svg/glyph-logo_May2016.png" alt="Instagram icon">
+          <span>Instagram</span>
+        </a>
+        <a href="https://github.com/judaicadh">
+          <img src="/assets/img/svg/github-white.svg" alt="Github icon">
+          <span>Github</span>
+        </a>
+        <a href="mailto:judaicadh@gmail.com">
+          <img src="/assets/img/svg/envelope-outline-white.svg" alt="Email icon">
+          <span>Email us</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__contact">
+      <div class="footer-contact__title">Contact</div>
+      <div class="footer-contact__email"><span>Email:</span><a href="mailto:judaicadh@gmail.com">judaicadh@gmail.com</a></div>
+      <div class="footer-contact__address"><span>Address:</span>3420 Walnut Street<br/>Philadelphia, PA<br/>19104-6206</div>
+      <div class="footer-contact__phone"><span>Phone:</span></div>
+    </div>
+
+    <div class="footer__logos">
+      <a class="footer-logo__uva" href="https://www.library.upenn.edu" aria-label="Penn Libraries Home">
+        <img src="/assets/img/svg/penn-libraries.png" alt="Penn Libraries logo">
+      </a>
+      <a class="footer-logo__license" rel="license" href="http://creativecommons.org/licenses/by/4.0/" aria-label="Creative Commons License">
+        <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg"/>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/lib/hammer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+        
+
+	</body>
+
+</html>

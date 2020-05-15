@@ -1,0 +1,8 @@
+{% assign posted_date = page.date | date: "%Y" | plus: 0 %}
+{% assign end_date = 2019 %}
+
+{% if posted_date < end_date %}
+
+<div ID="migration-alert">We migrated these blog posts to a new platform, and are working to correct formatting errors in older blog posts as a result. If you encounter an error, please send an email to <a href="mailto:judaicadh@gmail.com?subject=Found a blog formatting error">judaicadh@gmail.com</a>. Thanks!</div>
+
+{% endif %}

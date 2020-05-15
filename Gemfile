@@ -1,18 +1,22 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby '2.6.0'
 
-gem "jekyll", "3.4.3"
+gem "jekyll", "~>3.7"
+gem "nokogiri", ">= 1.8.5"
+gem "jekyll-paginate-v2", "~>1.9"
 
-# to use GitHub Pages
-# gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
+# Jekyll Plugins
 group :jekyll_plugins do
-   gem "jekyll-feed"
-   gem "jekyll-sitemap"
-   gem "jekyll-redirect-from"
-   gem "jekyll-seo-tag"
+   gem "jekyll-feed", "~> 0.9"
+   gem "jekyll-sitemap","~>1.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'rake'
+gem "html-proofer"
+gem 'json'
+gem 'front_matter_parser'
+gem 'ruby-progressbar'
+gem 'kramdown'

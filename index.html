@@ -1,9 +1,74 @@
 ---
-title: Judaica DH
-permalink: "/"
 layout: default
+title: Home
 ---
 
-  {% include head.html %}
- 
-    {% include header.html %}
+<article class="home-wrapper">
+	<header class="home-landing-wrapper">
+<!-- {% include snowday.html %} -->
+		<div class="home-landing__big-title">
+			<div class="home-title__text">
+				<span class="show-if-big--css">Judaica Digital Humanities<br/>at the Penn Libraries</span>
+				<span class="show-if-small--css">Judaica<br/>Digital<br/>Humanities<br/>at the Penn Libraries<br/></span>
+				<object type="image/svg+xml" data="{{ '/assets/img/svg/thin-down-arrow-white.svg' | relative_url }}" alt="Down arrow" id="hero-arrow">
+				Your browser does not support SVG
+			</object>
+			</div>
+		</div>
+		<div class="home-landing__hero-text">
+			<div class="home-hero__description">
+				<h3>What We Do</h3>
+				<p>We're a digital scholarship program at <a href="http://library.upenn.edu">Penn Libraries</a> for creative research and development in Jewish studies, informed by digital humanities, Jewish studies , and public scholarship.</p>
+				<p>Thanks to a start-up gift from the Gershwind-Bennett Families and gifts from Arnold and Deanne Kaplan, our collaborative projects encourage scholars and communities to think in new and creative ways about what we can DO with data that we have produced. To be clear: our understanding of DH as “what we can do with data” is not limited to specific applications like text-mining but to an unlimited potential number of ways in which to recycle and play with data.</p>
+			</div>
+		</div>
+	</header>
+
+	<main class="home-main-content">
+
+		<!-- section 1: -->
+
+		<!-- featured projects? featured blog post? featured events? -->
+		
+		<section class="home__faq">
+<div class="home-faq__title"><a href="/blog">Blog</a></div>
+<div class="home-faq__subtitle">Check out <a href="/blog/">our latest posts</a> including:</div>
+
+<ul class="home-faq__questions">
+{% for post in site.posts limit:5 %}
+	{% capture authorstring %}
+  {% include author-name.html authorid=post.author %}
+  {% endcapture %}
+<li><a href="{{ post.url }}">"{{ post.title }}"</a> by {{ authorstring | strip }}</li>
+{% endfor %}
+</ul>
+
+<div class="home-faq__cta"><!--Find answers to these questions and more:<br/--><a href="/blog/">Read More</a></div>
+</section>
+
+		<!-- library: -->
+		<section class="home__library">
+			<div class="home-lib__title"><a href="/library/">Penn Libraries</a></div>
+			<div class="home-lib__content">
+				<a href="http://library.upenn.edu" class="uva-library-logo-link"><img src="/assets/img/decorative/penn-libraries.png" alt="Penn Libraries"></a>
+				<p><a href="https://www.library.upenn.edu/">Penn Libraries</a> is a diverse community striving for inclusive excellence, and pursue the libraries mission to partner with communities at Penn and beyond to produce, preserve, and provide access to knowledge. Together we build dynamic resources, tools, and expertise that inspire critical inquiry and creative expression.</p>
+				<p>Visit our <a href="/library">Library collaborations page</a> to find out about the many ways we co-create with and depend on our amazing Library colleagues, or jump to the <a href="http://library.upenn.edu">Penn Libraries website</a>.</p>
+			</div>
+		</section>
+
+		<!-- contact us: -->
+		<section class="home__contact">
+			<div class="home-contact__title">Contact Us</div>
+
+			<div class="home-contact__wrapper">
+				<div class="home-contact__content">
+					<p>Want to learn more? Want to collaborate?</p>
+					<p>Email us at <a href="mailto:judaicadh@gmail.com">judaicadh@gmail.com</a> with questions, or if you already know you want to collaborate with us.</p>
+				</div>
+			</div> <!-- end contact content -->
+		</section> <!-- end contact -->
+
+		<!-- section 3: -->
+		</section> <!-- end sections -->
+	</main> <!-- end main content -->
+</article> <!-- end wrapper -->

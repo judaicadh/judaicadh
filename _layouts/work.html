@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% assign colors = site.data.work[page.slug] %}
+{% assign title_array = page.title | split: ' ' %}
+
+<article class="project-content-wrapper">
+	<div class="project-content__img">
+		<div><img src="{{ '/assets/img/work/' | append: page.banner-img }}" alt="{{ page.title }}"></div>
+	</div>
+	<div class="project-content__title">
+		<span>{{ page.title | replace: ' - ', ': ' }}</span>
+	</div>
+	<div class="project-content__metadata" style="flex-flow: column nowrap;">
+		{% if page.start-year == page.end-year or page.end-year.blank? %}
+		<div class="project-content__year"><span>When:</span><div>{{ page.start-year }}</div></div>
+		{% else %}
+		<div class="project-content__year"><span>When:</span><div>{{ page.start-year }}-{{ page.end-year }}</div></div>
+		{% endif %}
+		{% if page.research-category %}
+		<div class="project-content__category"><span>Initiatives:</span>
+			{% for research-category in page.research-category %}	
+				{% assign apage = site.work | where:'slug', research-category | first %}
+				<a href="{{ site.baseurl }}{{ apage.url }}">{{ apage.title }}</a>
+			{% endfor %}
+		</div>
+		{% endif %}
+				{% if page.img-source-url %}<div class="project-content__category"><span>Image Source: </span><a href="{{ page.img-source-url }}">{{ page.img-source }}</a></div>{% endif %}
+		{% if page.link %}<div class="project-content__cta"><a href="{{ page.link }}">Visit project</a></div>{% endif %}
+	</div>
+	<div class="project-content__text">{{ content }}
+	  <br>
+	  <div name="related_posts">
+	  {% assign site_posts = site.posts %}
+	  {% assign project_posts = site_posts | where: 'tags', page.title %}
+	  {% if project_posts != empty %}
+	    <br>
+	       <strong>Related Posts</strong>
+	       <ul>
+	        {% for post in project_posts %}
+	          {% capture authorstring %}
+	          {% include author-name.html authorid=post.author %}
+	          {% endcapture %}
+	          <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> by {{ authorstring | strip }}</li>
+	        {% endfor %}
+	        </ul>
+	         {% endif %}
+	  </div>
+	
+	{% if page.status == 'initiative' %}
+		<div name="related_projects">
+		{% assign site_work = site.work %}
+			{% assign project_work = site_work | where: 'research-category', page.slug %}
+			{% if project_work != empty %}
+			<br>
+				 <strong>Related Projects</strong>
+				 <ul>
+					{% for post in project_work %}
+						<li> <a href="{{ site.url }}/work/{{ post.slug }}">{{ post.title }}</a></li>
+					{% endfor %}
+					</ul>
+			{% endif %}
+		{% endif %}
+		</div>
+		
+		
+		</div>
+		
+	<div class="project-content__collaborators">
+		<span>Collaborators:</span>
+		<div class="project-collab__people">
+		{% for person in page.collaborators %}
+		<ul>
+			<li>{% if person.slug %}<a href="{{ site.baseurl }}/people/{{person.slug}}/">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</li>
+			{% if person.role %}<li>{{ person.role }}</li>{% endif %}
+		</ul>
+		{% endfor %}
+		</div>
+	</div>
+</article>
+
+<script>
+	var textLinks = document.querySelectorAll(".project-content__text p a");
+	var hoverLinks = document.querySelectorAll(".project-content__text p a:hover");
+	for (let a of textLinks) {
+		a.style.borderBottomColor = "{{ colors[0].color }}";
+	}
+	for (let a of hoverLinks) {
+		a.style.backgroundColor = "{{ colors[0].color }}";
+	}
+</script>

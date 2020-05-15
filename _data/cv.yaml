@@ -1,0 +1,266 @@
+---
+########### Meta ###########
+meta:
+  link: ""
+
+########### Contact ###########
+contact:
+  name: Judaica Digital Humanities at the Penn Libraries
+  url: judaicadh.github.io
+  mail: judaicadh@gmail.com
+  twitter: \@judaicadh
+  github: github.com/judaicadh
+  facebook: facebook.com/judaicadh
+  instagram: instagram.com/judaica_dh
+
+########### Publications ###########
+monographs:
+
+edited:
+
+journals:
+#  - article: "Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900.” Journal of Open Humanities Data 6, no. 1, (2020). (forthcoming)"
+#    link: ""
+#  - article: "Esten, Emily. “Scribes, Scholars, & Scripts: Reviewing Data from Scribes of the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 5, no. 2, (2020). (forthcoming)"
+#    link: ""
+  - article: "Eckstein, Laura Newman. “Of Scribes and Scripts: Citizen Science and the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 3, no. 1, (2018): 208-214."
+    link: "https://repository.upenn.edu/mss_sims/vol3/iss1/9"
+
+datasets:
+#  - title: "Esten, Emily. “Dataset: Union List of Nineteenth-Century Jewish Serials Published in the United States”. May 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/judaica_americana/3/"
+#    venue: "Penn Libraries, University of Pennsylvania"
+#    date: "May 2020"
+#    url: "https://repository.upenn.edu/judaica_americana/3/"
+  - title: "Esten, Emily. “Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019”. February 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/cairogeniza/1/"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "January 2020"
+    url: "https://repository.upenn.edu/cairogeniza/1/"
+  - title: "Esten, Emily. “Dataset: Judaica Americana: A Bibliography of Publications to 1900”. October 2019. Distributed by Scholarly Commons. https://repository.upenn.edu/judaica_americana/2/"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "October 2019"
+    url: "https://repository.upenn.edu/judaica_americana/2/"
+
+web:
+
+other:
+
+########### Talks ###########
+
+conferences:
+  - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
+    institution: Alliance of Digital Humanities Organizations
+    location: Ottawa, Ontario
+    date: July 2020
+    type: Panel
+    event: "DH 2020"
+  - title: "Judaica Digital Humanities at the Penn Libraries"
+    institution: Association of Jewish Libraries
+    location: Evanston, IL//Virtual
+    date: June/July 2020
+    type: 
+    event: "DH 2020"
+  - title: "Interpreting Jewish History in Museums and Public History Settings"
+    institution: National Council for Public History
+    location: Atlanta, Georgia//Virtual
+    date: March 2020
+    type: Twitter Chat
+    event: "NCPH 2020"
+    url: "{{site.baseurl}}/blog/2020-03-31-ncph2020/"
+  - title: "Cultivating Community with the Cairo Geniza"
+    institution: Museum Computer Network
+    location: San Diego, California
+    date: November 2019
+    type: Lightning Talk
+    event: "MCN 2019"
+    url: "{{ site.baseurl }}/blog/mcn-2019/"
+  - title: "Crowdsourcing Data: Scribes of the Cairo Geniza"
+    institution: Penn Information Systems & Computing
+    location: Philadelphia, PA
+    date: June 2019
+    type: Talk
+    event: "IT Staff Convention 2019"
+    
+community:
+  - title: "Adult Ed - Scribes of the Cairo Geniza Project"
+    institution: Temple Adath Israel
+    location: Philadelphia, PA
+    date: January 2020
+    url: ""
+  - title: "Scribes of the Cairo Geniza"
+    institution: Congregation Neveh Shalom
+    location: Portland, OR
+    date: January 2019
+    url: "https://www.youtube.com/watch?v=pa5-ewKOwNY&list=PLnDafZMfagPYDPXp3G0vmAqrAIzTRTWxg"
+
+transcribeathons:
+  - institution: Columbia University Libraries
+    location: Virtual
+    date: "April 2020"
+    type: Event
+    url: "{{ site.baseurl }}/blog/2020-04-14-columbia/"
+  - institution: Princeton Geniza Lab
+    location: Princeton University (Princeton, New Jersey)
+    date: "November 2019"
+    url: "{{ site.baseurl }}/blog/2019-11-13-princeton-geniza-lab/"
+
+########### Awards ###########
+awards:
+  - title: MCN Scholar
+    date: "2019"
+    secondary: "For Museum Computer Network Annual Conference"
+    context: "Each year, the MCN Scholarship Program awards scholarships to 15 qualified applicants from the cultural sector to attend the MCN Annual Conference. This was awarded to Emily Esten for her work on [Scribes of the Cairo Geniza](/work/cairo-geniza)"
+
+########### Digital ###########
+projects:
+
+exhibitions:
+
+
+########### Membership and Service ###########
+service:
+
+membership:
+
+
+########### Press ###########
+press:
+  - article: "" # full Chicago-style citation
+    link: "" # always include link
+    author: # last name, first name 
+    title: # include quotes
+    publisher: # the publisher of the citation
+    date: #DD Month YYYY
+    place: #Web?
+    type: # cairogeniza, seder, general 
+  - article: "Alperin, Michele. “Do it yourself” New Jersey Jewish News, 27 November 2019. Web."
+    author: "Alperin, Michele"
+    title: "Do it yourself."
+    publisher: "New Jersey Jewish News"
+    date: "27 November 2019"
+    place: "Web"
+    link: "https://njjewishnews.timesofisrael.com/do-it-yourself/"
+    type: "cairogeniza"
+  - article: "Alperin, Michele. “Pitching in to unlock mysteries of Cairo Geniza.” New Jersey Jewish News, 27 November 2019. Web."
+    link: https://njjewishnews.timesofisrael.com/pitching-in-to-unlock-mysteries-of-cairo-geniza/
+    author: "Alperin, Michele."
+    title: "“Pitching in to unlock mysteries of Cairo Geniza.”"
+    publisher: "New Jersey Jewish News"
+    date: "27 November 2019"
+    place: "Web"
+    type: cairogeniza
+  - article: "Blickhan, Sam. “Scribes of the Cairo Geniza team publishes blog series reviewing Sorting data.” Daily Zooniverse, 28 March 2019. Web."
+    author: "Blickhan, Sam"
+    title: "“Scribes of the Cairo Geniza team publishes blog series reviewing Sorting data.”"
+    publisher: "Daily Zooniverse, 28 March 2019. Web."
+    date:
+    place: "Web"
+    link: "https://daily.zooniverse.org/2019/03/28/scribes-of-the-cairo-geniza-team-publishes-blog-series-reviewing-sorting-data/"
+    type: cairogeniza
+  - article: "Blumenthal, Itay. “Arabic in Hebrew Letters: A 1,000-year-old Haggadah from Cairo.” Ynet, 28 March 2018. Web. (Published in Hebrew)"
+    link: "https://www.ynet.co.il/articles/0,7340,L-5203705,00.html"
+    type: seder
+    author: "Blumenthal Itay"
+    title: "“Arabic in Hebrew Letters: A 1,000-year-old Haggadah from Cairo.”"
+    publisher: "Ynet, 28 March 2018. Web. (Published in Hebrew)"
+    date:
+    place: "Web"
+  - article: "Buongiorno, Caitlyn, Leslie Grove, and Andrew Salata. “Scribes of the Cairo Geniza.” In Into The Zooniverse: 2019, 1st ed., 37–37. Chicago, IL: Zooniverse - Adler Planetarium, 2019. http://bit.ly/zoonibook19-pdf."
+    link: "http://bit.ly/zoonibook19-pdf"
+    author: "Buongiorno, Caitlyn, Leslie Grove, and Andrew Salata"
+    title: "“Scribes of the Cairo Geniza.”"
+    publisher: # the publisher of the citation
+    date: "2019"
+    place: #Web?
+    type: cairogeniza
+  - article: "Chizhik-Goldschmidt, Avital. “This Amazing Project Invites The Public to Help Unlock Medieval Jewish Documents.” Forward, 11 August 2017. Web."
+    link: "https://forward.com/life/faith/379696/this-amazing-project-invites-the-public-to-help-unlock-medieval-jewish-docu/"
+    type: cairogeniza
+    author: "Chizhik-Goldschmidt, Avital"
+    title: "“This Amazing Project Invites The Public to Help Unlock Medieval Jewish Documents.”"
+    publisher: "Forward, 11 August 2017. Web."
+    date:
+    place: "Web"
+  - article: "Humanities for All. “A Typology of the Publicly Engaged Humanities.” National Humanities Alliance, 2018. Web."
+    link: "https://humanitiesforall.org/features/five-types-of-publicly-engaged-humanities-work-in-u-s-higher-education/"
+    type: cairogeniza
+  - article: "Israeli Portal for Agriculture and the Environment. “The Cairo Geniza Project presents: Passover Haggadah from the 11th century.” Agrisupportonline, 05 April 2018. Web."
+    link: "http://israel.agrisupportonline.com/news/csv/csvread.pl?show=7075&mytemplate=tp2"
+    type: seder
+    author: "Israeli Portal for Agriculture and the Environment"
+    title: "“The Cairo Geniza Project presents: Passover Haggadah from the 11th century.”"
+    publisher: "Agrisupportonline, 05 April 2018. Web."
+    date:
+    place: "Web"
+  - article: "JNi.Media. “Cairo Genizah Project Reveals 11th Century Passover Haggadah.” JewishPress.com, 28 March 2018. Web."
+    link: "https://www.jewishpress.com/news/religion/cairo-genizah-project-reveals-11th-century-passover-haggadah/2018/03/28/"
+    type: seder
+    author: "JNi.Media"
+    title: "“Cairo Genizah Project Reveals 11th Century Passover Haggadah.”"
+    publisher: "JewishPress.com, 28 March 2018. Web."
+    date:
+    place: "Web"
+  - article: "Leavens, Sara. “Penn Libraries Announces Crowd-Sourced Scholarship Endeavor, “Scribes of the Cairo Geniza”.” Penn Today, 11 August 2017. Web."
+    link: "https://penntoday.upenn.edu/news/penn-libraries-announces-crowd-sourced-scholarship-endeavor-scribes-cairo-geniza%C2%A0"
+    type: cairogeniza
+    author: "Leavens, Sara"
+    title: "“Penn Libraries Announces Crowd-Sourced Scholarship Endeavor, “Scribes of the Cairo Geniza”.”" 
+    publisher: "Penn Today, 11 August 2017. Web."
+    date:
+    place: "Web"
+  - article: "Moeller, Eric. “The Cairo Geniza: Studying the ancients in the digital age.” The Daily of the University of Washington, 21 May 2019. Web."
+    link: "http://www.dailyuw.com/news/article_821d2100-7b65-11e9-a397-57e72ae496c2.html"
+    type: cairogeniza
+    author: "Moeller, Eric"
+    title: "“The Cairo Geniza: Studying the ancients in the digital age.”"
+    publisher: "The Daily of the University of Washington, 21 May 2019. Web."
+    date:
+    place: "Web"
+  - article: "Schechter, Dave. “Opening Windows on Jewish Life Centuries Ago.” Atlanta Jewish Times, 5 October 2018. Web."
+    link: "https://atlantajewishtimes.timesofisrael.com/opening-windows-on-jewish-life-centuries-ago1/" 
+    type: cairogeniza
+    author: "Schechter, Dave"
+    title: "Opening Windows on Jewish Life Centuries Ago."
+    publisher: "Atlanta Jewish Times"
+    date: "5 October 2018"
+    place: "Web"
+  - article: "Shepard, Louisa. “Reclaiming a fragmented history” Penn Today, 12 June 2018. Web."
+    link: "https://penntoday.upenn.edu/news/reclaiming-fragmented-history"
+    type: cairogeniza
+    author: "Shepard, Louisa"
+    title: "Reclaiming a fragmented history"
+    publisher: "Penn Today"
+    date: "12 June 2018"
+    place: "Web"
+  - article: "Schnessel, Silvia. “Egyptian Haggadh of the Eleventh Century Unearths Jewish Life in the Middle Ages.” enlacejudío, 30 March 2018. Web. (Published in Spanish)"
+    link: "https://www.enlacejudio.com/2018/03/30/hagada-egipcia-siglo-xi-desentierra-vida-judia/"
+    type: seder
+    author: "Schnessel, Silvia"
+    title: "Egyptian Haggadh of the Eleventh Century Unearths Jewish Life in the Middle Ages"
+    publisher: "enlacejudío"
+    date: "30 March 2018"
+    place: "Web. (Published in Spanish)"
+  - article: "Stiteler, Gretchen. “Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israe, Synagogue”. Penn Libraries News, 11 February 2020. Web."
+    link: "https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue"
+    type: cairogeniza
+    author: "Stiteler, Gretchen"
+    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israe, Synagogue”." 
+    publisher: "Penn Libraries News, 11 February 2020. Web."
+    date: "11 Feburary 2020"
+    place: "Web"
+  - article: "Vilanova, Sara. “Penn Libraries’ Innovative Digital Humanities Collaboration, “Scribes of the Cairo Geniza,” Enters a New Phase”.” Penn Libraries News, 4 March 2019. Web."
+    link: "https://pennlibnews.wordpress.com/2019/03/04/penn-libraries-innovative-digital-humanities-collaboration-scribes-of-the-cairo-geniza-enters-a-new-phase/"
+    type: cairogeniza
+    author: "Vilanova, Sara"
+    title: "Penn Libraries’ Innovative Digital Humanities Collaboration, “Scribes of the Cairo Geniza,” Enters a New Phase"
+    publisher: "Penn Libraries News"
+    date: "4 March 2019"
+    place: "Web"
+  - article: "Yudelson, Larry. “Raiders of the Lost Geniza Want You!” Jewish Standard, 10 August 2017. Web."
+    link: "http://www.rylandsgenizah.org/"
+    type: cairogeniza
+    author: "Yudelson, Larry"
+    title: "Raiders of the Lost Geniza Want You!"
+    publisher: "Jewish Standard"
+    date: "10 August 2017"
+    place: "Web"
+  

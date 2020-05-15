@@ -1,0 +1,35 @@
+/* Color Palette: */
+
+/* Key:
+1. grape: 			    bright purple
+2. pale aqua: 		    light blue, hint of gray
+3. diamond: 		    light turquoise
+4. dark pastel purple:  bright purple, easter egg-ified
+5. medium sky blue:     medium turquoise
+6. text gray:			dark gray, 25% lightness
+7. nav gray:			darker gray, 13% lightness
+*/
+
+/* HSL: */
+$grape: 				#95001a;
+$pale-aqua: 			#82afd3;
+$diamond: 				#82afd3;
+$darkpastelpurple:  	#95001a;
+$medskyblue: 			#82afd3;
+
+/* Adjusted: */
+$brightgrape:			#95001a;
+
+/* Custom: */
+$textgray: 				hsla(186, 1%, 25%, 1); // default text
+$navgray:				hsla(186, 0%, 13%, 1); // dark backgrounds
+
+/* RGB: */
+$rgb-grape: 			#95001a;
+$rgb-pale-aqua: 		#82afd3;
+$rgb-diamond: 			#82afd3;
+$rgb-darkpastelpurple:  #95001a;
+$rgb-medskyblue: 		#82afd3;
+
+/* Source:  Coolors Exported Palette
+   URL:		coolors.co/6f2dbd-b8d0eb-b9faf8-9a77d2-75e3ef */

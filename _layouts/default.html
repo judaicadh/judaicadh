@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+	{% include head.html %}
 
+	<body>
+		{% include navbar.html %}
 
-    <body id="page-top" class="index">
-	    
-	{% include navigation.html %}
-    {% include header.html %}
+		<main id="main" role="main">
+			{{ content }}
+		</main>
 
-    {% include footer.html %}
-	{% include js.html %}
+		{% include footer.html %}
 
-    </body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{{ '/assets/js/lib/hammer.min.js' | relative_url }}" type="text/javascript" charset="utf-8"></script>
+		<script src="{{ '/assets/js/main.js' | relative_url }}" type="text/javascript" charset="utf-8"></script>
+        {% if page.title == 'Search' %}
+		<script src="https://unpkg.com/lunr/lunr.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{{ '/assets/js/search.js' | relative_url }}" type="text/javascript" charset="utf-8"></script>
+        {% endif %}
+
+	</body>
+
 </html>

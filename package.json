@@ -1,0 +1,33 @@
+{
+  "name": "scholarslab.org",
+  "version": "1.0.0",
+  "description": "Repo for stuff related to ScholarsLab.org upgrade &amp; static site migration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scholarslab/scholarslab.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scholarslab/scholarslab.org/issues"
+  },
+  "homepage": "https://github.com/scholarslab/scholarslab.org#readme",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "lunr": "^2.3.6",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "extend": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
