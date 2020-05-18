@@ -26,4 +26,3 @@ Thanks to a generous start-up term gift from the Gershwind-Bennett Families, the
 ### 2021: Arnold and Deanne Kaplan Collection of Early American Judaica Curator of Digital Humanities 
 Thanks to a major endowment established by Arnold and Deanne Kaplan, we are home to the world's first endowed position in Judaica digital humanities and an in-kind gift of collections of Americana and Early American Judaica, research fellowships, and an endowment for continuing acquisitions. 
 
-

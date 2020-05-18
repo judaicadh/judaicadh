@@ -3,12 +3,11 @@ collaborators:
   - name: The American Jewish Archives (Cincinnati, OH)
   - name: American Jewish Historical Society (New York, NY)
   - name: Michael Jesselson
-    slug: michael-jesselson
     role: Jesselson-Kaplan American Genizah Project Advisory Board Member and Board Member of the American Jewish Historical Society (New York, NY)
   - name: Arnold Kaplan 
-    slug: arnold-kaplan
     role: Member of the American Jewish Archives Ezra Consortium, Jesselson-Kaplan American Genizah Project Advisory Board Member, and Board Member of the American Jewish Historical Society (New York, NY)
   - name: Abraham J. and Deborah Karp 
+    role: Scholars; Collectors
   - name: Collection of Judaica Americana at the Library of the Jewish Theological Seminary of America (New York, NY)
   - name: Dr. Gary Zola
     role: Executive Director of the American Jewish Archives (Cincinnati, OH)

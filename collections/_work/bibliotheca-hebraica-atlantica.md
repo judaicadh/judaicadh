@@ -4,8 +4,12 @@ collaborators:
     slug: lauraneckstein  
     role: Judaica Digital Humanities Coordinator
   - name: John Pollack
+    role: Curator, Research Services
   - name: Peter Stallybrass
+    role: Walter H. and Leonore C. Annenberg Professor in the Humanities and Professor of English
   - name: Michelle Chesner
+  - name: Arthur Kiron
+    role: Schottenstein-Jesselson Curator of Judaica Collections 
     role: Columbia University Libraries
   - name: James Green
     role: Library Company of Pennsylvania
@@ -14,6 +18,7 @@ collaborators:
   - name: Jesús de Prado Plumed
     role: Universidad Nacional Autónoma de México
   - name: Oliver Mitchell-Boyask
+    role: Intern, National Museum of American Jewish History (2017)
 link: http://judaicadh.github.io/bibliothecahebraicaatlantica
 layout: work
 slug: bibliotheca-hebraica-atlantica

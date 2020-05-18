@@ -2,6 +2,10 @@
 collaborators: 
   - name: Jonathan Dekel-Chen
     role: Senior Lecturer in Russian Studies and Contemporary Jewry, at The Hebrew University of Jerusalem
+  - name: Arthur Kiron
+    role: 
+  - name: Emily Esten
+    role: 
 layout: work
 slug: against-the-grain
 title: "Against The Grain: The Farming Life in Jewish History"

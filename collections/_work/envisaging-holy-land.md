@@ -6,7 +6,13 @@ collaborators:
   - name: Hila Fishman
     role: Exhibition Curator
   - name: Laurie Allen
-    role: Director of Digital Scholarship
+    slug: laurie-allen
+    role: Project Director
+  - name: Arthur Kiron 
+    role: Project Director
+    slug: arthur-kiron 
+  - name: Dennis Mullen
+    role: Project Developer and Image Gallery Exhibition Designer
   - name: The Lenkin Family Collection of Photography
 link: http://pennds.org/holyland/
 layout: work
@@ -22,4 +28,4 @@ start-year: 2016
 end-year: 2016
 ---
 
-Building on a recent exhibition of early photographs of the Holy, Laura Eckstein, the inaugral Judaica Digital Humanities Coordinator at Penn’s Judaica DH lab, experimented with a Python script in order to find a way to use facial recognition to comb a corpus of more than 5,000 images to bring to life the otherwise lost individual faces found in these photos. After compiling, editing, and transforming these faces into a rotating slide show, Eckstein then created a [“how-to” manual in video format](https://www.youtube.com/watch?v=DKcOY5z6EP0) to show anyone interested in this tool how use the python script she created and extract the faces from their own collections of photographs.
+Building on a [exhibition of early photographs of the Holy Land](http://sceti.library.upenn.edu/LenkinHolyLandPhotos/), Laura Eckstein, the inaugural Judaica Digital Humanities Coordinator at Penn’s Judaica DH lab, experimented with a Python script in order to find a way to use facial recognition to comb a corpus of more than 5,000 images to bring to life the otherwise lost individual faces found in these photos. These photos were used in the [Image Gallery](http://sceti.library.upenn.edu/LenkinHolyLandPhotos/) for the exhibition. After compiling, editing, and transforming these faces into a rotating slide show, Eckstein then created a [“how-to” manual in video format](https://www.youtube.com/watch?v=DKcOY5z6EP0) to show anyone interested in this tool how use the python script she created and extract the faces from their own collections of photographs.

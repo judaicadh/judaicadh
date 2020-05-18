@@ -1,17 +1,9 @@
 ---
 collaborators: 
   - name: Marvin Weiner (C'38)
-  - name: Herbert Weiner
-  - name: Sheila Weiner 
-  - name: Jesselson Family Foundation 
-  - name: Kaplan Family Foundation
   - name: The National Foundation for Jewish Culture 
   - name: Leslie Delauter
   - name: Gina Glasman
-  - name: Michael Overgaard
-  - name: Heather Newman
-  - name: Elizabeth Peters 
-
 link: http://sceti.library.upenn.edu/morais/
 layout: work
 slug: morais-ledger
@@ -20,7 +12,9 @@ thumb-img: moraisthumbnail.jpg
 banner-img: morais.jpg
 img-source: 
 img-source-url: 
-research-category: [american-genizah, sabato-morais]
+research-category: 
+  - american-genizah
+  - sabato-morais
 start-year: 2015
 end-year: 2015
 status: legacy
