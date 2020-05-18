@@ -13,7 +13,7 @@ order: 1
 <a href="#how-does-judaica-dh-fit-into-penn-libraries">How does Judaica DH fit into Penn Libraries?</a>  
 <a href="#how-do-i-contact-you">How do I contact you?</a>  
 <a href="#how-was-this-website-made">How was this website made?</a>  
-<a href="#how-did-Judaica-DH-at-Penn-Libraries-begin">How did Judaica DH at Penn Libraries begin?</a>  
+<a href="#how-did-judaica-df-at-penn-libraries-begin">How did Judaica DH at Penn Libraries begin?</a>  
 
 ## What is Judaica DH?
 Judaica Digital Humanities at the [Penn Libraries](http://library.upenn.edu) (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. 
@@ -29,7 +29,7 @@ We love to team up with other folks at Penn and beyond! Our decisions about long
 ## How does Judaica DH fit into Penn Libraries?
 JudaicaDH was formally founded in 2016, thanks to a gift from the Gershwind-Bennett families. We're part of [Penn Libraries](http://library.upenn.edu) and its mission to provide high-quality information resources and push the frontiers of innovation and enterprise to impact teaching, learning and research. 
 
-Organizationally, we sit in the Library's Center for Research Data and Digital Scholarship unit led by AUL [Nicky Agate](people/nicky-agate). Our project team members often include Library colleagues from Kislak Center for Special Collections, Rare Books, and Manuscripts; Learning Design; Library Technology Services & Strategic Initiatives, and subject liaison librarians. We're also part of the digital humanities ecosystem of teams and people doing digital humanities work at Penn.
+Organizationally, we sit in the Library's Center for Research Data and Digital Scholarship unit led by AUL [Nicky Agate](https://judaicadh.github.iopeople/nicky-agate). Our project team members often include Library colleagues from Kislak Center for Special Collections, Rare Books, and Manuscripts; Learning Design; Library Technology Services & Strategic Initiatives, and subject liaison librarians. We're also part of the digital humanities ecosystem of teams and people doing digital scholarship work at Penn.
 
 ## How do I contact you?
 For general inquiries, write to [judaicadh@gmail.com](mailto:judaicadh@gmail.com).

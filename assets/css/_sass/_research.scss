@@ -296,7 +296,7 @@
 [class*="research-nav__btn--"] {
 	padding: 0 .375em;
 	font-size: 2rem;
-	font-family: monospace;
+	font-family: "Oswald";
 	font-weight: 900;
 	color: black;
 	transform: translate(0, -1px);
@@ -330,7 +330,7 @@
 	display: none;
 	justify-content: center;
 	align-items: center;
-	font-family: monospace;
+	font-family: "Oswald";
 	font-weight: 700;
 	span {
 		display: inline-block;
@@ -490,7 +490,7 @@
 
 .research-item__num {
 	position: relative;
-	font-family: monospace;
+	font-family: "Oswald";
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: black;
@@ -550,7 +550,7 @@
 .research-item__yr {
 	position: relative;
 	margin-top: 1em;
-	font-family:  monospace;
+	font-family:  "Oswald";
 	font-weight: 200;
 	color: rgba(0,0,0,.5);
 }
