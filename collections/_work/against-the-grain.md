@@ -4,8 +4,10 @@ collaborators:
     role: Senior Lecturer in Russian Studies and Contemporary Jewry, at The Hebrew University of Jerusalem
   - name: Arthur Kiron
     role: 
+    slug: arthur-kiron
   - name: Emily Esten
     role: 
+    slug: emily-esten
 layout: work
 slug: against-the-grain
 title: "Against The Grain: The Farming Life in Jewish History"

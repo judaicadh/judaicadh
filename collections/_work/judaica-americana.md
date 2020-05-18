@@ -36,7 +36,7 @@ collaborators:
     role: Digital Camera Operator  
   - name: Nicky Agate
     slug: nicky-agate
-    role: Associate
+    role: Assistant University Librarian for Research Data and Digital Scholarship
 link: https://singermanja2.exhibits.library.upenn.edu/
 layout: work
 slug: judaica-americana

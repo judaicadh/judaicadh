@@ -3,7 +3,7 @@ collaborators:
   - name: Marvin Weiner (C'38)
     role: Collector; Cataloguer; Benefactor
   - name: Herbert Weiner
-    role: BEnefactor 
+    role: Benefactor 
   - name: Sheila Weiner 
     role: Benefactor 
   - name: Jesselson Family Foundation 

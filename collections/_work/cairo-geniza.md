@@ -1,6 +1,7 @@
 ---
 collaborators:
   - name: Laurie Allen
+    slug: laurie-allen
     role: Director of Digital Scholarship
   - name: Samantha Blickhan
     role: IMLS Postdoctoral Fellow for Zooniverse 
@@ -10,10 +11,12 @@ collaborators:
   - name: Doug Emery
     role: Special Collections Digital Content Programmer 
   - name: Mitch Fraas
+    slug: mitch-fraas
     role: Curator of Special Collections
   - name: Will Granger
     role: Front-end Developer for Zooniverse 
   - name: Arthur Kiron
+    slug: arthur-kiron
     role: Schottenstein-Jesselson Curator of Judaica Collections 
   - name: Moshe Lavee 
     role: Co-director of E-lijah Lab, University of Haifa (Haifa, Israel)
@@ -22,6 +25,7 @@ collaborators:
   - name: Eve Krakowski
     role: Assistant Professor of Near Eastern Studies, Princeton University (Princeton, NJ)
   - name: William Noel 
+    slug: will-noel
     role: Director of the Kislak Center for Special Collections
   - name: Shaun A. Noordin
     role: Web Developer for Zooniverse
@@ -30,6 +34,7 @@ collaborators:
   - name: Marina Rustow 
     role: Khedouri A. Zilkha Professor of Jewish Civilization in the Near East, Professor of Near Eastern Studies and History at Princeton University (Princeton, NJ)
   - name: Emily Esten 
+    slug: emily-esten
     role: Project Manager; Judaica Digital Humanities Coordinator 
   - name: University of Pennsylvania Libraries
     role: Research Partner
