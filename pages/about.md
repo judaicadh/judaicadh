@@ -13,7 +13,7 @@ order: 1
 <a href="#how-does-judaica-dh-fit-into-penn-libraries">How does Judaica DH fit into Penn Libraries?</a>  
 <a href="#how-do-i-contact-you">How do I contact you?</a>  
 <a href="#how-was-this-website-made">How was this website made?</a>  
-<a href="#how-did-judaica-df-at-penn-libraries-begin">How did Judaica DH at Penn Libraries begin?</a>  
+<a href="#how-did-judaica-dh-at-penn-libraries-begin">How did Judaica DH at Penn Libraries begin?</a>  
 
 ## What is Judaica DH?
 Judaica Digital Humanities at the [Penn Libraries](http://library.upenn.edu) (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. 

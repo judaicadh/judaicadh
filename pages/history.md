@@ -23,6 +23,7 @@ With a start-up gift from the Gershwind-Bennett families and the generosity of t
 ### 2016: Judaica Digital Humanities Program 
 Thanks to a generous start-up term gift from the Gershwind-Bennett Families, the Penn Libraries are introducing a robust program of Judaica Digital Humanities (DH) research and development in order to think in new and creative ways about what we can DO with data that we have produced. To be clear: our understanding of DH as “what we can do with data” is not limited to specific applications like text-mining but to an unlimited potential number of ways in which to recycle and play with data.
 
-### 2020: Be a Part of our Story!
+### 2021: Arnold and Deanne Kaplan Collection of Early American Judaica Curator of Digital Humanities 
 Thanks to a major endowment established by Arnold and Deanne Kaplan, we are home to the world's first endowed position in Judaica digital humanities and an in-kind gift of collections of Americana and Early American Judaica, research fellowships, and an endowment for continuing acquisitions. 
+
 
