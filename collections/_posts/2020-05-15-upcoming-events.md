@@ -8,7 +8,6 @@ categories:
 - Scribes of the Cairo Geniza
 tags:
 - Scribes of the Cairo Geniza
-- Data Deep Dive
 pull-quote: "Updating the Zooniverse community on project stats and upcoming events related to the Cairo Geniza"
 ---
 
