@@ -6,9 +6,9 @@
 	a, #anonymous {
 		font-family: "Raleway", sans-serif !important;
 		font-weight: bold;
-		border-bottom: 2px solid hsla(186,80%,70%,1) !important;
+		border-bottom: 2px #82afd3 !important;
 		&:hover, &:focus {
-			background-color: hsla(186,80%,70%,1) !important;
+			background-color: #82afd3 !important;
 		}
 	}
 }
@@ -51,7 +51,7 @@
 		font-size: .5em;
 		font-family: "Oswald";
 		text-transform: uppercase;
-		color: hsla(186,80%,70%,1);
+		color: #82afd3;
 		transform: translate(0, -50%);
 	}
 	@media screen and (min-width: 600px) {
@@ -128,12 +128,12 @@
 			font-size: 3em;
 			font-weight: 900;
 			line-height: 1;
-			color: hsla(186,80%,70%,1);
+			color: #82afd3;
 		}
 	}
 	// # links
 	a {
-		color: hsl(186,1%,25%);
+		color: #82afd3;
 	}
 	// # block quotes
 	blockquote {
