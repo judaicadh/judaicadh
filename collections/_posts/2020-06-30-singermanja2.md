@@ -12,12 +12,12 @@ tags:
 pull-quote: "As the project manager and develop for Judaica DH, Emily Esten shares the launch of the Digital Second Edition of Judaica Americana and walks us through the project's development."
 ---
 
-As the project manager and developer for [*Judaica Digital Humanities at the Penn Libraries*](http://judaicadh.github.io), I’m excited to announce the launch of the [*Digital Second Edition of *Judaica Americana**](https://singermanja2.exhibits.library.upenn.edu/). This is an Omeka database which draws from Robert Singerman’s *Judaica Americana,* a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
+As the project manager and developer for [Judaica Digital Humanities at the Penn Libraries](http://judaicadh.github.io), I’m excited to announce the launch of the [Digital Second Edition of Judaica Americana](https://singermanja2.exhibits.library.upenn.edu/). This is an Omeka database which draws from Robert Singerman’s *Judaica Americana,* a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
 
 You can view the project at [*singermanja2.exhibits.library.upenn.edu/*](https://singermanja2.exhibits.library.upenn.edu/).
 Additional information about the project can be found on the Judaica DH website at [*judaicadh.github.io/work/judaica-americana*](http://judaicadh.github.io/work/judaica-americana).
 
-###About *Judaica Americana*
+### About *Judaica Americana*
 
 In July 2019, Robert Singerman, emeritus university librarian at the University of Florida, donated to the Penn Libraries the draft of the full text and the copyright to his revised second edition of *Judaica Americana*. The first edition, issued in 1990, is an award-winning, magisterial two-volume bibliography of American Jewish publications before 1900. The print edition of *Judaica Americana* was sponsored by the Center for the Study of the American Jewish Experience, Hebrew Union College-Jewish Institute of Religion, and published by Greenwood Press as part of the Bibliographies and Indexes in American History.
 
@@ -37,11 +37,10 @@ Bibliographer [*Nathan Kaganoff’s review of the first edition*](http://www.jst
 
 For Kaganoff, the print edition fulfilled Questions 1 and 3, but fell short in Questions 2 and 4. I found this review really helpful in framing the value of our project for scholars and the steps we needed to take at each stage of the process. Kaganoff’s questions are similar to those digital scholarship practitioners use to evaluate digital projects, and these were key areas in which our project could expand upon the print edition.
 
-###Building the Project 
+### Building the Project 
 **First Steps**
 
-![](assets/post-media/2020-06-03-singermanja2-1.jpg){width="4.324219160104987in"
-height="5.765625546806649in"}
+![](assets/post-media/2020-06-03-singermanja2-1.jpg)
 
 *One of our boards following the User Analysis model from Yale DH.*
 
@@ -67,7 +66,7 @@ Over the course of a few meetings and rounds of editing, we completed a project 
 
 **The Open-Access Edition**
 
-![](assets/post-media/2020-06-03-singermanja2-2.png){width="6.5in" height="3.8055555555555554in"}
+![](assets/post-media/2020-06-03-singermanja2-2.png)
 
 *A screenshot of our Medium announcement about the ScholarlyCommons
 repository.*
@@ -82,8 +81,7 @@ We agreed with Singerman at this point that any edits or additions to the datase
 
 **Augmenting the Dataset**
 
-![](assets/post-media/2020-06-03-singermanja2-3.pngg){width="3.6938123359580053in"
-height="4.161458880139983in"}
+![](assets/post-media/2020-06-03-singermanja2-3.png)
 
 *A scan of the Singerman index, which includes nearly 12,000 headers.*
 
@@ -103,7 +101,7 @@ We worked with the library's Learning and Technology Services division to get in
 
 **Drafting the Site**
 
-![](assets/post-media/2020-06-03-singermanja2-4.jpg){width="6.5in" height="1.3229166666666667in"}
+![](assets/post-media/2020-06-03-singermanja2-4.jpg)
 
 *A screenshot of the navigation for the second draft of the site*
 
@@ -123,7 +121,7 @@ By the end of March, we shared the second draft of the site with the team, inclu
 
 **More Data & Customization**
 
-![](assets/post-media/2020-06-03-singermanja2-5.png){width="6.5in" height="1.4444444444444444in"}
+![](assets/post-media/2020-06-03-singermanja2-5.png)
 
 *The graphic header for the site - the books in the background comes
 from a \#shelfie at the [*Library at the Katz Center for Advanced Judaic Studies*](https://business.facebook.com/katzcenterupenn/photos/a.716387478439866/2672788819466379/?type=3&theater).)*
@@ -161,7 +159,7 @@ We set out to create an interactive digital edition of this rich bibliography an
 
 And while Singerman’s bibliography focuses on monograph holdings at various locations, we now have the opportunity to take this a step further and quantify the efforts of library digitization through projects like HathiTrust and Google Books. We hope this encourages others to identify digital facsimiles of their collections, whether on an institutional or cross-institutional level.
 
-###Acknowledgements
+### Acknowledgements
 ----------------
 
 Our full team is listed [*here*](https://singermanja2.exhibits.library.upenn.edu/credits-and-acknowledgments).
@@ -170,11 +168,11 @@ First and foremost, this project would not be possible without the generosity of
 
 Mitch Fraas and Arthur Kiron served as project directors, handling the project administration and mentor oversight to the project. Arthur Kiron was also responsible for developing the project vision, including serving as liaison with Robert Singerman, coordinating files, and providing quality control.
 
-I was responsible for the data preparation and project methodology. As the developer and designer, I designed the look and feel of the site, editing the Omeka theme that is used for the navigation and user interaction with the site. Senior developers Kate Lynch and Chris Clement provided Omeka support on this project.
+I was responsible for the data preparation and project methodology. As the developer and designer, I designed the look and feel of the site, editing the Omeka theme that is used for the navigation and user interaction with the site. Senior developers Kate Lynch and Chris Clement, and WebOps Developer Andrew Kimball provided Omeka support on this project.
 
 Many thanks to the distinguished scholars, librarians, and staff who generously provided guidance and assistance with the project, including: Nicky Agate, Laurie Allen, Michelle Chesner, Camille Davis, Laura Newman Eckstein, Doug Emery, Scott Enderle, Emily Morton Owens, Will Noel, and Jordan Rothschild.
 
-###Additional Resources
+### Additional Resources
 --------------------
 
 You can view the project at [*singermanja2.exhibits.library.upenn.edu/*](https://singermanja2.exhibits.library.upenn.edu/).
@@ -188,19 +186,19 @@ Additional information about the project can be found at [*judaicadh.github.io/w
 
     -   Esten, Emily. “[*Dataset for Judaica Americana: A Bibliography of Publications to 1900*](https://repository.upenn.edu/judaica_americana/2)”. Scribes of the Cairo Geniza, Scholarly Commons, 2019. Web.
 
-    -   Esten, Emily. “Dataset for Union List of Nineteenth-Century Jewish Serials Published in the United States”. Judaica Americana, Scholarly Commons, 2020. Web.
+    -   Esten, Emily. “[*Dataset for Union List of Nineteenth-Century Jewish Serials Published in the United States*](https://repository.upenn.edu/judaica_americana/3/)”. Judaica Americana, Scholarly Commons, 2020. Web.
 
     -   Singerman, Robert. “[*Judaica Americana: A Bibliography of Publications to 1900*](https://repository.upenn.edu/judaica_americana/1)”. Judaica Americana, Scholarly Commons, 2019. Web.
 
 -   The Python scripts used in this project are maintained in a [*GitHub repository*](https://github.com/judaicadh/ja2-scripts), including:
 
-    -   Esten, Emily. “Extract\_singerman.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning).
+    -   Esten, Emily. “Extract\_singerman.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
 
-    -   Enderle, Jonathan Scott. “tess.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning). (Forked from its original repository)
+    -   Enderle, Jonathan Scott. “tess.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning). (Forked from its original repository) DOI: 10.5281/zenodo.3894691
 
-    -   Esten, Emily. “flip-index-headers.py.” ja2-scripts, Github, accessed May 15, 2020,[*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning)
+    -   Esten, Emily. “flip-index-headers.py.” ja2-scripts, Github, accessed May 15, 2020,[*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
 
-    -   Esten, Emily. “extract-singerman-serials.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning)
+    -   Esten, Emily. “extract-singerman-serials.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
 
 **Resources & Tools**
 
@@ -220,8 +218,7 @@ Additional information about the project can be found at [*judaicadh.github.io/w
 
 **References**
 
--   Chesner, Michelle, ed., et al. “Footprints: Jewish Books Through Time and Place.” *Footprints: Jewish Books Through Time and
-    > Place*, Center for Teaching and Learning at Columbia University Libraries, [*https://footprints.ctl.columbia.edu/*](https://footprints.ctl.columbia.edu/).
+-   Chesner, Michelle, ed., et al. “Footprints: Jewish Books Through Time and Place.” *Footprints: Jewish Books Through Time and Place*, Center for Teaching and Learning at Columbia University Libraries, [*https://footprints.ctl.columbia.edu/*](https://footprints.ctl.columbia.edu/).
 
 -   Coker, Cait and Kate Ozment. [**Building the Women in Book History Bibliography, or Digital Enumerative Bibliography as Preservation of Feminist Labor.**](https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html) 13, no. 3 (2019). Accessed May 14, 2020. [*https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html*](https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html).
 
