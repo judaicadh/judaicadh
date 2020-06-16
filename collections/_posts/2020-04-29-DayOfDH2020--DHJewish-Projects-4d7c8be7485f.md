@@ -2,14 +2,12 @@
 author: admin
 date: 2020-04-29
 layout: post
-slug: 2020-04-29-dayofdh2020
+slug: dayofdh2020
 title: "#DayOfDH2020: #DH Jewish Projects"
 categories:
-- Reviews
 tags:
 - DayOfDH
-pull-quote: "Happy #DayOfDH2020! Check out this list of #DHJewish projects from
-around the field."
+pull-quote: "Happy #DayOfDH2020! Check out this list of #DHJewish projects from around the field."
 ---
 
 ### \#DayOfDH2020: DHJewish Projects {#72fc .graf .graf--h3 .graf--leading .graf--title name="72fc"}

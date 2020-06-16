@@ -2,7 +2,7 @@
 author: admin
 date: 2020-04-21
 layout: post
-slug: 2020-04-21-judaicadh-projects-summary
+slug: 2020-judaicadh-projects-summary
 title: "Review: Judaica DH Projects at Penn Libraries"
 categories:
 - Reviews
