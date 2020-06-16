@@ -5,7 +5,6 @@ layout: post
 slug: 2020-judaicadh-projects-summary
 title: "Review: Judaica DH Projects at Penn Libraries"
 categories:
-- Reviews
 tags:
 pull-quote: "Judaica Digital Humanities at Penn Libraries uses digital technologies to augment & transform the ways in which to explore Jewish history."
 ---
