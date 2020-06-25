@@ -24,10 +24,11 @@ collaborators:
     role: Assistant University Librarian, Digital Library Development & Systems
   - name: Jordan Rothschild
     role: Digital Camera Operator
+  - name: Michelle Chesner
+    role: Norman E. Alexander Librarian for Jewish Studies, Columbia University
   - name: Laurie Allen, 
     role: Former Director for Digital Scholarship
     slug: laurie-allen
-  - name: Michelle Chesner, Norman E. Alexander Librarian for Jewish Studies, Columbia University
   - name: Chris Clement, 
     role: Former Senior Developer 
   - name: Camille Davis
