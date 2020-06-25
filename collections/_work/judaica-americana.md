@@ -11,32 +11,36 @@ collaborators:
   - name: Emily Esten
     slug: emily-esten
     role: Judaica Digital Humanities Coordinator; Project Manager
-  - name: Laurie Allen
-    slug: laurie-allen
-    role: Director of Digital Scholarship
-  - name: Michelle Chesner
-    role: Norman E. Alexander Librarian for Jewish Studies, Columbia University (New York, NY)
-  - name: Chris Clement 
-    role: Senior Developer 
-  - name: Camille Davis
-    role: Kislak Center for Special Collections, Rare Books and Manuscripts; University of Virginia Rare Book School
-  - name: Laura Newman Eckstein
-    slug: lauraneckstein
-    role: PhD Student in History, University of Pennsylvania
+  - name: Nicky Agate
+    role: Assistant University Librarian for Research Data & Digital Scholarship
+    slug: nicky-agate
   - name: Doug Emery
     role: Special Collections Digital Content Programmer
-  - name: Katherine Lynch
-    role: Senior Developer
+  - name: Jonathan Scott Enderle
+    role: Digital Humanities Librarian
+  - name: Andrew Kimball
+    role: DevOps Engineer
   - name: Emily Morton Owens
     role: Assistant University Librarian, Digital Library Development & Systems
+  - name: Jordan Rothschild
+    role: Digital Camera Operator
+  - name: Laurie Allen, 
+    role: Former Director for Digital Scholarship
+    slug: laurie-allen
+  - name: Michelle Chesner, Norman E. Alexander Librarian for Jewish Studies, Columbia University
+  - name: Chris Clement, 
+    role: Former Senior Developer 
+  - name: Camille Davis
+    role: Former Library Assistant
+  - name: Laura Newman Eckstein
+    role: Former Judaica Digital Humanities Project Coordinator
+    slug: lauraneckstein
+  - name: Katherine Lynch
+    role: Former Senior Developer
   - name: William Noel
-    role: Director of the Kislak Center & the Schoenberg Institute for Manuscript Studies
-    slug: will-noel
-  - name: Jordan Rothchild
-    role: Digital Camera Operator  
-  - name: Nicky Agate
-    slug: nicky-agate
-    role: Assistant University Librarian for Research Data and Digital Scholarship
+    role: Former Director of the Kislak Center & the Schoenberg Institute for Manuscript Studies
+  - name: Kenny Whitebloom
+    role: Former Digital Scholarship Publishing Librarian
 link: https://singermanja2.exhibits.library.upenn.edu/
 layout: work
 slug: judaica-americana
@@ -50,8 +54,8 @@ start-year: 2019
 end-year: 2020
 status: current
 ---
-In 1990, **Robert Singerman** published, in conjunction with Greenwood Press, his magisterial two-volume *Judaica Americana*, an American Jewish bibliography of publications, both monographic and periodical, published prior to the 20th century. It identifies 6,500+ publications, including their metadata and names of collections where copies are known to be held. Taken as a whole, it provides extensive documentation of American Jewish communal activity. All of the publications included in JA are now in the public domain, and many have been digitized by their respective libraries for repositories such as HathiTrust, GoogleBooks, Internet Archive, or other digital copies. 
+The [**Digital Second Edition of Judaica Americana**](https://singermanja2.exhibits.library.upenn.edu/), an Omeka bibliographic database, draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. Visitors can search the [database’s](https://singermanja2.exhibits.library.upenn.edu/) 9,600+ bibliographic entries for author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
 
-This project is a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy is available as a [file](https://repository.upenn.edu/judaica_americana/1), [dataset](https://repository.upenn.edu/judaica_americana/2), and [searchable database](https://singermanja2.exhibits.library.upenn.edu/). Through JA2, we provide researchers, book trade specialists, genealogists, and bibliographers with the information they need to mine this invaluable resource. This project offers an example to Penn Libraries and others of how to build an open-source open-access digital library for similar materials."
+Robert Singerman [donated to the Penn Libraries](https://judaicadh.library.upenn.edu/blog/2019-10-30-explore-judaica-americana/) the draft of the full text and copyright to his revised second edition of Judaica Americana, the award-winning, magisterial two-volume bibliography of American Jewish publications before 1900. Singerman’s first edition, issued in 1990 in two volumes, was sponsored by the Center for the Study of the American Jewish Experience, Hebrew Union College-Jewish Institute of Religion, and published by Greenwood Press as part of the Bibliographies and Indexes in American History. In it, Singerman identified just over 6,500+ monographic and serial publications, presented with meticulous bibliographical descriptions, classification explanations, and holdings information, i.e., the names of collections where copies are known to be held. His bibliography authoritatively chronicles American Jewish book production from the 17th century to the beginning of the twentieth century. The second edition contains an additional 3,000 entries. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901.
 
-We released *Judaica Americana* as a PDF and dataset on ScholarlyCommons, which you can view [here](https://repository.upenn.edu/judaica_americana/). 
+For the second edition, the [Association of Jewish Libraries](https://jewishlibraries.starchapter.com/images/downloads/Awards/ajl_refbibcomm_pressrelease2020.pdf) awarded Singerman the 2020 Judaica Reference and Bibliography Lifetime Achievement Award. His draft of the second edition, including a Supplements section, and two datasets based upon it, are now discoverable in [ScholarlyCommons](https://repository.upenn.edu/judaica_americana), the University of Pennsylvania’s open access institutional repository. All the files now are available to researchers, book trade specialists, genealogists, and bibliographers with the information they need to mine this invaluable resource. We are profoundly grateful to Robert Singerman, Emeritus University Librarian, University of Florida for entrusting us with his extraordinary work. 

@@ -27,10 +27,10 @@ journals:
     link: "https://repository.upenn.edu/mss_sims/vol3/iss1/9"
 
 datasets:
-#  - title: "Esten, Emily. “Dataset: Union List of Nineteenth-Century Jewish Serials Published in the United States”. May 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/judaica_americana/3/"
-#    venue: "Penn Libraries, University of Pennsylvania"
-#    date: "May 2020"
-#    url: "https://repository.upenn.edu/judaica_americana/3/"
+  - title: "Esten, Emily. “Dataset: Union List of Nineteenth-Century Jewish Serials Published in the United States”. May 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/judaica_americana/3/"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "May 2020"
+    url: "https://repository.upenn.edu/judaica_americana/3/"
   - title: "Esten, Emily. “Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019”. February 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/cairogeniza/1/"
     venue: "Penn Libraries, University of Pennsylvania"
     date: "January 2020"
@@ -53,19 +53,20 @@ conferences:
     date: July 2020
     type: Panel
     event: "DH 2020"
-#  - title: "Judaica Digital Humanities at the Penn Libraries"
-#    institution: Association of Jewish Libraries
-#    location: Evanston, IL//Virtual
-#    date: June/July 2020
-#    type: 
-#    event: "AJL 2020"
+  - title: "Judaica Digital Humanities at the Penn Libraries Overview"
+    institution: Association of Jewish Libraries
+    location: Evanston, IL//Virtual
+    date: July 2020
+    type: Panel
+    event: "AJL 2020"
+    url: "{{ site.baseurl }}/blog/ajl2020/"
   - title: "Interpreting Jewish History in Museums and Public History Settings"
     institution: National Council for Public History
     location: Atlanta, Georgia//Virtual
     date: March 2020
     type: Twitter Chat
     event: "NCPH 2020"
-    url: "{{site.baseurl}}/blog/2020-03-31-ncph2020/"
+    url: "{{ site.baseurl }}/blog/2020-03-31-ncph2020/"
   - title: "Cultivating Community with the Cairo Geniza"
     institution: Museum Computer Network
     location: San Diego, California
