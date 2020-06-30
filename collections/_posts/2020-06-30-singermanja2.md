@@ -12,7 +12,7 @@ tags:
 pull-quote: "As the project manager and develop for Judaica DH, Emily Esten shares the launch of the Digital Second Edition of Judaica Americana and walks us through the project's development."
 ---
 
-As the project manager and developer for [Judaica Digital Humanities at the Penn Libraries](http://judaicadh.github.io), I’m excited to announce the launch of the [Digital Second Edition of Judaica Americana](https://singermanja2.exhibits.library.upenn.edu/). This is an Omeka database which draws from Robert Singerman’s *Judaica Americana,* a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
+As the project manager and developer for [Judaica Digital Humanities at the Penn Libraries](http://judaicadh.library.upenn.edu), I’m excited to announce the launch of the [Digital Second Edition of Judaica Americana](https://singermanja2.exhibits.library.upenn.edu/). This is an Omeka database which draws from Robert Singerman’s *Judaica Americana,* a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
 
 You can view the project at [*singermanja2.exhibits.library.upenn.edu/*](https://singermanja2.exhibits.library.upenn.edu/).
 Additional information about the project can be found on the Judaica DH website at [*judaicadh.github.io/work/judaica-americana*](http://judaicadh.github.io/work/judaica-americana).
@@ -40,7 +40,7 @@ For Kaganoff, the print edition fulfilled Questions 1 and 3, but fell short in Q
 # Building the Project 
 **First Steps**
 
-![White board with text from planning stages](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-1.jpg)
+![White board with text from planning stages](https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-1.jpg)
 
 *One of our boards following the User Analysis model from Yale DH.*
 
@@ -66,7 +66,7 @@ Over the course of a few meetings and rounds of editing, we completed a project 
 
 **The Open-Access Edition**
 
-![Announcement on Medium](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-2.jpg)
+![Announcement on Medium](https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-2.jpg)
 
 *A screenshot of our Medium announcement about the ScholarlyCommons repository.*
 
@@ -80,7 +80,7 @@ We agreed with Singerman at this point that any edits or additions to the datase
 
 **Augmenting the Dataset**
 
-![Scanned index page, with columns of words](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-3.png)
+![Scanned index page, with columns of words](https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-3.png)
 
 *A scan of the Singerman index, which includes nearly 12,000 headers.*
 
@@ -100,7 +100,7 @@ We worked with the library's Learning and Technology Services division to get in
 
 **Drafting the Site**
 
-![Screenshot of early site navigation](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-4.jpg)
+![Screenshot of early site navigation](https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-4.jpg)
 
 *A screenshot of the navigation for the second draft of the site*
 
@@ -120,7 +120,7 @@ By the end of March, we shared the second draft of the site with the team, inclu
 
 **More Data & Customization**
 
-![Header image for the site: shelf of books in the background with white box at center. Penn Libraries logo followed by "Digital Second Edition of Judaica Americana"](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-5.png)
+![Header image for the site: shelf of books in the background with white box at center. Penn Libraries logo followed by "Digital Second Edition of Judaica Americana"](https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-5.png)
 
 *The graphic header for the site - the books in the background comes from a \#shelfie at the [*Library at the Katz Center for Advanced Judaic Studies*](https://business.facebook.com/katzcenterupenn/photos/a.716387478439866/2672788819466379/?type=3&theater).)*
 
