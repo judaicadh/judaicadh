@@ -7,8 +7,9 @@ title: "Building the Digital Second Edition of Robert Singerman's Judaica Americ
 categories:
 - Digital Second Edition of Judaica Americana 
 tags:
-- Judaica Americana 
-- How Did They Make That 
+- Judaica Americana
+- Digital Second Edition of Judaica Americana 
+- How Did They Make That
 pull-quote: "As the project manager and develop for Judaica DH, Emily Esten shares the launch of the Digital Second Edition of Judaica Americana and walks us through the project's development."
 ---
 
