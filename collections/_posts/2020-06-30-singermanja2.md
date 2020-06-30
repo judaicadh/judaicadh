@@ -3,7 +3,7 @@ author: emily-esten
 date: 2020-06-30
 layout: post
 slug: about-singermanja2
-title: "How Did They Make That? The Digital Second Edition of Robert Singerman's Judaica Americana"
+title: "Building the Digital Second Edition of Robert Singerman's Judaica Americana"
 categories:
 - Digital Second Edition of Judaica Americana 
 tags:
