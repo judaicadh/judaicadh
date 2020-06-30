@@ -59,21 +59,21 @@ conferences:
     date: July 2020
     type: Panel
     event: "AJL 2020"
-    url: "{{ site.baseurl }}/blog/ajl2020/"
+    url: "https://judaicadh.github.io/blog/ajl2020/"
   - title: "Interpreting Jewish History in Museums and Public History Settings"
     institution: National Council for Public History
     location: Atlanta, Georgia//Virtual
     date: March 2020
     type: Twitter Chat
     event: "NCPH 2020"
-    url: "{{ site.baseurl }}/blog/2020-03-31-ncph2020/"
+    url: "https://judaicadh.github.io/blog/2020-03-31-ncph2020/"
   - title: "Cultivating Community with the Cairo Geniza"
     institution: Museum Computer Network
     location: San Diego, California
     date: November 2019
     type: Lightning Talk
     event: "MCN 2019"
-    url: "{{ site.baseurl }}/blog/mcn-2019/"
+    url: "https://judaicadh.github.io/blog/mcn-2019/"
   - title: "Crowdsourcing Data: Scribes of the Cairo Geniza"
     institution: Penn Information Systems & Computing
     location: Philadelphia, PA
@@ -102,7 +102,7 @@ transcribeathons:
   - institution: Princeton Geniza Lab
     location: Princeton University (Princeton, New Jersey)
     date: "November 2019"
-    url: "{{ site.baseurl }}/blog/2019-11-13-princeton-geniza-lab/"
+    url: "https://judaicadh.github.io/blog/2019-11-13-princeton-geniza-lab/"
 
 ########### Awards ###########
 awards:
