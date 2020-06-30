@@ -5,7 +5,7 @@ layout: post
 slug: about-singermanja2
 title: "How Did They Make That? The Digital Second Edition of Robert Singerman's Judaica Americana"
 categories:
-- Judaica Americana 
+- Digital Second Edition of Judaica Americana 
 tags:
 - Judaica Americana 
 - How Did They Make That 
