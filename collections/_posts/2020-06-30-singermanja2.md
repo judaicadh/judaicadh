@@ -66,7 +66,7 @@ Over the course of a few meetings and rounds of editing, we completed a project 
 
 **The Open-Access Edition**
 
-![Announcement on Medium](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-2.png)
+![Announcement on Medium](https://judaicadh.github.io/assets/post-media/2020-06-03-singermanja2-2.jpg)
 
 *A screenshot of our Medium announcement about the ScholarlyCommons repository.*
 
