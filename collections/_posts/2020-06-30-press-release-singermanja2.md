@@ -6,6 +6,7 @@ slug: press-release-singermanja2
 title: "Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana"
 categories:
 - Digital Second Edition of Judaica Americana 
+- Announcements
 tags:
 - Judaica Americana
 - Digital Second Edition of Judaica Americana 

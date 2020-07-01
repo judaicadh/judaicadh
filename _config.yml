@@ -5,6 +5,7 @@ title: "Judaica DH at the Penn Libraries"
 name: "Judaica DH at the Penn Libraries"
 email: judaicadh@gmail.com
 description: "Judaica Digital Humanities at the Penn Libraries is a robust program using digital technologies to augment and transform the ways in which to explore Jewish history. By experimenting with platforms, tools, and methodologies, we deepen and broaden our understanding of Jewish history, texts, cultures, ideas, and experiences."
+google_analytics: UA-88257588-1
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://judaicadh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: judaicadh
