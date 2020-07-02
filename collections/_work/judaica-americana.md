@@ -57,6 +57,36 @@ status: current
 ---
 The [**Digital Second Edition of Judaica Americana**](https://singermanja2.exhibits.library.upenn.edu/), an Omeka bibliographic database, draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. Visitors can search the [database’s](https://singermanja2.exhibits.library.upenn.edu/) 9,600+ bibliographic entries for author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.
 
-Robert Singerman [donated to the Penn Libraries](https://judaicadh.library.upenn.edu/blog/2019-10-30-explore-judaica-americana/) the draft of the full text and copyright to his revised second edition of Judaica Americana, the award-winning, magisterial two-volume bibliography of American Jewish publications before 1900. Singerman’s first edition, issued in 1990 in two volumes, was sponsored by the Center for the Study of the American Jewish Experience, Hebrew Union College-Jewish Institute of Religion, and published by Greenwood Press as part of the Bibliographies and Indexes in American History. In it, Singerman identified just over 6,500+ monographic and serial publications, presented with meticulous bibliographical descriptions, classification explanations, and holdings information, i.e., the names of collections where copies are known to be held. His bibliography authoritatively chronicles American Jewish book production from the 17th century to the beginning of the twentieth century. The second edition contains an additional 3,000 entries. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901.
+Robert Singerman [donated to the Penn Libraries](https://judaicadh.library.upenn.edu/blog/2019-10-30-explore-judaica-americana/) the draft of the full text and copyright to his revised second edition of *Judaica Americana*. Singerman’s first edition, issued in 1990 in two volumes, was sponsored by the Center for the Study of the American Jewish Experience, Hebrew Union College-Jewish Institute of Religion, and published by Greenwood Press as part of the Bibliographies and Indexes in American History. In the first edition, Singerman cataloged just over 6,500+ monographic and serial publications and presented each with meticulous bibliographical descriptions, classification explanations, and holdings information (i.e., the names of collections where copies are known to be held). 
 
-For the second edition, the [Association of Jewish Libraries](https://jewishlibraries.starchapter.com/images/downloads/Awards/ajl_refbibcomm_pressrelease2020.pdf) awarded Singerman the 2020 Judaica Reference and Bibliography Lifetime Achievement Award. His draft of the second edition, including a Supplements section, and two datasets based upon it, are now discoverable in [ScholarlyCommons](https://repository.upenn.edu/judaica_americana), the University of Pennsylvania’s open access institutional repository. All the files now are available to researchers, book trade specialists, genealogists, and bibliographers with the information they need to mine this invaluable resource. We are profoundly grateful to Robert Singerman, Emeritus University Librarian, University of Florida for entrusting us with his extraordinary work. 
+*Judaica Americana* authoritatively chronicles American Jewish book production from the seventeenth century to the beginning of the twentieth century. The second edition contains an additional 3,000 entries. Taken as a whole, Singerman’s bibliography provides extensive documentation of American Jewish communal activity and growth before 1901.
+
+Librarian Emeritus Singerman spent nearly three decades at the Price Library of Judaica at the University of Florida, where he grew an assortment of 24,000 unprocessed volumes to a fully-cataloged collection of over 85,000 volumes. For the second edition of *Judaica Americana*, the[Association of Jewish Libraries](https://jewishlibraries.starchapter.com/images/downloads/Awards/ajl_refbibcomm_pressrelease2020.pdf) awarded Singerman the 2020 Judaica Reference and Bibliography Lifetime Achievement Award. 
+
+Singerman’s draft of the second edition — including a Supplements section, and two datasets based upon it — are now discoverable in [ScholarlyCommons](https://repository.upenn.edu/judaica_americana/), the University of Pennsylvania’s open access institutional repository. All the files now are available to researchers, book trade specialists, genealogists, and bibliographers with all information needed to mine this invaluable resource. 
+
+Judaica Digital Humanities is profoundly grateful to Robert Singerman for entrusting his extraordinary work to the Penn Libraries.
+
+### Resources 
+
+-   Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” (forthcoming). Journal of Open Humanities Data 6, no. 1, (2020).
+
+-   We have a repository on ScholarlyCommons, University of Pennsylvania’s open access institutional repository, dedicated to resources for the project:
+
+    -   Esten, Emily. “[*Dataset for Judaica Americana: A Bibliography of Publications to 1900*](https://repository.upenn.edu/judaica_americana/2)”. Scribes of the Cairo Geniza, Scholarly Commons, 2019. Web.
+
+    -   Esten, Emily. “[*Dataset for Union List of Nineteenth-Century Jewish Serials Published in the United States*](https://repository.upenn.edu/judaica_americana/3/)”. Judaica Americana, Scholarly Commons, 2020. Web.
+
+    -   Singerman, Robert. “[*Judaica Americana: A Bibliography of Publications to 1900*](https://repository.upenn.edu/judaica_americana/1)”. Judaica Americana, Scholarly Commons, 2019. Web.
+
+-   The Python scripts used in this project are maintained in a [*GitHub repository*](https://github.com/judaicadh/ja2-scripts), including:
+
+    -   Esten, Emily. “Extract\_singerman.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
+
+    -   Enderle, Jonathan Scott. “tess.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning). (Forked from its original repository) DOI: 10.5281/zenodo.3894691
+
+    -   Esten, Emily. “flip-index-headers.py.” ja2-scripts, Github, accessed May 15, 2020,[*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
+
+    -   Esten, Emily. “extract-singerman-serials.py.” ja2-scripts, Github, accessed May 15, 2020, [*https://github.com/judaicadh/ja2-cleaning*](https://github.com/judaicadh/ja2-cleaning) DOI: 10.5281/zenodo.3894691
+
+
