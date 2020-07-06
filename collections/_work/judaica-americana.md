@@ -69,7 +69,7 @@ Judaica Digital Humanities is profoundly grateful to Robert Singerman for entrus
 
 ### Resources 
 
--   Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” (forthcoming). Journal of Open Humanities Data 6, no. 1, (2020).
+-   Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15
 
 -   We have a repository on ScholarlyCommons, University of Pennsylvania’s open access institutional repository, dedicated to resources for the project:
 

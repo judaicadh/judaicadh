@@ -19,8 +19,8 @@ monographs:
 edited:
 
 journals:
-#  - article: "Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900.” Journal of Open Humanities Data 6, no. 1, (2020). (forthcoming)"
-#    link: ""
+  - article: Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15
+    link: "https://doi.org/10.5334/johd.15"
 #  - article: "Esten, Emily. “Scribes, Scholars, & Scripts: Reviewing Data from Scribes of the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 5, no. 2, (2020). (forthcoming)"
 #    link: ""
   - article: "Eckstein, Laura Newman. “Of Scribes and Scripts: Citizen Science and the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 3, no. 1, (2018): 208-214."
