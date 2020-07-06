@@ -82,38 +82,47 @@ This is a bibliographic dataset, with some information about monographs publishe
 
 * What is the average year of this dataset?
 > =AVERAGE(B4:B21)
+
 > 1866
 
 * What is the most common year in this dataset?
 >=MODE(B4:B21) 
+
 > 1898
 
 * What is the highest year in this dataset?
 > =MAX(B4:B21)
+
 > 1900
 
 * What is the lowest year in this dataset?
 > =MIN(B4:B21)
+
 > 1807
 
 * How many unique years are in this dataset?
 > =COUNTUNIQUE(B4:B21)
+
 > 15
 
 * How many entries are in this dataset?
 > =COUNT(B4:B21)
+
 > 18
 
 * How many unique locations are in this dataset?
 > =COUNTUNIQUE(D4:D21)
+
 > 5
 
 * How many books were published in New York, NY?
 > =COUNTIF(D4:D21, "New York, NY")
+
 > 9
 
 * How many books were published in Boston, MA, by D. Lothrop?
 > =COUNTIFS(D4:D21, "Boston, MA", E4:E21, "D. Lothrop")
+
 > 2
 
 # CASE 2: TEXT
@@ -140,22 +149,27 @@ This is a dataset containing metadata from a manuscript collection here in the l
 
 * For SMBx1FF8_14, convert the year into a string in the following format (#,###).
 > =TEXT(D3, "#,###")
+
 > 1,851
 
 * For SMBx1FF10_8, convert the Gregorian date into a numerical date.
 > =TO_DATE(C7)
+
 > 5/20/1853
 
 * For SMBx1FF10_13, substitute "Unknown Addressee" to "Solis, S" in the manuscript name.
 > =SUBSTITUTE(B7, "Unknown Addressee", "Solis, S")
+
 > Letter from Morais, Sabato to Solis, S. Philadelphia, PA; May 1853
 
 * For SMBx1FF8_6, join the city and the state, separated by a comma.
 > =CONCATENATE(E5,", ",F5) OR =TEXTJOIN(", ",TRUE,E5:F5) works here 
+
 > Long Branch, NJ
 
 * For SMBx17FF1_1, trim the spaces from the manuscript name.  
 > =TRIM(B4)
+
 > Letter from Bernal, A. I. H. to Morais, Sabato. Louisville, KY; Jun 1851
 
 # CASE 3: WEB
@@ -178,6 +192,7 @@ In this case study, we're importing data from existing datasets from [OPenn](htt
 
 * Import all attributes that are named "mainLang" from the XML file in Row 4. 
 > =IMPORTXML(C4,"@mainLang")
+
 > jrb 
 
 * Import the data from the CSV in Row 3. 
@@ -204,25 +219,33 @@ In this case study, we're working with data from the previous four case studies 
 
 * Search for the author_editor of the item with the pid "supp0785" from the CASE1 sheet.
 > =VLOOKUP("supp0785",CASE1!A3:E21,3,FALSE)
+
 > Alden, Isabella Macdonald, ed.
 
 * Search for the manuscript name of the item with Box/Folder Location "SMBx1FF8_14" from the CASE2 sheet.
 > =VLOOKUP("SMBx1FF8_14",CASE2!A2:F8,2,FALSE)
+
 > Letter from Solis, S. to Weil, Clara E. Philadelphia, PA; May 1851
 
 * Search for the file named "George Washington" from the CASE3 sheet.
 > =VLOOKUP("George Washington",CASE3!A2:E25,1,FALSE). You will get #N/A because that doesn't exist in CASE3
+
 > Alden, Isabella Macdonald, ed.
 
 * Query the average year of the dataset in the CASE1 sheet. 
 > =QUERY(CASE1!A3:E21,"select avg(B)")
+
 > avg YEAR
+
 > 1866
 
 * Query the manuscript name where the year is 1853 in the CASE 2 sheet.
 > =QUERY(CASE2!A2:F8, "select (B) where (D) > 1852")
+
 > Name
+
 > Letter from Morais, Sabato to Unknown Addressee. Philadelphia, PA; May 1853
+
 > Letter from Labatt, D. C. to Morais, Sabato. New Orleans, LA; Sep 1853
 
 # Next Steps with Google Sheets
@@ -239,5 +262,4 @@ Functions are one way to wrangle your data, but there are so many other things y
 * [Scraping, Transforming, and Enriching Bibliographic Data with Google Sheets (Michael P. Williams, Penn Libraries)](https://www.slideshare.net/MichaelWilliams513/scraping-transforming-and-enriching-bibliographic-data-with-google-sheets)
 * [The Ultimate Guide to Google Sheets VLOOKUP Function (with examples) (Productivity Hotspot)](https://productivityspot.com/google-sheets-vlookup-function/)
 * [Using IFERROR Function in Google Sheets (Productivity Spot)](https://productivityspot.com/iferror-function-google-sheets/)
-
 
