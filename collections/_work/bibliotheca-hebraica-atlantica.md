@@ -2,17 +2,17 @@
 collaborators: 
   - name: Laura Newman Eckstein
     slug: lauraneckstein  
-    role: Judaica Digital Humanities Coordinator
+    role: Judaica Digital Humanities Coordinator (2016-2018)
   - name: John Pollack
     role: Curator, Research Services
   - name: Peter Stallybrass
     role: Walter H. and Leonore C. Annenberg Professor in the Humanities and Professor of English
   - name: Michelle Chesner
+    role: Norman E. Alexander Librarian for Jewish Studies, Columbia University Libraries
   - name: Arthur Kiron
     role: Schottenstein-Jesselson Curator of Judaica Collections 
-    role: Columbia University Libraries
   - name: James Green
-    role: Library Company of Pennsylvania
+    role: Librarian, Library Company of Pennsylvania
   - name: Staff
     role: Historical Society of Pennsylvania
   - name: Jesús de Prado Plumed
