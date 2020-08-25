@@ -8,7 +8,7 @@ categories:
 - Scribes of the Cairo Geniza
 tags:
 - Scribes of the Cairo Geniza
-pull-quote: "A presentation on functions and formulas in Google Sheets for the Digital Scholarship Bootcamp in the 2020 Penn Libraries Summer Workshops Series."
+pull-quote: "Twitter threads, podcasts, and updates of Scribes of the Cairo Geniza."
 ---
 
 Hi there, 
