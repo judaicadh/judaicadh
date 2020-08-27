@@ -11,7 +11,7 @@ tags:
 pull-quote: "A presentation on functions and formulas in Google Sheets for the Digital Scholarship Bootcamp in the 2020 Penn Libraries Summer Workshops Series."
 ---
 
-*The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop and the additional materials (slides and workbook) are available [here](https://docs.google.com/spreadsheets/d/15qlFC78I1VpW_LCkhyNN6J9U-BG0yQInsM8EfBQxB3c/edit?usp=sharing)*
+*The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop is available [here](http://www.kaltura.com/tiny/zkt69).*
 
 ![Title Slide - Data Wrangling with Google Sheets](https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-12.jpg)
 
