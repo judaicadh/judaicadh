@@ -61,7 +61,7 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 
 ### Press and Reviews
 
-### Reviews
+#### Reviews
 {% for link in site.data.cv.reviews %}
 {% if link.link != "" %}
 * [{{ link.article }}]({{ link.link }})
@@ -69,7 +69,6 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 * {{ link.article }}
 {% endif %}
 {% endfor %}
-
 
 #### [Scribes of the Cairo Geniza](/work/cairo-geniza) Press:
 {% for link in site.data.cv.press %}
