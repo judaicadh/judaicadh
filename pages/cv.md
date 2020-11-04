@@ -59,7 +59,7 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 
 {% endfor %}
 
-###Press and Reviews
+## Press and Reviews
 
 ### Reviews
 {% for link in site.data.cv.reviews %}
