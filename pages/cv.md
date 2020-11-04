@@ -16,8 +16,8 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 <!---### Symposiums Organized:--->
 
 
-### Scholarly Publications:
-#### Journal Articles
+## Scholarly Publications:
+### Journal Articles
 {% for link in site.data.cv.journals %}
 {% if link.link != "" %}
 * [{{ link.article }}]({{ link.link }})
@@ -26,7 +26,7 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 {% endif %}
 {% endfor %}
 
-#### Datasets
+### Datasets
 {% for link in site.data.cv.datasets %}
 * [{{ link.title }}]({{ link.url }})
 {% endfor %}
@@ -36,7 +36,7 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 <!---#### Other--->
 
 <!---### Invited Talks and Panels:--->
-
+## Presentations 
 ### Conference Presentations:
 {% for link in site.data.cv.conferences %}
 {% if link.url %}
@@ -53,15 +53,15 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 
 <!---### Workshops and Workshop Series:--->
 
-#### Transcribe-a-thons: 
+### Transcribe-a-thons: 
 {% for link in site.data.cv.transcribeathons %}
 * [{{ link. institution }}]({{ link.url }})  • {{ link.date }}
 
 {% endfor %}
 
-### Press and Reviews
+###Press and Reviews
 
-#### Reviews
+### Reviews
 {% for link in site.data.cv.reviews %}
 {% if link.link != "" %}
 * [{{ link.article }}]({{ link.link }})
@@ -70,28 +70,28 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 {% endif %}
 {% endfor %}
 
-#### [Scribes of the Cairo Geniza](/work/cairo-geniza) Press:
+### [Scribes of the Cairo Geniza](/work/cairo-geniza) Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "cairogeniza" %}
 * [{{ link.article }}]({{ link.link }})
 {% endif %}
 {% endfor %}
 
-#### [Scribes of the Seder](/work/cairo-geniza) Press:
+### [Scribes of the Seder](/work/cairo-geniza) Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "seder" %}
 * [{{ link.article }}]({{ link.link }})
 {% endif %}
 {% endfor %}
 
-#### Other Press:
+### Other Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "general" %}
 * [{{ link.article }}]({{ link.link }})
 {% endif %}
 {% endfor %}
 
-### Honors and Awards:
+## Honors and Awards:
 {% for award in site.data.cv.awards %}
 {{ award.title }} • {{ award.date }} • {{ award.secondary }}
 {% endfor %}
