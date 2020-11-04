@@ -59,21 +59,33 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 
 {% endfor %}
 
-### [Scribes of the Cairo Geniza](/work/cairo-geniza) Press:
+### Press and Reviews
+
+### Reviews
+{% for link in site.data.cv.reviews %}
+{% if link.link != "" %}
+* [{{ link.article }}]({{ link.link }})
+{% else %}
+* {{ link.article }}
+{% endif %}
+{% endfor %}
+
+
+#### [Scribes of the Cairo Geniza](/work/cairo-geniza) Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "cairogeniza" %}
 * [{{ link.article }}]({{ link.link }})
 {% endif %}
 {% endfor %}
 
-### [Scribes of the Seder](/work/cairo-geniza) Press:
+#### [Scribes of the Seder](/work/cairo-geniza) Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "seder" %}
 * [{{ link.article }}]({{ link.link }})
 {% endif %}
 {% endfor %}
 
-<!---### Other Press:--->
+#### Other Press:
 {% for link in site.data.cv.press %}
 {% if link.type == "general" %}
 * [{{ link.article }}]({{ link.link }})
