@@ -42,7 +42,7 @@ datasets:
 
 reviews:
   - article: "Goldman, M. H. (2020). Review: Digital Second Edition of Judaica Americana. Reviews in Digital Humanities, I(11). https://doi.org/10.21428/3e88f64f.25620894"
-  link: "https://doi.org/10.21428/3e88f64f.25620894"
+    link: "https://doi.org/10.21428/3e88f64f.25620894"
   
 web:
 
