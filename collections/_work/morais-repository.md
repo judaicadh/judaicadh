@@ -32,7 +32,7 @@ collaborators:
     role: Project Director 
     slug: nicky-agate
 
-link: https://morais.exhibits.library.upenn.edu/
+#link: https://morais.exhibits.library.upenn.edu/
 layout: work
 slug: morais-repository 
 title: Sabato Morais Digital Repository
