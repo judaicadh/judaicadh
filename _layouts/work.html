@@ -57,7 +57,7 @@ layout: default
 				 <strong>Related Projects</strong>
 				 <ul>
 					{% for post in project_work %}
-						<li> <a href="{{ site.baseurl }}{{ post.slug }}">{{ post.title }}</a></li>
+						<li> <a href="{{ site.url }}work/{{post.slug}}">{{ post.title }}</a></li>
 					{% endfor %}
 					</ul>
 			{% endif %}
