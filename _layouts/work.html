@@ -22,7 +22,7 @@ layout: default
 		<div class="project-content__category"><span>Initiatives:</span>
 			{% for research-category in page.research-category %}	
 				{% assign apage = site.work | where:'slug', research-category | first %}
-				<a href="{{ site.baseurl }}{{ apage.url }}">{{ apage.title }}</a>
+				<a href="{{ site.baseurl }}{{ page.url }}">{{ apage.title }}</a>
 			{% endfor %}
 		</div>
 		{% endif %}
@@ -57,7 +57,7 @@ layout: default
 				 <strong>Related Projects</strong>
 				 <ul>
 					{% for post in project_work %}
-						<li> <a href="{{ site.url }}/work/{{ post.slug }}">{{ post.title }}</a></li>
+						<li> <a href="{{ site.url }}/work{{ post.slug }}">{{ post.title }}</a></li>
 					{% endfor %}
 					</ul>
 			{% endif %}
