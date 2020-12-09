@@ -1,16 +1,36 @@
 ---
 collaborators: 
-  - name: Marvin Weiner (C'38)
-  - name: Herbert Weiner
-  - name: Sheila Weiner 
-  - name: Jesselson Family Foundation 
-  - name: Kaplan Family Foundation
-  - name: The National Foundation for Jewish Culture 
-  - name: Leslie Delauter
-  - name: Gina Glasman
-  - name: Michael Overgaard
-  - name: Heather Newman
-  - name: Elizabeth Peters 
+- name: Marvin Weiner (C'38)
+  role: Collector; Cataloguer; Benefactor
+- name: Herbert Weiner
+  role: Benefactor 
+- name: Sheila Weiner 
+  role: Benefactor 
+- name: Jesselson Family Foundation 
+  role: Benefactor 
+- name: Kaplan Family Foundation
+  role: Benefactor 
+- name: The National Foundation for Jewish Culture 
+  role: Benefactor 
+- name: Leslie Delauter
+  role: Typist
+- name: Gina Glasman
+  role: Editor and Indexer
+- name: Michael Overgaard
+  role: Project Manager 
+- name: Heather Newman
+  role: Transcriber 
+- name: Elizabeth Peters 
+  role: Project Data Quality Control Reviewer
+- name: Emily Esten 
+  role: Project Manager, Sabato Morais Digital Repository; Project Developer, Sabato Morais Digital Repository
+  slug: emily-esten 
+- name: Arthur Kiron 
+  role: Project Director, Sabato Morais Digital Repository; Content Editor, Sabato Morais Digital Repository
+  slug: arthur-kiron
+- name: Nicky Agate
+  role: Project Director, Sabato Morais Digital Repository
+  slug: nicky-agate
 
 layout: work
 slug: sabato-morais

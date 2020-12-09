@@ -1,9 +1,23 @@
 ---
 collaborators: 
-  - name: Marvin Weiner (C'38)
-  - name: The National Foundation for Jewish Culture 
-  - name: Leslie Delauter
-  - name: Gina Glasman
+- name: Marvin Weiner (C'38)
+  role: Collector; Cataloguer; Benefactor
+- name: Herbert Weiner
+  role: Benefactor 
+- name: Sheila Weiner 
+  role: Benefactor 
+- name: Jesselson Family Foundation 
+  role: Benefactor 
+- name: Kaplan Family Foundation
+  role: Benefactor 
+- name: The National Foundation for Jewish Culture 
+  role: Benefactor 
+- name: Leslie Delauter
+  role: Typist
+- name: Gina Glasman
+  role: Editor and Indexer
+- name: Michael Overgaard
+  role: Project Manager 
 link: http://sceti.library.upenn.edu/morais/
 layout: work
 slug: morais-ledger
