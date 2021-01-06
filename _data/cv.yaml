@@ -43,6 +43,8 @@ datasets:
 reviews:
   - article: "Goldman, M. H. (2020). Review: Digital Second Edition of Judaica Americana. Reviews in Digital Humanities, I(11). https://doi.org/10.21428/3e88f64f.25620894"
     link: "https://doi.org/10.21428/3e88f64f.25620894"
+  - article: "Haynes, C. (2021). Review: Scribes of the Cairo Geniza. Reviews in Digital Humanities, II(1). https://doi.org/10.21428/3e88f64f.52b54957"
+    link: "https://doi.org/10.21428/3e88f64f.52b54957"
   
 web:
 
@@ -51,6 +53,12 @@ other:
 ########### Talks ###########
 
 conferences:
+  - title: "Building a Judaica DH Program"
+    institution: "C²DH"
+    location: University of Luxembourg//Virtual 
+    date: January 2021
+    type: Paper
+    event: "#DHJewish - Jewish Studies in the Digital Age"
   - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
     institution: Alliance of Digital Humanities Organizations
     location: Ottawa, Ontario
