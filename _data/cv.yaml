@@ -54,11 +54,12 @@ other:
 
 conferences:
   - title: "Building a Judaica DH Program"
-    institution: "C²DH"
+    institution: "Luxembourg Centre for Contemporary and Digital History (C²DH)"
     location: University of Luxembourg//Virtual 
     date: January 2021
     type: Paper
     event: "#DHJewish - Jewish Studies in the Digital Age"
+    url: "https://doi.org/10.26226/morressier.5fd8d8c83d762219be34f4d8"
   - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
     institution: Alliance of Digital Humanities Organizations
     location: Ottawa, Ontario

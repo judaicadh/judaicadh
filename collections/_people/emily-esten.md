@@ -5,7 +5,7 @@ first_name: Emily
 last_name: Esten
 layout: people
 name: Emily Esten
-position: Judaica Digital Humanities Project Coordinator
+position: Arnold and Deanne Kaplan Collection of Early American Judaica Curator of Digital Humanities
 short_bio: ''
 slug: emily-esten
 status: current
