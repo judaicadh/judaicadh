@@ -31,7 +31,14 @@ This project CV shares the prizes and grants Judaica DH has been honored to rece
 * [{{ link.title }}]({{ link.url }})
 {% endfor %}
 
-<!---#### Web--->
+#### Web
+{% for link in site.data.cv.web %}
+{% if link.link != "" %}
+* [{{ link.article }}]({{ link.link }})
+{% else %}
+* {{ link.article }}
+{% endif %}
+{% endfor %}
 
 <!---#### Other--->
 
