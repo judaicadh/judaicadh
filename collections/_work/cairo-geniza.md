@@ -10,6 +10,9 @@ collaborators:
     role: Judaica Digital Humanities Coordinator 
   - name: Doug Emery
     role: Special Collections Digital Content Programmer 
+  - name: Emily Esten 
+    slug: emily-esten
+    role: Project Manager; Judaica Digital Humanities Coordinator 
   - name: Mitch Fraas
     slug: mitch-fraas
     role: Curator of Special Collections
@@ -20,10 +23,12 @@ collaborators:
     role: Schottenstein-Jesselson Curator of Judaica Collections 
   - name: Moshe Lavee 
     role: Co-director of E-lijah Lab, University of Haifa (Haifa, Israel)
-  - name: Vered Raziel-Ketzmer
+  - name: Vered Raziel-Kretzmer
     role: The University of Haifa (Haifa, Israel)
   - name: Eve Krakowski
     role: Assistant Professor of Near Eastern Studies, Princeton University (Princeton, NJ)
+  - name: Coleman Krawczyk
+    role: Zooniverse
   - name: William Noel 
     slug: will-noel
     role: Director of the Kislak Center for Special Collections
@@ -33,9 +38,8 @@ collaborators:
     role: Designer for Zooniverse 
   - name: Marina Rustow 
     role: Khedouri A. Zilkha Professor of Jewish Civilization in the Near East, Professor of Near Eastern Studies and History at Princeton University (Princeton, NJ)
-  - name: Emily Esten 
-    slug: emily-esten
-    role: Project Manager; Judaica Digital Humanities Coordinator 
+  - name: Zach Wolfenbarger
+    role: Zooniverse
   - name: University of Pennsylvania Libraries
     role: Research Partner
   - name: Princeton Geniza Lab 
