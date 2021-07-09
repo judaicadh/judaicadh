@@ -8,7 +8,7 @@ categories:
 - Scribes of the Cairo Geniza
 tags:
 - Scribes of the Cairo Geniza
-pull-quote: "The Center for Research Data and Digital Scholarship at University of Pennsylvania Libraries, The Center for Digital Humanities at Princeton University Library, the Princeton Geniza Lab, and the Zooniverse hosted a series of conversations (April 14-16, 2021). Watch the videos here."
+pull-quote: "Recordings from “Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza” are now available on the Princeton Geniza Lab site."
 ---
 
 The Center for Research Data and Digital Scholarship at University of Pennsylvania Libraries, The Center for Digital Humanities at Princeton University Library, the Princeton Geniza Lab, and the Zooniverse present a series of conversations on project management and development, creation and use of data, and crowdsourcing platforms and research possibilities.
@@ -19,4 +19,10 @@ Building on the project’s work, this series of roundtable discussions explore 
 
 This event was part of the 2020–21 “Collections as Data” series presented by the Center for Digital Humanities and Princeton University Library. Now in its third year, the series was dedicated to exploring how library, archive, and museum collections can be leveraged to support data-driven scholarship and discovery. This year’s focus is community, exploring how communities can engage with and form around data-based projects.
 
-{% includes celebrating-scribes.html %}
+View the recordings for each of these roundtables below:
+- [Crowdsourcing and the Humanities: Meeting the Scribes of the Cairo Geniza Project Team](http://www.kaltura.com/tiny/u0ieh)
+- [Crowdsourcing and the Humanities: Who are the #GenizaScribes?](http://www.kaltura.com/tiny/wkzfw)
+- [Crowdsourcing and the Humanities: Platforms for People-Powered Research](http://www.kaltura.com/tiny/lj9gm)
+- [Crowdsourcing and the Humanities: From the Technical Side: Responding to Researcher Needs](http://www.kaltura.com/tiny/sgb7k)
+- [Crowdsourcing and the Humanities: Working with Crowdsourced Textual Data](http://www.kaltura.com/tiny/ov87l)
+- [Crowdsourcing and the Humanities: Across The Zooniverse: Science and Humanities](http://www.kaltura.com/tiny/yxsv7)
