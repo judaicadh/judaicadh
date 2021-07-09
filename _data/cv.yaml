@@ -22,7 +22,7 @@ journals:
   - article: "Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15"
     link: "https://doi.org/10.5334/johd.15"
   - article: "Esten, Emily. “Scribes, Scholars, & Scripts: Reviewing Data from Scribes of the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 5, no. 2, (2020)."
-#    link: ""
+    link: "http://doi.org/10.1353/mns.2020.0016"
   - article: "Eckstein, Laura Newman. “Of Scribes and Scripts: Citizen Science and the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 3, no. 1, (2018): 208-214."
     link: "https://repository.upenn.edu/mss_sims/vol3/iss1/9"
 
@@ -45,26 +45,77 @@ reviews:
     link: "https://doi.org/10.21428/3e88f64f.25620894"
   - article: "Haynes, C. (2021). Review: Scribes of the Cairo Geniza. Reviews in Digital Humanities, II(1). https://doi.org/10.21428/3e88f64f.52b54957"
     link: "https://doi.org/10.21428/3e88f64f.52b54957"
-  
+
 web:
   - article: "Esten, E., & Blickhan, S. (2021). Scribes of the Cairo Geniza. Visualizing Objects, Places, and Spaces: A Digital Project Handbook. https://doi.org/10.21428/51bee781.0afc1687"
     link: "https://doi.org/10.21428/51bee781.0afc1687"
+  - article: "Esten, E. (2021). Uncovering the Secrets of the Egyptian Geniza With Citizen Science. SciStarter. https://blog.scistarter.org/2021/06/uncovering-the-secrets-of-the-egyptian-geniza-with-citizen-science/"
+    link: "https://blog.scistarter.org/2021/06/uncovering-the-secrets-of-the-egyptian-geniza-with-citizen-science/"
 
 other:
 
 ########### Talks ###########
 
 conferences:
+  - title: "Across the Zooniverse: Science and the Humanities"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/yxsv7"
+  - title: "Working with Crowdsourced Textual Data"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/ov87l"
+  - title: "From the Technical Side: Responding to Researcher Needs"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/sgb7k"
+  - title: "Platforms for People-Powered Research"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/lj9gm"
+  - title: "Who are the #GenizaScribes?"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/wkzfw"
+  - title: "Meet the Scribes of the Cairo Geniza Project Team"
+    institution: "Scribes of the Cairo Geniza"
+    location: Princeton University//Virtual
+    date: April 2021
+    type: Roundtable
+    event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
+    url: "http://www.kaltura.com/tiny/u0ieh"
   - title: "Building a Judaica DH Program"
     institution: "Luxembourg Centre for Contemporary and Digital History (C²DH)"
-    location: University of Luxembourg//Virtual 
+    location: University of Luxembourg//Virtual
     date: January 2021
     type: Paper
     event: "#DHJewish - Jewish Studies in the Digital Age"
     url: "https://doi.org/10.26226/morressier.5fd8d8c83d762219be34f4d8"
-  - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
+  - title: "Building a Judaica DH Program"
+    institution: "Luxembourg Centre for Contemporary and Digital History (C²DH)"
+    location: University of Luxembourg//Virtual
+    date: January 2021
+    type: Paper
+    event: "#DHJewish - Jewish Studies in the Digital Age"
+    url: "https://doi.org/10.26226/morressier.5fd8d8c83d762219be34f4d8"
+  - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing (cancelled)"
     institution: Alliance of Digital Humanities Organizations
-    location: Ottawa, Ontario
+    location: Ottawa, Ontario//Virtual
     date: July 2020
     type: Panel
     event: "DH 2020"
@@ -95,7 +146,7 @@ conferences:
     date: June 2019
     type: Talk
     event: "IT Staff Convention 2019"
-    
+
 community:
   - title: "Adult Ed - Scribes of the Cairo Geniza Project"
     institution: Temple Adath Israel
@@ -142,12 +193,12 @@ membership:
 press:
   - article: "" # full Chicago-style citation
     link: "" # always include link
-    author: # last name, first name 
+    author: # last name, first name
     title: # include quotes
     publisher: # the publisher of the citation
     date: #DD Month YYYY
     place: #Web?
-    type: # cairogeniza, seder, general 
+    type: # cairogeniza, seder, general
   - article: "Alperin, Michele. “Do it yourself” New Jersey Jewish News, 27 November 2019. Web."
     author: "Alperin, Michele"
     title: "Do it yourself."
@@ -219,7 +270,7 @@ press:
     link: "https://penntoday.upenn.edu/news/penn-libraries-announces-crowd-sourced-scholarship-endeavor-scribes-cairo-geniza%C2%A0"
     type: cairogeniza
     author: "Leavens, Sara"
-    title: "“Penn Libraries Announces Crowd-Sourced Scholarship Endeavor, “Scribes of the Cairo Geniza”.”" 
+    title: "“Penn Libraries Announces Crowd-Sourced Scholarship Endeavor, “Scribes of the Cairo Geniza”.”"
     publisher: "Penn Today, 11 August 2017. Web."
     date:
     place: "Web"
@@ -232,7 +283,7 @@ press:
     date:
     place: "Web"
   - article: "Schechter, Dave. “Opening Windows on Jewish Life Centuries Ago.” Atlanta Jewish Times, 5 October 2018. Web."
-    link: "https://atlantajewishtimes.timesofisrael.com/opening-windows-on-jewish-life-centuries-ago1/" 
+    link: "https://atlantajewishtimes.timesofisrael.com/opening-windows-on-jewish-life-centuries-ago1/"
     type: cairogeniza
     author: "Schechter, Dave"
     title: "Opening Windows on Jewish Life Centuries Ago."
@@ -259,7 +310,7 @@ press:
     link: "https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue"
     type: cairogeniza
     author: "Stiteler, Gretchen"
-    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israe, Synagogue”." 
+    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israe, Synagogue”."
     publisher: "Penn Libraries News, 11 February 2020. Web."
     date: "11 Feburary 2020"
     place: "Web"
@@ -279,4 +330,3 @@ press:
     publisher: "Jewish Standard"
     date: "10 August 2017"
     place: "Web"
-  
