@@ -6,7 +6,7 @@ collaborators:
   - name: Laura Newman Eckstein
     slug: lauraneckstein
     role: Judaica Digital Humanities Project Coordiantor
-link: https://github.com/judaicadh/kaplanmap
+link: https://judaicadh.github.io/kaplanmap/#3/25.80/-34.98
 layout: work
 slug: kaplan-map
 title: Mapping the Kaplan Collection
@@ -17,8 +17,8 @@ img-source-url: https://www.flickr.com/photos/arts_at_penn/14018331445/
 research-category: 
  - kaplan-collection
 start-year: 2016
-end-year: present
-status: current
+end-year: 2017
+status: legacy
 ---
 In November of 2012, the Penn Libraries received the [Arnold and Deanne Kaplan Collection of Early American Judaica](https://kaplan.exhibits.library.upenn.edu/). This gift of nearly 11,000 items was appraised at $8.5 million. It continues to grow and currently consists of over 13,000 items. It is the most important private collection of its kind, documenting the social and economic development of early Jewish life in the Western Hemisphere. The core of the Kaplan Collection covers the period before mass Jewish migration to the Americas in the late 1880s. 
 
