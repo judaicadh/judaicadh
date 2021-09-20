@@ -9,8 +9,8 @@ collaborators:
 link: https://github.com/upenndigitalscholarship/collections-as-data-notebooks
 layout: work
 slug: kaplan-jupyter-notebooks
-title: Teaching Collections as Data
-thumb-img: trade-card.jpg
+title: Early American Judaica as Data
+thumb-img: jupyter-visualization.jpg
 banner-img: jupyter-visualization.jpg
 img-source: One of the visualizations generated in the "Explore Time" notebook. This shows that the majority of items in the collection date to the late 19th century. 
 img-source-url: #https://www.flickr.com/photos/arts_at_penn/14018331445/
