@@ -19,6 +19,8 @@ monographs:
 edited:
 
 journals:
+  #- article: "Esten, Emily. “Introduction: Scribes” Startwords 2, (2021). DOI: "
+  #  link: "https://startwords.cdh.princeton.edu/issues/2/"
   - article: "Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15"
     link: "https://doi.org/10.5334/johd.15"
   - article: "Esten, Emily. “Scribes, Scholars, & Scripts: Reviewing Data from Scribes of the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 5, no. 2, (2020)."
@@ -99,13 +101,13 @@ conferences:
     type: Roundtable
     event: "Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza "
     url: "http://www.kaltura.com/tiny/u0ieh"
-  - title: "Building a Judaica DH Program"
-    institution: "Luxembourg Centre for Contemporary and Digital History (C²DH)"
-    location: University of Luxembourg//Virtual
-    date: January 2021
-    type: Paper
-    event: "#DHJewish - Jewish Studies in the Digital Age"
-    url: "https://doi.org/10.26226/morressier.5fd8d8c83d762219be34f4d8"
+  - title: "Collections as Data: The Role of DH in Curatorial Work"
+    institution: "National Library of Israel"
+    location: National Library of Israel//Virtual
+    date: May 2021
+    type: Invited Speaker
+    event: "The 4th Judaica Curators {Virtual} Conference"
+    url: ""
   - title: "Building a Judaica DH Program"
     institution: "Luxembourg Centre for Contemporary and Digital History (C²DH)"
     location: University of Luxembourg//Virtual
@@ -310,7 +312,7 @@ press:
     link: "https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue"
     type: cairogeniza
     author: "Stiteler, Gretchen"
-    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israe, Synagogue”."
+    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israel, Synagogue”."
     publisher: "Penn Libraries News, 11 February 2020. Web."
     date: "11 Feburary 2020"
     place: "Web"

@@ -28,7 +28,7 @@ banner-img: biblothecaamericaatlantica.jpg
 img-source: 'King, Samuel. Ezra Stiles. 1770-1771. Yale University Art Gallery, New Haven, Connecticut. Yale University Art Gallery. Yale University. Web. 13 July 2017.'
 img-source-url: http://artgallery.yale.edu/collections/objects/49867
 research-category: 
-status: egacy
+status: legacy
 start-year:  2017
 end-year: 2017
 ---
