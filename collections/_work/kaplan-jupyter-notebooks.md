@@ -9,7 +9,7 @@ collaborators:
 link: https://github.com/upenndigitalscholarship/collections-as-data-notebooks
 layout: work
 slug: kaplan-jupyter-notebooks
-title: Working with the Kaplan Collection as Data
+title: Teaching Collections as Data
 thumb-img: trade-card.jpg
 banner-img: jupyter-visualization.jpg
 img-source: One of the visualizations generated in the "Explore Time" notebook. This shows that the majority of items in the collection date to the late 19th century. 
