@@ -10,10 +10,10 @@ link: https://github.com/upenndigitalscholarship/collections-as-data-notebooks
 layout: work
 slug: kaplan-jupyter-notebooks
 title: Working with the Kaplan Collection as Data
-thumb-img: kaplanthumbnail.jpg
-banner-img: kaplan.jpg
-img-source: Die-Cut Lithograph of a Dual Said and Steamship Flying the American Flag, with Raised Features advertising “Cohen & Brumberg ...The Great One Price Clothier.” Lithograph, ca 1870. The Arnold and Deanne Kaplan Collection of Early American Judaica.
-img-source-url: https://www.flickr.com/photos/arts_at_penn/14018331445/
+thumb-img: trade-card.jpg
+banner-img: jupyter-visualization.jpg
+img-source: One of the visualizations generated in the "Explore Time" notebook. This shows that the majority of items in the collection date to the late 19th century. 
+img-source-url: #https://www.flickr.com/photos/arts_at_penn/14018331445/
 research-category: 
  - kaplan-collection
 start-year: 2020
