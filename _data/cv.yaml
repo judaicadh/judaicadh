@@ -284,6 +284,14 @@ press:
     publisher: "The Daily of the University of Washington, 21 May 2019. Web."
     date:
     place: "Web"
+  - article: "Penn Libraries Strategic Communications. “Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana”. Penn Libraries News, 30 June 2020. Web."
+    link: "https://www.library.upenn.edu/blogs/libraries-news/judaica-digital-humanities-launches-digital-second-edition-judaica-americana"
+    type: 
+    author: "Penn Libraries Strategic Communications"
+    title: "Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana"
+    publisher: "Penn Libraries News, 30 June 2020. Web."
+    date: "30 June 2020"
+    place: "Web"
   - article: "Schechter, Dave. “Opening Windows on Jewish Life Centuries Ago.” Atlanta Jewish Times, 5 October 2018. Web."
     link: "https://atlantajewishtimes.timesofisrael.com/opening-windows-on-jewish-life-centuries-ago1/"
     type: cairogeniza
@@ -308,11 +316,11 @@ press:
     publisher: "enlacejudío"
     date: "30 March 2018"
     place: "Web. (Published in Spanish)"
-  - article: "Stiteler, Gretchen. “Probing the 'Time Capsule' of the Cairo Geniza at Adath Israe, Synagogue”. Penn Libraries News, 11 February 2020. Web."
+  - article: "Stiteler, Gretchen. “Probing the 'Time Capsule' of the Cairo Geniza at Adath Israel, Synagogue”. Penn Libraries News, 11 February 2020. Web."
     link: "https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue"
     type: cairogeniza
     author: "Stiteler, Gretchen"
-    title: "“Probing the 'Time Capsule' of hte Cairo Geniza at Adath Israel, Synagogue”."
+    title: "“Probing the 'Time Capsule' of the Cairo Geniza at Adath Israel, Synagogue”."
     publisher: "Penn Libraries News, 11 February 2020. Web."
     date: "11 Feburary 2020"
     place: "Web"
