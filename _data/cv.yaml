@@ -284,9 +284,9 @@ press:
     publisher: "The Daily of the University of Washington, 21 May 2019. Web."
     date:
     place: "Web"
-  - article: "Penn Libraries Strategic Communications. “Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana”. Penn Libraries News, 30 June 2020. Web."
+  - article: "Penn Libraries Strategic Communications. 'Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana'. Penn Libraries News, 30 June 2020. Web."
     link: "https://www.library.upenn.edu/blogs/libraries-news/judaica-digital-humanities-launches-digital-second-edition-judaica-americana"
-    type: 
+    type: "general"
     author: "Penn Libraries Strategic Communications"
     title: "Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana"
     publisher: "Penn Libraries News, 30 June 2020. Web."
