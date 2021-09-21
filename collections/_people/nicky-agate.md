@@ -8,6 +8,7 @@ title: Nicky Agate
 position: Assistant University Librarian for Research Data and Digital Scholarship 
 short_bio: ''
 slug: nicky-agate
+profile_pic: nicky-agate
 status: current
 twitter: None
 website: None
