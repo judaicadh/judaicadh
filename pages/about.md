@@ -28,7 +28,7 @@ Judaica Digital Humanities at the [Penn Libraries](http://library.upenn.edu) (al
 We love to team up with other folks at Penn and beyond! Our decisions about longer-term research collaboration are based on the resources, skills, and interests/mission of all parties. Please [contact us](mailto:judaicadh@gmail.com) for an initial consult to discuss ideas.
 
 ## How does Judaica DH fit into Penn Libraries?
-JudaicaDH was formally founded in 2016, thanks to a gift from the Gershwind-Bennett families. We're part of [Penn Libraries](http://library.upenn.edu) and its mission to provide high-quality information resources and push the frontiers of innovation and enterprise to impact teaching, learning and research. 
+Judaica DH was formally founded in 2016, thanks to a gift from the Gershwind-Bennett families. We're part of [Penn Libraries](http://library.upenn.edu) and its mission to provide high-quality information resources and push the frontiers of innovation and enterprise to impact teaching, learning and research. 
 
 Organizationally, we sit in the Library's Center for Research Data and Digital Scholarship unit led by AUL [Nicky Agate](https://people/nicky-agate). Our project team members often include Library colleagues from Kislak Center for Special Collections, Rare Books, and Manuscripts; Learning Design; Library Technology Services & Strategic Initiatives, and subject liaison librarians. We're also part of the digital humanities ecosystem of teams and people doing digital scholarship work at Penn.
 
