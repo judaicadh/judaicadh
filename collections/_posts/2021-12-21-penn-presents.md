@@ -1,31 +1,28 @@
 ---
-layout: default
-title: Exploring Colenda Data with Jupyter Notebooks
-permalink: /pennpresents/
-nav: true
-order: 3
+author: admin
+date: 2021-12-21
+layout: post
+slug: penn-presents
+title: "RECAP: Exploring Colenda Data with Jupyter Notebooks"
+categories:
+tags:
+pull-quote: "Recordings from “Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza” are now available on the Princeton Geniza Lab site."
 ---
-<div><h1>Exploring Colenda Data with Jupyter Notebooks</h1> 
+
+# Exploring Colenda Data with Jupyter Notebooks
 
 <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1147242/sp/114724200/embedIframeJs/uiconf_id/9757771/partner_id/1147242?iframeembed=true&playerId=kaltura_player&entry_id=1_t8522280&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_juqoo8j4" width="400" height="285" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
 
-<p><i>Note: Visualizations use early 2021 data.</i><p>
-  </div>
-<div>
-<h1>Counts Over Time</h1>
+*Note: Visualizations use early 2021 data.* 
+
+# Counts Over Time
 {% include counts_over_time.html %}
-</div>
-<div>
-<h1>States Over Time</h1> 
+
+# States Over Time
 {% include states_over_time.html %}
-</div>
 
-<div>
-<h1>Types Over Time</h1>
+# Types Over Time
 {% include types_over_time.html %}
-</div>
 
-<div>
-<h1>World Chart</h1> 
+# World Chart
 {% include world_chart.html %}
-</div>
