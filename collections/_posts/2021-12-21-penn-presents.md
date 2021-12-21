@@ -15,12 +15,14 @@ pull-quote: "Recordings from “Crowdsourcing and the Humanities: Roundtable Dis
 
 *Note: Visualizations use early 2021 data.* 
 
+<div>
 # Counts Over Time
 {% include counts_over_time.html %}
-
+</div>
+<div>
 # States Over Time
 {% include states_over_time.html %}
-
+</div>
 # Types Over Time
 {% include types_over_time.html %}
 
