@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Building the Digital Second Edition of Robert Singerman&#39;s Judaica Americana | Judaica DH at the Penn Libraries </title>
+  
+  
+  <meta name="description" content="As the project manager and developer for Judaica Digital Humanities at the Penn Libraries, I’m excited to announce the launch of the Digital Second Edition of Judaica Americana. This is an Omeka database which draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.">
+  
+  <!-- Open Graph http://ogp.me/ -->
+  <meta property="og:title" content="Building the Digital Second Edition of Robert Singerman's Judaica Americana">
+  <meta property="og:description" content="As the project manager and developer for Judaica Digital Humanities at the Penn Libraries, I’m excited to announce the launch of the Digital Second Edition of Judaica Americana. This is an Omeka database which draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.">
+  <meta property="og:site_name" content="Judaica DH at the Penn Libraries">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/blog/about-singermanja2//">
+  
+
+  
+  
+    
+    
+        
+  <meta property="og:author" content="Emily Esten">
+        
+    
+  
+  
+
+  <!-- Twitter Cards https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="judaicadh">
+  <meta name="twitter:title" content="Building the Digital Second Edition of Robert Singerman&#39;s Judaica Americana | Judaica DH at the Penn Libraries">
+  <meta name="twitter:description" content="As the project manager and developer for Judaica Digital Humanities at the Penn Libraries, I’m excited to announce the launch of the Digital Second Edition of Judaica Americana. This is an Omeka database which draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.">
+  
+
+  <link href="https://fonts.googleapis.com/icon?family=Raleway:200,400,400i,600,700,700i,900|Oswald:200,400,600,700|Inconsolata:400,700|VT323" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/print.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/zenburn.css">
+  <link rel="canonical" href="http://localhost:4000/blog/about-singermanja2//">
+  <link rel="alternate" type="application/rss+xml" title="Judaica DH at the Penn Libraries" href="/feed.xml">
+  
+  <!--  favicon -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
+</script>
+
+  
+</head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
+</script>
+
+
+	<body>
+		<div id="library-banner">
+    <a href="https://www.library.upenn.edu" aria-label="Penn Libraries" id="library-link"><img src="/assets/img/svg/penn-libraries%20copy.png" alt="Penn Libraries logo">
+
+</a>
+</div>
+<div class="flexnav-wrapper">
+	<div class="flexnav-main">
+		<div class="flexnav__home-icon">
+			<a href="http://localhost:4000" id="slab-logo" aria-label="Judaica DH at the Penn Libraries Home" style="color:#FFFFFF;">JUDAICA DH AT THE PENN LIBRARIES
+            </a>
+		</div>
+
+		<ul class="flexnav-main-grid">
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/">Home</a></li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/about/">About</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/projects/">Projects</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/projects/">Projects</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/people/">People</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/blog/">Blog</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/cv/">CV</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/libraries/">Penn Libraries</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/history/">History</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/sitemap/">Site Map</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/search/">Search</a></li>
+		
+		
+		
+			<li class="flexnav__more-menu">
+				<div class="flexnav-more__prompt" aria-label="More menu items">More<span>&rsaquo;</span></div>
+				<ul class="flexnav-more__wrapper">
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/">Home</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/about/">About</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/projects/">Projects</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/projects/">Projects</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/people/">People</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/blog/">Blog</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/cv/">CV</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/libraries/">Penn Libraries</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/history/">History</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/sitemap/">Site Map</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/search/">Search</a></li>
+				
+				
+				
+				</ul>
+			</li>
+		</ul>
+	</div> <!-- end content -->
+</div> <!-- end wrapper -->
+
+
+		<main id="main" role="main">
+			
+<article class="post-wrapper">
+
+  <div class="post-main-content">
+
+    <div class="post__big-title" id="print-byline"><span aria-label="page type">Judaica DH at the Penn Libraries Blog //</span>Building the Digital Second Edition of Robert Singerman's Judaica Americana</div>
+
+    <div class="post__big-title" id="non-print-byline"><span aria-label="page type">Blog //</span>Building the Digital Second Edition of Robert Singerman's Judaica Americana</div>
+
+    <!-- make span an <a> tag to blog home and put h1 tags around page.title w/ the font styles when finalizing -->
+
+    <div class="post__metadata">
+
+      
+      <div class="post-meta__quote">&ldquo;As the project manager and develop for Judaica DH, Emily Esten shares the launch of the Digital Second Edition of Judaica Americana and walks us through the project's development.&rdquo;</div>
+      
+
+      <div class="post-meta__author">
+        <span>By</span> <a href="/people/emily-esten/">Emily Esten</a> on <time datetime="2020-06-30T00:00:00-04:00">June 30, 2020</time>
+      </div>
+
+      
+<!--  
+      <div class="post-meta__categories">Filed to:
+        
+        
+         digital second edition of judaica americana
+        
+      </div>
+      
+-->
+
+<!--    
+      <div class="post-meta__tags">Tagged as:
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#judaica-americana">Judaica Americana</a>,
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#digital-second-edition-of-judaica-americana">Digital Second Edition of Judaica Americana</a>,
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#how-did-they-make-that">How Did They Make That</a>
+        
+      </div>
+      
+-->
+
+    </div> <!-- end metadata -->
+
+    <!-- text of post -->
+    <div class="post__content">
+        
+      <p>As the project manager and developer for <a href="http://judaicadh.library.upenn.edu">Judaica Digital Humanities at the Penn Libraries</a>, I’m excited to announce the launch of the <a href="https://singermanja2.exhibits.library.upenn.edu/">Digital Second Edition of Judaica Americana</a>. This is an Omeka database which draws from Robert Singerman’s <em>Judaica Americana,</em> a bibliography chronicling American Jewish book production until 1900. The Digital Second Edition contains 3,000 supplemental entries to the print edition. The project’s features allow users to search the bibliography by author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals.</p>
+
+<p>You can view the project at <a href="https://singermanja2.exhibits.library.upenn.edu/"><em>singermanja2.exhibits.library.upenn.edu/</em></a>.
+Additional information about the project can be found on the Judaica DH website at <a href="http://judaicadh.github.io/work/judaica-americana"><em>judaicadh.github.io/work/judaica-americana</em></a>.</p>
+
+<h1 id="about-judaica-americana">About <em>Judaica Americana</em></h1>
+
+<p>In July 2019, Robert Singerman, emeritus university librarian at the University of Florida, donated to the Penn Libraries the draft of the full text and the copyright to his revised second edition of <em>Judaica Americana</em>. The first edition, issued in 1990, is an award-winning, magisterial two-volume bibliography of American Jewish publications before 1900. The print edition of <em>Judaica Americana</em> was sponsored by the Center for the Study of the American Jewish Experience, Hebrew Union College-Jewish Institute of Religion, and published by Greenwood Press as part of the Bibliographies and Indexes in American History.</p>
+
+<p>In it, Singerman identified just over 6,500+ monographic and serial publications, presented with meticulous bibliographical descriptions, classification explanations, and holdings information, i.e., the names of collections where copies are known to be held. His bibliography chronicled American Jewish book production from the 17th century to the beginning of the twentieth century. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901.</p>
+
+<p>When starting the project, I read book reviews of <em>Judaica Americana</em> to understand what exactly we were attempting to transform. In addition to building on the work of existing American Jewish bibliographies like <a href="https://archive.org/details/americanjewishbi0000rose"><em>Rosenbach’s</em></a>, several reviews mentioned Singerman’s use of multiple bibliographic techniques, by which they meant OCLC, RLIN, and traditional onsite visits to institutions. For me, that was a key detail, recognizing Singerman’s bibliography as a distinct moment in time between past bibliographies (which required someone to physically view and document each monograph) and the use of online databases in scholarly communication.</p>
+
+<p>Bibliographer <a href="http://www.jstor.org/stable/23884484"><em>Nathan Kaganoff’s review of the first edition</em></a> was not the most positive review, but provided crucial insight into how our project could augment and transform Singerman’s work. Kaganoff asked four questions in his review:</p>
+
+<p>1)  Does this bibliography present new data or information that was not previously available?</p>
+
+<p>2)  How does it appear physically compared to the earlier bibliographies? Does the use of a computer bring with it any unusual elements or features?</p>
+
+<p>3)  Have we learned anything new about the quantity of American Jewish printed material? How has this material been preserved and what might we still anticipate finding in the future?</p>
+
+<p>4)  Does “Singerman” now become the definitive bibliographic tool for students of early American Jewish history rather than “Rosenbach”?</p>
+
+<p>For Kaganoff, the print edition fulfilled Questions 1 and 3, but fell short in Questions 2 and 4. I found this review really helpful in framing the value of our project for scholars and the steps we needed to take at each stage of the process. Kaganoff’s questions are similar to those digital scholarship practitioners use to evaluate digital projects, and these were key areas in which our project could expand upon the print edition.</p>
+
+<h1 id="building-the-project">Building the Project</h1>
+<p><strong>First Steps</strong></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-1.jpg" alt="White board with text from planning stages" /></p>
+
+<p><em>One of our boards following the User Analysis model from Yale DH.</em></p>
+
+<p>This was the first project I undertook from start-to-finish at Penn, and I used this as an opportunity to learn best techniques for engaging my colleagues, understanding library infrastructure, and segmenting the project into clear goals. To guide us in our project planning process, we used elements of the <a href="https://dhlab.yale.edu/guides/project-planning.html"><em>YaleDH Lab Project Planning Toolkit</em></a>. Most helpful for us were the <a href="https://dhlab.yale.edu/assets/docs/DH-LeanCanvas.pdf"><em>Lean Canvas</em></a> and <a href="https://dhlab.yale.edu/assets/docs/DH-User-Analysis.pdf"><em>User Analysis</em></a> worksheets, which identified key user audiences and experiences we wanted to facilitate with both the dataset and the database.</p>
+
+<p>We also used this time to talk about existing projects related to ours. In particular, we took inspiration from <a href="https://www.womensbookhistory.org/"><em>Women in Book History</em></a> and the <a href="https://footprints.ctl.columbia.edu/"><em>Footprints: Jewish Books Through Space and Time</em></a>, both of which are databases for book history. We really admired how both projects had clean, clear interfaces, and contextualized their projects for user engagement.</p>
+
+<p>As part of the Jekyll and Python Working Groups at Penn, I also spent a lot of time with the team working on the <a href="https://kislakcenter.github.io/digital-beehive/"><em>Digital Beehive</em></a> here at Penn. The Digital Beehive project is a working digital edition of Francis Daniel Pastorius’ Beehive Manuscript, a commonplace book begun in 1696. While the Digital Beehive’s data is a lot more complicated than the datasets we used, the project’s interest in understanding how can digital formats faithfully replicate pre-digital data systems provided a good example of how a similar project could be built in Jekyll.</p>
+
+<p>We also spent a lot of time referring to the physical book at this point, so I always had the library copy on my desk. It was often a conduit for asking questions in the planning stage about how we wanted to represent things digitally. Some of the questions:</p>
+
+<ul>
+  <li>
+    <p>Why does Singerman use asterisks here?</p>
+  </li>
+  <li>
+    <p>What is the author when Singerman uses an LOC header or an institution?</p>
+  </li>
+  <li>
+    <p>In the document, there were some odd formatting issues. What of this part of the notes and which of this is part of the entry?</p>
+  </li>
+  <li>
+    <p>Where should entries with uncertain years (like 184-?) be placed?</p>
+  </li>
+  <li>
+    <p>What fields are explicitly listed and can be extracted easily, and which ones are inferred within an entry?</p>
+  </li>
+</ul>
+
+<p>Over the course of a few meetings and rounds of editing, we completed a project charter that borrowed sections from <a href="https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf"><em>Yale DH Lab</em></a>, <a href="https://scholarblogs.emory.edu/pm4dh/creating-a-project-charter/"><em>PM4DH at Emory</em></a>, and <a href="https://cdh.princeton.edu/research/project-management/charters/"><em>Princeton DH Charters</em></a> to address all the questions we had in mind.</p>
+
+<p><strong>The Open-Access Edition</strong></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-2.jpg" alt="Announcement on Medium" /></p>
+
+<p><em>A screenshot of our Medium announcement about the ScholarlyCommons repository.</em></p>
+
+<p>The dataset for the open-access edition, as well as the process of converting the chronological file into a dataset, is discussed a forthcoming article for <a href="https://doi.org/10.5334/johd.15"><em>Journal of Open Humanities Data</em></a>. I borrowed from my experience working on the <a href="http://cds.library.brown.edu/projects/crystalpalace/"><em>1853 New York Crystal Palace</em></a> to <a href="https://github.com/judaicadh/ja2-scripts/blob/master/extract_singerman.py"><em>write a script</em></a> that separated out id numbers, year, entry, notes, and holdings information based on the structure of the original text. This was further cleaned through a combination of OpenRefine and manual review.</p>
+
+<p>There were probably more effective ways to write this script that would not have been as labor-intensive for data cleaning, but this balance worked for me. It also helped us answer a lot of questions along the way, such as how we wanted to clean fields like “Location”, “Publisher”, “Author/Editor”.</p>
+
+<p>After merging the revised second edition draft with additional supplemental entries, and converting the chronological file into a dataset, both were deposited into a project-specific <a href="https://repository.upenn.edu/judaica_americana/"><em>ScholarlyCommons repository</em></a>. At this time, we <a href="https://medium.com/@judaicadh/explore-robert-singermans-judaica-americana-a33c8721707d"><em>announced</em></a> the open-access edition to the public and the start of our project.</p>
+
+<p>We agreed with Singerman at this point that any edits or additions to the dataset would not be uploaded to ScholarlyCommons until the end of the project. For any new entries to the supplement that Singerman would send us, we created a Google form that structured data entry for the dataset. (Over the course of the project, Singerman sent eleven updates to the database, with five to fifteen new entries each time.) Establishing that boundary early on in our process helped us be consistent.</p>
+
+<p><strong>Augmenting the Dataset</strong></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-3.png" alt="Scanned index page, with columns of words" /></p>
+
+<p><em>A scan of the Singerman index, which includes nearly 12,000 headers.</em></p>
+
+<p>At this point, we were ready to augment the dataset in a few ways:</p>
+
+<ul>
+  <li>
+    <p>We knew that we wanted to have “Language” as a searchable field in the dataset, as many languages are represented in this dataset. Singerman typically identifies this information in the Notes if multiple languages are present in the text. We separated language in two categories: language of the <em>text</em> (the “Language” field) and language of the <em>title</em> (the “Language-Title” field).</p>
+  </li>
+  <li>
+    <p>Prior to the start of this project, Camille Davis had identified open-access links to digital facsimiles of each entry (when possible) on WorldCat, HathiTrust, GoogleBooks, Internet Archive, or in other digital repositories. Davis also included the vernacular titles of entries listed in Yosef Goldman’s <em>Hebrew Printing in America, 1735-1926: A History and Annotated Bibliography</em>. Both of Davis’s datasets were merged with the JA2 dataset.</p>
+  </li>
+  <li>
+    <p>We also wanted to use the tagging feature on Omeka to include the index headers of the original publication’s index. This process is discussed in a forthcoming article for <a href="https://doi.org/10.5334/johd.15"><em>Journal of Open Humanities Data</em></a>, but involves performing OCR to extract text and then associate specific locators (in this case, Singerman ID numbers) with headers. Penn Libraries staff scanned the 150+ pages of the index as three separate PDF files. I then used <a href="https://github.com/senderle/tess">tess</a>, a Python script by Penn Libraries’ Digital Humanities Librarian Jonathan Scott Enderle for converting PDFs to TIFFs and performing OCR with tesseract, to create three separate text files. The text files were combined into one, with each line serving as a heading followed by a list of locators. The 12,000+ entries of the index were then separated row by row into a key/value structure with two distinct columns, split on the first comma and reviewed manually for quality control.</p>
+  </li>
+  <li>
+    <p>In addition to the chronological file, JA includes a union list of nineteenth-century serials that fit Singerman’s criteria. We had originally chosen not to include the serials as part of our dataset, but seeing resources like Ohio State University’s <a href="https://library.osu.edu/projects/hebrew-lexicon/Jewish-Press_files/sheet002.htm"><em>Union List of Digitized Jewish Historic Newspapers, Periodicals and e-Journals</em></a> encouraged us to make the effort to include them. We restructured the Python script used for extracting entries for the original dataset into one that could be used to extract serial entries.</p>
+  </li>
+</ul>
+
+<p>While we initially proposed building the project on a static site in order to have full control over the site’s display, it was around this stage that we switched to Omeka instead. Working with Omeka allowed us to have an established project interface to scale up for future phases of the project. It also brought together a variety of library departments for consultation and support in a way that we may not have been able to do on another platform. It engaged a lot more staff in the conversation of our project, yielding new insights into its development.</p>
+
+<p>We worked with the library’s Learning and Technology Services division to get installations of Omeka on the library server. By the end of February, we shared the first draft of the site with our project team, which featured the first 500 entries in chronological order. We had built the incremental loading of data into the project charter, initially with 5%, 10%, 50%, etc. In practice, those percentages didn’t make sense, so we scaled this incremental practice to specific numbers and focused our questions around that data for our team to go in and review.</p>
+
+<p><strong>Drafting the Site</strong></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-4.jpg" alt="Screenshot of early site navigation" /></p>
+
+<p><em>A screenshot of the navigation for the second draft of the site</em></p>
+
+<p>By the end of March, we shared the second draft of the site with the team, including the first 1,000 entries in chronological order. Some of the changes we made for this draft:</p>
+
+<ul>
+  <li>
+    <p>We made two additional changes to the dataset specifically for the database:</p>
+
+    <ul>
+      <li>
+        <p>Using the “Dublin Core: Metadata” description, we included the full entry as displayed in the text - the bibliographic entry, any notes provided by Singerman, and the holdings information in full (see below). This allows users to view all this content while browsing, simulating the experience of reading the physical book.</p>
+      </li>
+      <li>
+        <p>In the “Holdings” field, Singerman occasionally provides notes or specific volume information about a library’s copy of the monograph. To make that field searchable by institution, we maintained the codes but removed the notes from the “Holdings” field.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>We added a “Using JA2” page to include information about how browse entries work, descriptions for each metadata field, the abbreviations used by Singerman in the Notes field, and the Library Symbols used in the text. (We took inspiration from the information research aid for <a href="https://www.womensbookhistory.org/the-bibliography"><em>Women in Book History</em></a>!)</p>
+  </li>
+  <li>
+    <p>We added Singerman’s introduction to the site and hyperlinked footnotes to facilitate easy reading.</p>
+  </li>
+  <li>
+    <p>At this point, we decided to make a custom Omeka theme. We had originally used a <a href="https://github.com/upenn-libraries/upennlib_sc_shadowpage_bootstrap"><em>custom Omeka theme for Penn Libraries Special Collections</em></a>, but wanted to make changes to the images and CSS of the page to match our project needs.</p>
+  </li>
+</ul>
+
+<p><strong>More Data &amp; Customization</strong></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/singermanja2/2020-06-03-singermanja2-5.png" alt="Header image for the site: shelf of books in the background with white box at center. Penn Libraries logo followed by &quot;Digital Second Edition of Judaica Americana&quot;" /></p>
+
+<p><em>The graphic header for the site - the books in the background comes from a #shelfie at the <a href="https://business.facebook.com/katzcenterupenn/photos/a.716387478439866/2672788819466379/?type=3&amp;theater">*Library at the Katz Center for Advanced Judaic Studies*</a>.)</em></p>
+
+<p>By the end of April, we shared the third draft of the site with the team, including all the entries in chronological order. Some of the changes we made for this draft:</p>
+
+<ul>
+  <li>
+    <p>We previously had not included the open-access links in the project. We added them here for our beta testers to review, and included Penn-specific links for any entries for which Penn has digitized copies in Colenda or digital repositories.</p>
+  </li>
+  <li>
+    <p>We made a custom graphic header for the site, modeled after other library project graphics like the <a href="https://kaplan.exhibits.library.upenn.edu/"><em>Kaplan Collection</em></a>.</p>
+  </li>
+  <li>
+    <p>We uploaded the first version of the custom theme, which included:</p>
+
+    <ul>
+      <li>Adding an option to sort by Year</li>
+      <li>Removing the option to sort by Creator (since we don’t use that metadata)</li>
+      <li>CSS changes in the footer</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Final Draft &amp; Next Steps</strong></p>
+
+<p>We launched the final version of the site in May. Most of the changes here were small edits to the dataset we had noticed in user review. We also made changes for database’s “Browse” pages to reflect as closely as possible the original draft in chronological order by publication. We used Omeka’s collection feature to separate out the Chronological File (sorted in chronological order) and the Union List (sorted by title).</p>
+
+<p>Since October 2019, the PDF of <em>Judaica Americana</em> on ScholarlyCommons has 1,125 downloads and the dataset 96 downloads. These files have been downloaded from 80 institutions and 96 countries. As of May 2020, there are 8,881 monograph entries in the database, including 2,936 supplemental entries added from the first edition. 58% of the original entries have WorldCat links, 18% have HathiTrust links, 10% have GoogleBooks links, and 6% have Internet Archive links.</p>
+
+<p>During summer 2020, we plan to identify open-access links for the ~3,000 entries in the supplement, and improve existing links that may have broken in the past few years. We also hope to enter vernacular titles for more entries, especially those in the supplement.</p>
+
+<p>There are three outstanding tasks that we hope to complete in future phases of the project:</p>
+
+<ul>
+  <li>
+    <p>In the print edition, Singerman transliterated titles in non-Roman languages; in the supplement, he was able to type in non-Hebrew characters. Using the Goldman-Kinsberg bibliography, we were able to include vernacular titles of Hebrew and Yiddish texts. We didn’t have the time and resources to build a plugin at this stage, but we would like to find and or develop a virtual keyboard plugin that would allow users to type and search for Hebrew characters within our site, rather than copying and pasting Hebrew text from elsewhere. We think this type of plugin would be useful for multilingual Omeka projects.</p>
+  </li>
+  <li>
+    <p>For now, only the entries indexed in the print edition have been tagged. We would also love to fully index the supplemental entries in order to expand the depth of search within the database.</p>
+  </li>
+  <li>
+    <p>We hope to include PDF files of the entries within Omeka for items in Penn’s collection, allowing for full-text search of these entries.</p>
+  </li>
+</ul>
+
+<p>We set out to create an interactive digital edition of this rich bibliography and we can’t wait to see what discoveries can be made based on this data. We would love to see this project modeled in the creation of other enumerative bibliographies or digital library collections.</p>
+
+<p>And while Singerman’s bibliography focuses on monograph holdings at various locations, we now have the opportunity to take this a step further and quantify the efforts of library digitization through projects like HathiTrust and Google Books. We hope this encourages others to identify digital facsimiles of their collections, whether on an institutional or cross-institutional level.</p>
+
+<h1 id="acknowledgements">Acknowledgements</h1>
+<hr />
+
+<p>Our full team is listed <a href="https://singermanja2.exhibits.library.upenn.edu/credits-and-acknowledgments"><em>here</em></a>.</p>
+
+<p>First and foremost, this project would not be possible without the generosity of Robert Singerman, who entrusted us with his extraordinary work. It is with his conceptualization, vision, and data curation that this project is possible.</p>
+
+<p>Mitch Fraas and Arthur Kiron served as project directors, handling the project administration and mentor oversight to the project. Arthur Kiron was also responsible for developing the project vision, including serving as liaison with Robert Singerman, coordinating files, and providing quality control. Nicky Agate provided project administration support.</p>
+
+<p>I was responsible for the data preparation and project methodology. As the developer and designer, I designed the look and feel of the site, editing the Omeka theme that is used for the navigation and user interaction with the site. Senior developers Kate Lynch and Chris Clement, and DevOps Developer Andrew Kimball provided Omeka support on this project.</p>
+
+<p>Many thanks to the distinguished scholars, librarians, and staff who generously provided guidance and assistance with the project, including: Michelle Chesner, Laurie Allen, Camille Davis, Laura Newman Eckstein, Doug Emery, Scott Enderle, Emily Morton Owens, Will Noel, and Jordan Rothschild.</p>
+
+<h3 id="additional-resources">Additional Resources</h3>
+<hr />
+
+<p>You can view the project at <a href="https://singermanja2.exhibits.library.upenn.edu/"><em>singermanja2.exhibits.library.upenn.edu/</em></a>.
+Additional information about the project can be found at <a href="http://judaicadh.github.io/work/judaica-americana"><em>judaicadh.github.io/work/judaica-americana</em></a>.</p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+  <li>
+    <p>Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15</p>
+  </li>
+  <li>
+    <p>We have a repository on ScholarlyCommons, University of Pennsylvania’s open access institutional repository, dedicated to resources for the project:</p>
+
+    <ul>
+      <li>
+        <p>Esten, Emily. “<a href="https://repository.upenn.edu/judaica_americana/2"><em>Dataset for Judaica Americana: A Bibliography of Publications to 1900</em></a>”. Scribes of the Cairo Geniza, Scholarly Commons, 2019. Web.</p>
+      </li>
+      <li>
+        <p>Esten, Emily. “<a href="https://repository.upenn.edu/judaica_americana/3/"><em>Dataset for Union List of Nineteenth-Century Jewish Serials Published in the United States</em></a>”. Judaica Americana, Scholarly Commons, 2020. Web.</p>
+      </li>
+      <li>
+        <p>Singerman, Robert. “<a href="https://repository.upenn.edu/judaica_americana/1"><em>Judaica Americana: A Bibliography of Publications to 1900</em></a>”. Judaica Americana, Scholarly Commons, 2019. Web.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>The Python scripts used in this project are maintained in a <a href="https://github.com/judaicadh/ja2-scripts"><em>GitHub repository</em></a>, including:</p>
+
+    <ul>
+      <li>
+        <p>Esten, Emily. “Extract_singerman.py.” ja2-scripts, Github, accessed May 15, 2020, <a href="https://github.com/judaicadh/ja2-cleaning"><em>https://github.com/judaicadh/ja2-cleaning</em></a> DOI: 10.5281/zenodo.3894691</p>
+      </li>
+      <li>
+        <p>Enderle, Jonathan Scott. “tess.py.” ja2-scripts, Github, accessed May 15, 2020, <a href="https://github.com/judaicadh/ja2-cleaning"><em>https://github.com/judaicadh/ja2-cleaning</em></a>. (Forked from its original repository) DOI: 10.5281/zenodo.3894691</p>
+      </li>
+      <li>
+        <p>Esten, Emily. “flip-index-headers.py.” ja2-scripts, Github, accessed May 15, 2020,<a href="https://github.com/judaicadh/ja2-cleaning"><em>https://github.com/judaicadh/ja2-cleaning</em></a> DOI: 10.5281/zenodo.3894691</p>
+      </li>
+      <li>
+        <p>Esten, Emily. “extract-singerman-serials.py.” ja2-scripts, Github, accessed May 15, 2020, <a href="https://github.com/judaicadh/ja2-cleaning"><em>https://github.com/judaicadh/ja2-cleaning</em></a> DOI: 10.5281/zenodo.3894691</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Resources &amp; Tools</strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://omeka.org/"><em>Omeka Classic</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/upenn-libraries/upennlib_sc_shadowpage_bootstrap"><em>Omeka theme for Penn Libraries Special Collections</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://openrefine.org/"><em>OpenRefine</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://repository.upenn.edu/"><em>ScholarlyCommons</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://dhlab.yale.edu/guides/project-planning.html"><em>Yale DHLab - DH Toolkit</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://scholarblogs.emory.edu/pm4dh/creating-a-project-charter/"><em>PM4DH at Emory</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://cdh.princeton.edu/research/project-management/charters/"><em>Princeton DH Charters</em></a></p>
+  </li>
+</ul>
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li>
+    <p>Chesner, Michelle, ed., et al. “Footprints: Jewish Books Through Time and Place.” <em>Footprints: Jewish Books Through Time and Place</em>, Center for Teaching and Learning at Columbia University Libraries, <a href="https://footprints.ctl.columbia.edu/"><em>https://footprints.ctl.columbia.edu/</em></a>.</p>
+  </li>
+  <li>
+    <p>Coker, Cait and Kate Ozment. <a href="https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html"><strong>Building the Women in Book History Bibliography, or Digital Enumerative Bibliography as Preservation of Feminist Labor.</strong></a> 13, no. 3 (2019). Accessed May 14, 2020. <a href="https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html"><em>https://www.digitalhumanities.org/dhq/vol/13/3/000428/000428.html</em></a>.</p>
+  </li>
+  <li>
+    <p>Coker, Cait, and Kate Ozment. “Women in Book History Bibliography.” <em>Women in Book History Bibliography</em>, English Department at Texas A&amp;M University, <a href="http://www.womensbookhistory.org/our-mission"><em>www.womensbookhistory.org/</em></a>. Accessed May 14, 2020.</p>
+  </li>
+  <li>
+    <p>Croxall, Brian, Emily Esten, Steffani Gomez, Steven Lubar, and Patrick Rashleigh. “1853 New York Crystal Palace.” <em>1853 New York Crystal Palace</em>, Center for Digital Scholarship at Brown University Library, <a href="http://cds.library.brown.edu/projects/crystalpalace/"><em>http://cds.library.brown.edu/projects/crystalpalace/</em></a>. Accessed May 14, 2020.</p>
+  </li>
+  <li>
+    <p>Galron-Goldshcläger, Joseph (Yossi). “Union List of Digitized Jewish Historic Newspapers, Periodicals, and e-Journals.” <em>Union List of Digitized Jewish Historic Newspapers, Periodicals, and e-Journals</em>, The Ohio State University, <a href="https://library.osu.edu/projects/hebrew-lexicon/Jewish-Press.htm"><em>https://library.osu.edu/projects/hebrew-lexicon/Jewish-Press.htm</em></a>. Accessed May 14, 2020.</p>
+  </li>
+  <li>
+    <p>Kaganoff, Nathan M. <em>American Jewish History</em> 80, no. 1 (1990): 136-41. Accessed May 14, 2020. <a href="http://www.jstor.org/stable/23884484"><em>www.jstor.org/stable/23884484</em></a>.</p>
+  </li>
+  <li>
+    <p>Nelson, David Ragnar, ed. “Digital Beehive.” <em>Digital Beehive</em>, Kislak Center for Special Collections, Rare Books, and Manuscripts, <a href="https://kislakcenter.github.io/digital-beehive/"><em>https://kislakcenter.github.io/digital-beehive/</em></a>. Accessed May 14, 2020.</p>
+  </li>
+</ul>
+
+
+    </div>
+
+    <footer class="post__credits">
+      
+        <!-- cite post -->
+        <div class="post-credits__citation">
+            <span>Cite this post: </span><a href="/people/emily-esten/">Emily Esten</a>. &ldquo;Building the Digital Second Edition of Robert Singerman's Judaica Americana&rdquo;. Published June 30, 2020. <a href="http://localhost:4000/blog/about-singermanja2/">http://localhost:4000/blog/about-singermanja2/</a>. Accessed on
+<script>
+<!--
+var now = new Date();
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number) {
+    return (number < 1000) ? number + 1900 : number;
+}
+today =  months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+document.write(today);
+-->
+</script>.
+        </div>
+
+    </footer> <!-- end post footer -->
+  </div> <!-- end post-main-content -->
+</article> <!-- end post wrapper -->
+
+		</main>
+
+		<footer class="footer-wrapper">
+  <div class="footer-main-grid">
+
+    <div class="footer__to-top">
+        <a href="#main" aria-label="Back to top">
+          <img src="/assets/img/svg/thin-up-arrow-white.svg" alt="Up arrow">
+          <span>Back<br/>to top</span>
+        </a><br><br>
+    </div>
+
+    <div class="footer__sitemap">
+      <div class="footer-map__title">Explore</div>
+      <div class="footer-map__links">
+        <a href="http://localhost:4000">Home</a>
+        <a href="http://localhost:4000/about">About</a>
+        <a href="http://localhost:4000/projects">Projects</a>
+        <a href="http://localhost:4000/blog">Blog</a>
+      </div>
+    </div>
+
+    <div class="footer__connect">
+      <div class="footer-connect__title">Connect</div>
+      <div class="footer-connect__social">
+        <a href="https://www.facebook.com/judaicadh/">
+          <img src="/assets/img/svg/facebook-white.svg" alt="Facebook icon">
+          <span>Facebook</span>
+        </a>
+        <a href="https://twitter.com/judaicadh">
+          <img src="/assets/img/svg/twitter-white.svg" alt="Twitter icon">
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.instagram.com/judaica_dh/">
+          <img src="/assets/img/svg/glyph-logo_May2016.png" alt="Instagram icon">
+          <span>Instagram</span>
+        </a>
+        <a href="https://github.com/judaicadh">
+          <img src="/assets/img/svg/github-white.svg" alt="Github icon">
+          <span>Github</span>
+        </a>
+        <a href="mailto:judaicadh@gmail.com">
+          <img src="/assets/img/svg/envelope-outline-white.svg" alt="Email icon">
+          <span>Email us</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__contact">
+      <div class="footer-contact__title">Contact</div>
+      <div class="footer-contact__email"><span>Email:</span><a href="mailto:judaicadh@gmail.com">judaicadh@gmail.com</a></div>
+      <div class="footer-contact__address"><span>Address:</span>3420 Walnut Street<br/>Philadelphia, PA<br/>19104-6206</div>
+    </div>
+
+    <div class="footer__logos">
+      <a class="footer-logo__uva" href="https://www.library.upenn.edu" aria-label="Penn Libraries Home">
+        <img src="/assets/img/svg/penn-libraries.png" alt="Penn Libraries logo">
+      </a>
+      <a class="footer-logo__license" rel="license" href="http://creativecommons.org/licenses/by/4.0/" aria-label="Creative Commons License">
+        <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg"/>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/lib/hammer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+        
+
+	</body>
+
+</html>

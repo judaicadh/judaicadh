@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.6.0'
+ruby '3.1.1'
 
 gem "jekyll", "~>3.7"
 gem "nokogiri", ">= 1.8.5"
@@ -20,3 +20,5 @@ gem 'json'
 gem 'front_matter_parser'
 gem 'ruby-progressbar'
 gem 'kramdown'
+gem 'kramdown-parser-gfm'
+gem "webrick", "~> 1.7"

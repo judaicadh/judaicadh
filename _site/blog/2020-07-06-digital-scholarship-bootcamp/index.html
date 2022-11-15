@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Data Wrangling with Google Sheets | Judaica DH at the Penn Libraries </title>
+  
+  
+  <meta name="description" content="The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop is available here.">
+  
+  <!-- Open Graph http://ogp.me/ -->
+  <meta property="og:title" content="Data Wrangling with Google Sheets">
+  <meta property="og:description" content="The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop is available here.">
+  <meta property="og:site_name" content="Judaica DH at the Penn Libraries">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/blog/2020-07-06-digital-scholarship-bootcamp//">
+  
+
+  
+  
+    
+    
+        
+  <meta property="og:author" content="Emily Esten">
+        
+    
+  
+  
+
+  <!-- Twitter Cards https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="judaicadh">
+  <meta name="twitter:title" content="Data Wrangling with Google Sheets | Judaica DH at the Penn Libraries">
+  <meta name="twitter:description" content="The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop is available here.">
+  
+
+  <link href="https://fonts.googleapis.com/icon?family=Raleway:200,400,400i,600,700,700i,900|Oswald:200,400,600,700|Inconsolata:400,700|VT323" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/print.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/zenburn.css">
+  <link rel="canonical" href="http://localhost:4000/blog/2020-07-06-digital-scholarship-bootcamp//">
+  <link rel="alternate" type="application/rss+xml" title="Judaica DH at the Penn Libraries" href="/feed.xml">
+  
+  <!--  favicon -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
+</script>
+
+  
+</head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
+</script>
+
+
+	<body>
+		<div id="library-banner">
+    <a href="https://www.library.upenn.edu" aria-label="Penn Libraries" id="library-link"><img src="/assets/img/svg/penn-libraries%20copy.png" alt="Penn Libraries logo">
+
+</a>
+</div>
+<div class="flexnav-wrapper">
+	<div class="flexnav-main">
+		<div class="flexnav__home-icon">
+			<a href="http://localhost:4000" id="slab-logo" aria-label="Judaica DH at the Penn Libraries Home" style="color:#FFFFFF;">JUDAICA DH AT THE PENN LIBRARIES
+            </a>
+		</div>
+
+		<ul class="flexnav-main-grid">
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/">Home</a></li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/about/">About</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/projects/">Projects</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/projects/">Projects</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/people/">People</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/blog/">Blog</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/cv/">CV</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/libraries/">Penn Libraries</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/history/">History</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/sitemap/">Site Map</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/search/">Search</a></li>
+		
+		
+		
+			<li class="flexnav__more-menu">
+				<div class="flexnav-more__prompt" aria-label="More menu items">More<span>&rsaquo;</span></div>
+				<ul class="flexnav-more__wrapper">
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/">Home</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/about/">About</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/projects/">Projects</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/projects/">Projects</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/people/">People</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/blog/">Blog</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/cv/">CV</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/libraries/">Penn Libraries</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/history/">History</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/sitemap/">Site Map</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/search/">Search</a></li>
+				
+				
+				
+				</ul>
+			</li>
+		</ul>
+	</div> <!-- end content -->
+</div> <!-- end wrapper -->
+
+
+		<main id="main" role="main">
+			
+<article class="post-wrapper">
+
+  <div class="post-main-content">
+
+    <div class="post__big-title" id="print-byline"><span aria-label="page type">Judaica DH at the Penn Libraries Blog //</span>Data Wrangling with Google Sheets</div>
+
+    <div class="post__big-title" id="non-print-byline"><span aria-label="page type">Blog //</span>Data Wrangling with Google Sheets</div>
+
+    <!-- make span an <a> tag to blog home and put h1 tags around page.title w/ the font styles when finalizing -->
+
+    <div class="post__metadata">
+
+      
+      <div class="post-meta__quote">&ldquo;A presentation on functions and formulas in Google Sheets for the Digital Scholarship Bootcamp in the 2020 Penn Libraries Summer Workshops Series.&rdquo;</div>
+      
+
+      <div class="post-meta__author">
+        <span>By</span> <a href="/people/emily-esten/">Emily Esten</a> on <time datetime="2020-07-06T00:00:00-04:00">July 6, 2020</time>
+      </div>
+
+      
+<!--  
+      <div class="post-meta__categories">Filed to:
+        
+        
+         presentations
+        
+      </div>
+      
+-->
+
+<!--    
+      <div class="post-meta__tags">Tagged as:
+        
+        
+         <a href="http://localhost:4000/posts-by-tag/#conferences">Conferences</a>
+        
+      </div>
+      
+-->
+
+    </div> <!-- end metadata -->
+
+    <!-- text of post -->
+    <div class="post__content">
+        
+      <p><em>The following transcript and slides were part of a workshop in the Digital Scholarship Bootcamp series at Penn Libraries in July 2020. The recording of this workshop is available <a href="http://www.kaltura.com/tiny/zkt69">here</a>.</em></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-12.jpg" alt="Title Slide - Data Wrangling with Google Sheets" /></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-10.jpg" alt="About Emily Esten" /></p>
+
+<p>Some background on me: I am the Judaica Digital Humanities Coordinator in the Center for Research Data and Digital Scholarship here in the libraries, which means I work between Special Collections and the Center on projects related to Jewish history and culture. I wanted to run this workshop because Google Sheets is really commonplace in our work as scholars, and in particular I’ve made a lot of use of data wrangling tips to create the datasets I work with. In this workshop, we’ll be using some of those datasets I’ve created as an example of what we can do with Google Sheet functions.</p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-11.jpg" alt="Definitions" /></p>
+
+<p>So if you think back to algebra, an expression is a group of numbers, symbols and operators to show the value of something</p>
+<blockquote>
+  <p>1+5</p>
+</blockquote>
+
+<p>A formula is an expression with an equals sign in front of it, which tells the computer that you want to calculate this expression</p>
+<blockquote>
+  <p>=1+5</p>
+</blockquote>
+
+<p>A function is a predefined formula in Google Sheets that allows you to manipulate data and calculate strings and numbers. A function uses specific values and symbols in a particular order (called syntax). All functions are formulas, but not all formulas are functions.</p>
+<blockquote>
+  <p>=SUM(1,5)</p>
+</blockquote>
+
+<p>You can also mix functions together to get a result, which is called “nesting”. We’re not going to do that in today’s session, but some of the things I’ve linked to in the <strong>Next Steps</strong> will show you how to do that.</p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-1.jpg" alt="Syntax of Function" /></p>
+
+<p>The most important thing to remember with any function is the syntax. You’ll see within the case studies the syntax for any specific function, but the basic syntax for anything looks like the following:</p>
+<ul>
+  <li>the <strong>equals sign</strong>, which tells Google Sheets that you want to calculate this expression</li>
+  <li>the <strong>function name</strong>, which tells Google Sheets that you’re about to use a specific function</li>
+  <li>the <strong>argument</strong>, which provides the data necessary to use that function. The argument section can refer to individual cells, cell ranges, text, numbers, values. Depending on the function, you may need to input multiple arguments. In the case above, I’ve provided a <em>range</em> - a group of cells. A range is written as two cells, separated by a colon.</li>
+</ul>
+
+<p>In the case of functions and formulas, the “argument” section can refer to a lot of different things depending on what you’re attempting to do - a string, a number, an individual cell, and/or cell ranges. Depending on the function, you may include one argument or multiple arguments.</p>
+<blockquote>
+  <p>= SUM(1,5) features two arguments
+=SUM(A1:A3) only features one (the cell range).</p>
+</blockquote>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-3.jpg" alt="Types of Functions" /></p>
+
+<p>There are over <a href="https://support.google.com/docs/table/25273?hl=en">400 functions</a> in Google Sheets. Most of these functions also work in Microsoft Excel, but I’m doing this in Google Sheets because my work with data often involves right-to-left languages, which are handled slightly better here than in Excel.</p>
+
+<p>These Google Sheets functions are grouped into types - the bolded types are the ones I’m going to discuss today, but any of these hundreds could be valuable to your data wrangling experience.</p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-2.jpg" alt="Syntax of Function" /></p>
+
+<p>The other nice thing about functions is if you can’t remember how to write one, you can always use the functions button to find and select the one you’d like to use in a particular case.</p>
+
+<p>Okay! If you already have access to the Google Sheets, great! You can make a copy of the one I’m working on and follow along by going to <a href="https://docs.google.com/presentation/d/1Sh73KHRrJEGAI8EAGLJWXMmUojX2ApRJ4kOFIIsBKCo/edit?usp=sharing">this link</a> and making a copy of the Google Sheets file. All the case studies follow the same structure: you can see the dataset, some questions below, and then at the bottom are some functions relevant to this case study’s question.</p>
+
+<h1 id="case-1-math">CASE 1: MATH</h1>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-4.jpg" alt="List of Math Functions, pt. 1" /></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-5.jpg" alt="List of Math Functions, pt. 2" /></p>
+
+<p>In this first case study, math, are all basic mathematical operations you might remember from algebra, or operations for providing count and frequency information.</p>
+
+<ul>
+  <li><strong>SUM</strong> provides the sum of values in a range</li>
+  <li><strong>AVERAGE</strong> provides the average value in a range</li>
+  <li><strong>MODE</strong> provides the most common value in a range.</li>
+  <li><strong>MAX</strong> provides the highest value in a range.</li>
+  <li><strong>MIN</strong> provides the lowest value in a range.</li>
+  <li><strong>COUNT</strong> provides the number of numeric values in range.</li>
+  <li><strong>COUNTA</strong> provides the number of any type of values in a range.</li>
+  <li><strong>COUNTUNIQUE</strong> provides a number of unique values in a range, removing duplicates from your count.</li>
+  <li><strong>COUNTIF</strong> provides a number of values matching criteria in one range</li>
+  <li><strong>COUNTIFS</strong> provides a number of values that match multiple criteria in multiple ranges.</li>
+</ul>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-13.jpg" alt="Screenshot of Case 1 Spreadsheet" /></p>
+
+<p>This is a bibliographic dataset, with some information about monographs published prior to 1900. I want to find some quantitative information about the dataset to get a sense of what I’m looking at.</p>
+
+<p><em>View the worksheet</em> <a href="https://docs.google.com/spreadsheets/d/15qlFC78I1VpW_LCkhyNN6J9U-BG0yQInsM8EfBQxB3c/edit?usp=sharing">here</a>.</p>
+
+<ul>
+  <li>What is the average year of this dataset?
+    <blockquote>
+      <p>=AVERAGE(B4:B21)</p>
+
+      <p>1866</p>
+    </blockquote>
+  </li>
+  <li>What is the most common year in this dataset?
+    <blockquote>
+      <p>=MODE(B4:B21)</p>
+
+      <p>1898</p>
+    </blockquote>
+  </li>
+  <li>What is the highest year in this dataset?
+    <blockquote>
+      <p>=MAX(B4:B21)</p>
+
+      <p>1900</p>
+    </blockquote>
+  </li>
+  <li>What is the lowest year in this dataset?
+    <blockquote>
+      <p>=MIN(B4:B21)</p>
+
+      <p>1807</p>
+    </blockquote>
+  </li>
+  <li>How many unique years are in this dataset?
+    <blockquote>
+      <p>=COUNTUNIQUE(B4:B21)</p>
+
+      <p>15</p>
+    </blockquote>
+  </li>
+  <li>How many entries are in this dataset?
+    <blockquote>
+      <p>=COUNT(B4:B21)</p>
+
+      <p>18</p>
+    </blockquote>
+  </li>
+  <li>How many unique locations are in this dataset?
+    <blockquote>
+      <p>=COUNTUNIQUE(D4:D21)</p>
+
+      <p>5</p>
+    </blockquote>
+  </li>
+  <li>How many books were published in New York, NY?
+    <blockquote>
+      <p>=COUNTIF(D4:D21, “New York, NY”)</p>
+
+      <p>9</p>
+    </blockquote>
+  </li>
+  <li>How many books were published in Boston, MA, by D. Lothrop?
+    <blockquote>
+      <p>=COUNTIFS(D4:D21, “Boston, MA”, E4:E21, “D. Lothrop”)</p>
+
+      <p>2</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="case-2-text">CASE 2: TEXT</h1>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-6.jpg" alt="List of Text Functions, pt. 1" /></p>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-7.jpg" alt="List of Text Functions, pt. 2" /></p>
+
+<p>So in this second case study, text, we’re interested in cleaning some of this data as opposed to answering specific questions. These functions in the text category clean the data by removing characters, converting data types, cutting up, replacing, substituting, or piecing together strings.</p>
+
+<ul>
+  <li><strong>TEXT</strong> converts a number into a string, based on a specified format. This could be a date, a decimal, a time, more columns.</li>
+  <li><strong>VALUE</strong> does the opposite - it converts a string into a number, based on a specified format.</li>
+  <li><strong>TO_DATE</strong> is pretty self-explanatory: it does what VALUE does, but specifically for a specified date format.</li>
+  <li><strong>SUBSTITUTE</strong> replaces existing text with new text in a string</li>
+  <li><strong>TEXTJOIN</strong> combines text from multiple strings with a specifiable delimiter</li>
+  <li><strong>CONCATENATE</strong> combines strings.</li>
+  <li><strong>TRIM removes</strong> leading and trailing spaces in a specified string.</li>
+</ul>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-14.jpg" alt="Screenshot of Case 2 Spreadsheet" /></p>
+
+<p><em>View the worksheet</em> <a href="https://docs.google.com/spreadsheets/d/15qlFC78I1VpW_LCkhyNN6J9U-BG0yQInsM8EfBQxB3c/edit?usp=sharing">here</a>.</p>
+
+<p>This is a dataset containing metadata from a manuscript collection here in the libraries. But it’s not exactly formatted the way I would like it to be. These functions can help me to edit the dataset.</p>
+
+<ul>
+  <li>For SMBx1FF8_14, convert the year into a string in the following format (#,###).
+    <blockquote>
+      <p>=TEXT(D3, “#,###”)</p>
+
+      <p>1,851</p>
+    </blockquote>
+  </li>
+  <li>For SMBx1FF10_8, convert the Gregorian date into a numerical date.
+    <blockquote>
+      <p>=TO_DATE(C7)</p>
+
+      <p>5/20/1853</p>
+    </blockquote>
+  </li>
+  <li>For SMBx1FF10_13, substitute “Unknown Addressee” to “Solis, S” in the manuscript name.
+    <blockquote>
+      <p>=SUBSTITUTE(B7, “Unknown Addressee”, “Solis, S”)</p>
+
+      <p>Letter from Morais, Sabato to Solis, S. Philadelphia, PA; May 1853</p>
+    </blockquote>
+  </li>
+  <li>For SMBx1FF8_6, join the city and the state, separated by a comma.
+    <blockquote>
+      <p>=CONCATENATE(E5,”, “,F5) OR =TEXTJOIN(“, “,TRUE,E5:F5) works here</p>
+
+      <p>Long Branch, NJ</p>
+    </blockquote>
+  </li>
+  <li>For SMBx17FF1_1, trim the spaces from the manuscript name.
+    <blockquote>
+      <p>=TRIM(B4)</p>
+
+      <p>Letter from Bernal, A. I. H. to Morais, Sabato. Louisville, KY; Jun 1851</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="case-3-web">CASE 3: WEB</h1>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-8.jpg" alt="List of Web Functions" /></p>
+
+<p>In this third case study, web, we can use these formulas to import, export, or encode specific information from a web service on the Internet.</p>
+
+<ul>
+  <li><strong>ISURL</strong> will check valid URLs - if it is a valid URL, it returns true; otherwise it returns false. This works whether or not your link is hyperlinked (with the blue font and underline).</li>
+  <li><strong>ENCODEURL</strong> turns your text string into a link, which can be really helpful in passing it to some of these next functions.</li>
+  <li><strong>IMPORTDATA</strong> imports the data from a URL of a .csv or .tsv file, rather than downloading the file and uploading or copying/pasting it yourself.</li>
+  <li><strong>IMPORTXML</strong> imports the data from an XML file.</li>
+  <li><strong>IMPORTHTML</strong> imports data from a table or list within an HTML page.</li>
+</ul>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-15.jpg" alt="Screenshot of Case 3 Spreadsheet" /></p>
+
+<p><em>View the worksheet</em> <a href="https://docs.google.com/spreadsheets/d/15qlFC78I1VpW_LCkhyNN6J9U-BG0yQInsM8EfBQxB3c/edit?usp=sharing">here</a>.</p>
+
+<p>In this case study, we’re importing data from existing datasets from <a href="http://openn.library.upenn.edu/">OPenn</a> and the <a href="https://github.com/judaicadh">Judaica DH GitHub repository</a>.</p>
+
+<ul>
+  <li>Import all attributes that are named “mainLang” from the XML file in Row 4.
+    <blockquote>
+      <p>=IMPORTXML(C4,”@mainLang”)</p>
+
+      <p>jrb</p>
+    </blockquote>
+  </li>
+  <li>Import the data from the CSV in Row 3.
+    <blockquote>
+      <p>=IMPORTDATA(C3)</p>
+    </blockquote>
+  </li>
+  <li>Import the data from the table from the HTML page in Row 5.
+    <blockquote>
+      <p>=IMPORTHTML(C5,”table”, 1)</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="case-4-vlookup--query">CASE 4: VLOOKUP &amp; QUERY</h1>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-9.jpg" alt="List of VLOOKUP and QUERY functions" /></p>
+
+<p>In this fourth case study, lookup and reference, either looks up information about the data inside the cell or about the cell itself.</p>
+
+<ul>
+  <li>
+    <p><strong>VLOOKUP</strong> is short for “vertical lookup” and it looks down the first column of a range for a specific key, and returns the value of a specified cell in the row found. It can work within a sheet as well as across sheets or worksheets.</p>
+  </li>
+  <li>
+    <p><strong>QUERY</strong> is arguably the most useful function in Google Sheets but the hardest one we’ll tackle today. It runs a language query across your data using database-type commands.</p>
+  </li>
+</ul>
+
+<p><img src="https://judaicadh.github.io/assets/post-media/2020-07-06/google-sheets-16.jpg" alt="Screenshot of Case 4 Spreadsheet" /></p>
+
+<p><em>View the worksheet</em> <a href="https://docs.google.com/spreadsheets/d/15qlFC78I1VpW_LCkhyNN6J9U-BG0yQInsM8EfBQxB3c/edit?usp=sharing">here</a>.</p>
+
+<p>In this case study, we’re working with data from the previous four case studies to look up more information about the data we’ve imported and collected.</p>
+
+<ul>
+  <li>Search for the author_editor of the item with the pid “supp0785” from the CASE1 sheet.
+    <blockquote>
+      <p>=VLOOKUP(“supp0785”,CASE1!A3:E21,3,FALSE)</p>
+
+      <p>Alden, Isabella Macdonald, ed.</p>
+    </blockquote>
+  </li>
+  <li>Search for the manuscript name of the item with Box/Folder Location “SMBx1FF8_14” from the CASE2 sheet.
+    <blockquote>
+      <p>=VLOOKUP(“SMBx1FF8_14”,CASE2!A2:F8,2,FALSE)</p>
+
+      <p>Letter from Solis, S. to Weil, Clara E. Philadelphia, PA; May 1851</p>
+    </blockquote>
+  </li>
+  <li>Search for the file named “George Washington” from the CASE3 sheet.
+    <blockquote>
+      <p>=VLOOKUP(“George Washington”,CASE3!A2:E25,1,FALSE). You will get #N/A because that doesn’t exist in CASE3</p>
+
+      <p>Alden, Isabella Macdonald, ed.</p>
+    </blockquote>
+  </li>
+  <li>Query the average year of the dataset in the CASE1 sheet.
+    <blockquote>
+      <p>=QUERY(CASE1!A3:E21,”select avg(B)”)</p>
+
+      <p>avg YEAR</p>
+
+      <p>1866</p>
+    </blockquote>
+  </li>
+  <li>Query the manuscript name where the year is 1853 in the CASE 2 sheet.
+    <blockquote>
+      <p>=QUERY(CASE2!A2:F8, “select (B) where (D) &gt; 1852”)</p>
+
+      <p>Name</p>
+
+      <p>Letter from Morais, Sabato to Unknown Addressee. Philadelphia, PA; May 1853</p>
+
+      <p>Letter from Labatt, D. C. to Morais, Sabato. New Orleans, LA; Sep 1853</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="next-steps-with-google-sheets">Next Steps with Google Sheets</h1>
+
+<p>Functions are one way to wrangle your data, but there are so many other things you can do and learn.</p>
+
+<ul>
+  <li><a href="https://www.lovesdata.com/blog/google-sheets-tips">21 Awesome Things Google Sheets Can Do - Tips &amp; Tricks (Benjamin Mangold)</a></li>
+  <li><a href="https://developers.google.com/apps-script/guides/sheets/functions">Custom Functions in Google Sheets (Google)</a></li>
+  <li><a href="https://www.jessicayung.com/data-wrangling-in-google-sheets-debating-motions-example/">Data Wrangling in Google Sheets: Debating Motions Example (Jessica Yung)</a></li>
+  <li><a href="https://support.google.com/docs/table/25273?hl=en">Google Sheets function list (Magnus Adielsson, Richard Barnes, Peter Kupfer, Iain Roberts, Jean Hollis Weber)</a></li>
+  <li><a href="https://edu.gcfglobal.org/en/googlespreadsheets/">Google Sheets Tutorial (GCF Global)</a></li>
+  <li><a href="https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919">How We Helped Our Reporters Learn to Love Spreadsheets (Lindsey Rogers Cook)</a> and <a href="https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w">Data Training Materials  (Lindsey Rogers Cook)</a></li>
+  <li><a href="https://www.howtogeek.com/450465/how-to-use-the-query-function-in-google-sheets/">How to Use the QUERY Function in Google Sheets (Ben Stockton)</a></li>
+  <li><a href="https://www.slideshare.net/MichaelWilliams513/scraping-transforming-and-enriching-bibliographic-data-with-google-sheets">Scraping, Transforming, and Enriching Bibliographic Data with Google Sheets (Michael P. Williams, Penn Libraries)</a></li>
+  <li><a href="https://productivityspot.com/google-sheets-vlookup-function/">The Ultimate Guide to Google Sheets VLOOKUP Function (with examples) (Productivity Hotspot)</a></li>
+  <li><a href="https://productivityspot.com/iferror-function-google-sheets/">Using IFERROR Function in Google Sheets (Productivity Spot)</a></li>
+</ul>
+
+
+    </div>
+
+    <footer class="post__credits">
+      
+        <!-- cite post -->
+        <div class="post-credits__citation">
+            <span>Cite this post: </span><a href="/people/emily-esten/">Emily Esten</a>. &ldquo;Data Wrangling with Google Sheets&rdquo;. Published July 06, 2020. <a href="http://localhost:4000/blog/2020-07-06-digital-scholarship-bootcamp/">http://localhost:4000/blog/2020-07-06-digital-scholarship-bootcamp/</a>. Accessed on
+<script>
+<!--
+var now = new Date();
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number) {
+    return (number < 1000) ? number + 1900 : number;
+}
+today =  months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+document.write(today);
+-->
+</script>.
+        </div>
+
+    </footer> <!-- end post footer -->
+  </div> <!-- end post-main-content -->
+</article> <!-- end post wrapper -->
+
+		</main>
+
+		<footer class="footer-wrapper">
+  <div class="footer-main-grid">
+
+    <div class="footer__to-top">
+        <a href="#main" aria-label="Back to top">
+          <img src="/assets/img/svg/thin-up-arrow-white.svg" alt="Up arrow">
+          <span>Back<br/>to top</span>
+        </a><br><br>
+    </div>
+
+    <div class="footer__sitemap">
+      <div class="footer-map__title">Explore</div>
+      <div class="footer-map__links">
+        <a href="http://localhost:4000">Home</a>
+        <a href="http://localhost:4000/about">About</a>
+        <a href="http://localhost:4000/projects">Projects</a>
+        <a href="http://localhost:4000/blog">Blog</a>
+      </div>
+    </div>
+
+    <div class="footer__connect">
+      <div class="footer-connect__title">Connect</div>
+      <div class="footer-connect__social">
+        <a href="https://www.facebook.com/judaicadh/">
+          <img src="/assets/img/svg/facebook-white.svg" alt="Facebook icon">
+          <span>Facebook</span>
+        </a>
+        <a href="https://twitter.com/judaicadh">
+          <img src="/assets/img/svg/twitter-white.svg" alt="Twitter icon">
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.instagram.com/judaica_dh/">
+          <img src="/assets/img/svg/glyph-logo_May2016.png" alt="Instagram icon">
+          <span>Instagram</span>
+        </a>
+        <a href="https://github.com/judaicadh">
+          <img src="/assets/img/svg/github-white.svg" alt="Github icon">
+          <span>Github</span>
+        </a>
+        <a href="mailto:judaicadh@gmail.com">
+          <img src="/assets/img/svg/envelope-outline-white.svg" alt="Email icon">
+          <span>Email us</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__contact">
+      <div class="footer-contact__title">Contact</div>
+      <div class="footer-contact__email"><span>Email:</span><a href="mailto:judaicadh@gmail.com">judaicadh@gmail.com</a></div>
+      <div class="footer-contact__address"><span>Address:</span>3420 Walnut Street<br/>Philadelphia, PA<br/>19104-6206</div>
+    </div>
+
+    <div class="footer__logos">
+      <a class="footer-logo__uva" href="https://www.library.upenn.edu" aria-label="Penn Libraries Home">
+        <img src="/assets/img/svg/penn-libraries.png" alt="Penn Libraries logo">
+      </a>
+      <a class="footer-logo__license" rel="license" href="http://creativecommons.org/licenses/by/4.0/" aria-label="Creative Commons License">
+        <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg"/>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/lib/hammer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+        
+
+	</body>
+
+</html>

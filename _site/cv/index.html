@@ -48,24 +48,28 @@
 <meta name="theme-color" content="#ffffff">
 
   
-  <!-- UVA Library Analytics -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.lib.virginia.edu/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '35']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
 </script>
-<!-- End UVA Library Analytics Code -->
 
   
 </head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88257588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88257588-1');
+</script>
 
 
 	<body>
@@ -126,6 +130,12 @@
 		
 		
 		
+			<li class="flexnav__item"><a href="/projects/">Projects</a></li>
+		
+		
+		
+		
+		
 			<li class="flexnav__item"><a href="/people/">People</a></li>
 		
 		
@@ -144,19 +154,7 @@
 		
 		
 		
-			<li class="flexnav__item"><a href="/search/">Search</a></li>
-		
-		
-		
-		
-		
 			<li class="flexnav__item"><a href="/libraries/">Penn Libraries</a></li>
-		
-		
-		
-		
-		
-			<li class="flexnav__item"><a href="/charter/">Charter</a></li>
 		
 		
 		
@@ -169,6 +167,12 @@
 		
 		
 			<li class="flexnav__item"><a href="/sitemap/">Site Map</a></li>
+		
+		
+		
+		
+		
+			<li class="flexnav__item"><a href="/search/">Search</a></li>
 		
 		
 		
@@ -218,6 +222,12 @@
 				
 				
 				
+					<li class="flexnav-more__item"><a href="/projects/">Projects</a></li>
+				
+				
+				
+				
+				
 					<li class="flexnav-more__item"><a href="/people/">People</a></li>
 				
 				
@@ -236,19 +246,7 @@
 				
 				
 				
-					<li class="flexnav-more__item"><a href="/search/">Search</a></li>
-				
-				
-				
-				
-				
 					<li class="flexnav-more__item"><a href="/libraries/">Penn Libraries</a></li>
-				
-				
-				
-				
-				
-					<li class="flexnav-more__item"><a href="/charter/">Charter</a></li>
 				
 				
 				
@@ -261,6 +259,12 @@
 				
 				
 					<li class="flexnav-more__item"><a href="/sitemap/">Site Map</a></li>
+				
+				
+				
+				
+				
+					<li class="flexnav-more__item"><a href="/search/">Search</a></li>
 				
 				
 				
@@ -290,16 +294,30 @@
 
 <!---### Symposiums Organized:--->
 
-<h3 id="scholarly-publications">Scholarly Publications:</h3>
-<h4 id="journal-articles">Journal Articles</h4>
+<h2 id="scholarly-publications">Scholarly Publications:</h2>
+<h3 id="journal-articles">Journal Articles</h3>
 
 <ul>
-  <li><a href="https://repository.upenn.edu/mss_sims/vol3/iss1/9">Eckstein, Laura Newman. “Of Scribes and Scripts: Citizen Science and the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 3, no. 1, (2018): 208-214.</a></li>
+  <li>
+    <p><a href="https://startwords.cdh.princeton.edu/issues/2/">Esten, Emily. “Introduction: Scribes” Startwords 2, (2021).</a></p>
+  </li>
+  <li>
+    <p><a href="https://doi.org/10.5334/johd.15">Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15</a></p>
+  </li>
+  <li>
+    <p><a href="http://doi.org/10.1353/mns.2020.0016">Esten, Emily. “Scribes, Scholars, &amp; Scripts: Reviewing Data from Scribes of the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 5, no. 2, (2020).</a></p>
+  </li>
+  <li>
+    <p><a href="https://repository.upenn.edu/mss_sims/vol3/iss1/9">Eckstein, Laura Newman. “Of Scribes and Scripts: Citizen Science and the Cairo Geniza.” Manuscript Studies: a Journal of the Schoenberg Institute for Manuscript Studies 3, no. 1, (2018): 208-214.</a></p>
+  </li>
 </ul>
 
-<h4 id="datasets">Datasets</h4>
+<h3 id="datasets">Datasets</h3>
 
 <ul>
+  <li>
+    <p><a href="https://repository.upenn.edu/judaica_americana/3/">Esten, Emily. “Dataset: Union List of Nineteenth-Century Jewish Serials Published in the United States”. May 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/judaica_americana/3/</a></p>
+  </li>
   <li>
     <p><a href="https://repository.upenn.edu/cairogeniza/1/">Esten, Emily. “Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019”. February 2020. Distributed by Scholarly Commons. https://repository.upenn.edu/cairogeniza/1/</a></p>
   </li>
@@ -308,23 +326,59 @@
   </li>
 </ul>
 
-<!---#### Web--->
+<h4 id="web">Web</h4>
+
+<ul>
+  <li>
+    <p><a href="https://doi.org/10.21428/51bee781.0afc1687">Esten, E., &amp; Blickhan, S. (2021). Scribes of the Cairo Geniza. Visualizing Objects, Places, and Spaces: A Digital Project Handbook. https://doi.org/10.21428/51bee781.0afc1687</a></p>
+  </li>
+  <li>
+    <p><a href="https://blog.scistarter.org/2021/06/uncovering-the-secrets-of-the-egyptian-geniza-with-citizen-science/">Esten, E. (2021). Uncovering the Secrets of the Egyptian Geniza With Citizen Science. SciStarter. https://blog.scistarter.org/2021/06/uncovering-the-secrets-of-the-egyptian-geniza-with-citizen-science/</a></p>
+  </li>
+</ul>
 
 <!---#### Other--->
 
 <!---### Invited Talks and Panels:--->
-
+<h2 id="presentations">Presentations</h2>
 <h3 id="conference-presentations">Conference Presentations:</h3>
 
 <ul>
   <li>
-    <p>Scribes, Scholars, &amp; Scripts: Creating a Digital Humanities Community Through Crowdsourcing • A Panel at DH 2020 (Alliance of Digital Humanities Organizations; Ottawa, Ontario) •  July 2020</p>
+    <p><a href="http://www.kaltura.com/tiny/yxsv7">Across the Zooniverse: Science and the Humanities</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
   </li>
   <li>
-    <p><a href="{{site.baseurl}}/blog/2020-03-31-ncph2020/">Interpreting Jewish History in Museums and Public History Settings</a>  • A Twitter Chat at NCPH 2020 (National Council for Public History; Atlanta, Georgia//Virtual) •  March 2020</p>
+    <p><a href="http://www.kaltura.com/tiny/ov87l">Working with Crowdsourced Textual Data</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
   </li>
   <li>
-    <p><a href="{{ site.baseurl }}/blog/mcn-2019/">Cultivating Community with the Cairo Geniza</a>  • A Lightning Talk at MCN 2019 (Museum Computer Network; San Diego, California) •  November 2019</p>
+    <p><a href="http://www.kaltura.com/tiny/sgb7k">From the Technical Side: Responding to Researcher Needs</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
+  </li>
+  <li>
+    <p><a href="http://www.kaltura.com/tiny/lj9gm">Platforms for People-Powered Research</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
+  </li>
+  <li>
+    <p><a href="http://www.kaltura.com/tiny/wkzfw">Who are the #GenizaScribes?</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
+  </li>
+  <li>
+    <p><a href="http://www.kaltura.com/tiny/u0ieh">Meet the Scribes of the Cairo Geniza Project Team</a>  • A Roundtable at Crowdsourcing and the Humanities: Roundtable Discussions Celebrating Scribes of the Cairo Geniza  (Scribes of the Cairo Geniza; Princeton University//Virtual) •  April 2021</p>
+  </li>
+  <li>
+    <p><a href="">Collections as Data: The Role of DH in Curatorial Work</a>  • A Invited Speaker at The 4th Judaica Curators {Virtual} Conference (National Library of Israel; National Library of Israel//Virtual) •  May 2021</p>
+  </li>
+  <li>
+    <p><a href="https://doi.org/10.26226/morressier.5fd8d8c83d762219be34f4d8">Building a Judaica DH Program</a>  • A Paper at #DHJewish - Jewish Studies in the Digital Age (Luxembourg Centre for Contemporary and Digital History (C²DH); University of Luxembourg//Virtual) •  January 2021</p>
+  </li>
+  <li>
+    <p>Scribes, Scholars, &amp; Scripts: Creating a Digital Humanities Community Through Crowdsourcing (cancelled) • A Panel at DH 2020 (Alliance of Digital Humanities Organizations; Ottawa, Ontario//Virtual) •  July 2020</p>
+  </li>
+  <li>
+    <p><a href="https://judaicadh.github.io/blog/ajl2020/">Judaica Digital Humanities at the Penn Libraries Overview</a>  • A Panel at AJL 2020 (Association of Jewish Libraries; Evanston, IL//Virtual) •  July 2020</p>
+  </li>
+  <li>
+    <p><a href="https://judaicadh.github.io/blog/2020-03-31-ncph2020/">Interpreting Jewish History in Museums and Public History Settings</a>  • A Twitter Chat at NCPH 2020 (National Council for Public History; Atlanta, Georgia//Virtual) •  March 2020</p>
+  </li>
+  <li>
+    <p><a href="https://judaicadh.github.io/blog/mcn-2019/">Cultivating Community with the Cairo Geniza</a>  • A Lightning Talk at MCN 2019 (Museum Computer Network; San Diego, California) •  November 2019</p>
   </li>
   <li>
     <p>Crowdsourcing Data: Scribes of the Cairo Geniza • A Talk at IT Staff Convention 2019 (Penn Information Systems &amp; Computing; Philadelphia, PA) •  June 2019</p>
@@ -344,14 +398,27 @@
 
 <!---### Workshops and Workshop Series:--->
 
-<h4 id="transcribe-a-thons">Transcribe-a-thons:</h4>
+<h3 id="transcribe-a-thons">Transcribe-a-thons:</h3>
 
 <ul>
   <li>
     <p><a href="{{ site.baseurl }}/blog/2020-04-14-columbia/">Columbia University Libraries</a>  • April 2020</p>
   </li>
   <li>
-    <p><a href="{{ site.baseurl }}/blog/2019-11-13-princeton-geniza-lab/">Princeton Geniza Lab</a>  • November 2019</p>
+    <p><a href="https://judaicadh.github.io/blog/2019-11-13-princeton-geniza-lab/">Princeton Geniza Lab</a>  • November 2019</p>
+  </li>
+</ul>
+
+<h2 id="press-and-reviews">Press and Reviews</h2>
+
+<h3 id="reviews">Reviews</h3>
+
+<ul>
+  <li>
+    <p><a href="https://doi.org/10.21428/3e88f64f.25620894">Goldman, M. H. (2020). Review: Digital Second Edition of Judaica Americana. Reviews in Digital Humanities, I(11). https://doi.org/10.21428/3e88f64f.25620894</a></p>
+  </li>
+  <li>
+    <p><a href="https://doi.org/10.21428/3e88f64f.52b54957">Haynes, C. (2021). Review: Scribes of the Cairo Geniza. Reviews in Digital Humanities, II(1). https://doi.org/10.21428/3e88f64f.52b54957</a></p>
   </li>
 </ul>
 
@@ -389,7 +456,7 @@
     <p><a href="https://penntoday.upenn.edu/news/reclaiming-fragmented-history">Shepard, Louisa. “Reclaiming a fragmented history” Penn Today, 12 June 2018. Web.</a></p>
   </li>
   <li>
-    <p><a href="https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue">Stiteler, Gretchen. “Probing the ‘Time Capsule’ of hte Cairo Geniza at Adath Israe, Synagogue”. Penn Libraries News, 11 February 2020. Web.</a></p>
+    <p><a href="https://www.library.upenn.edu/blogs/libraries-news/probing-time-capsule-cairo-geniza-adath-israel-synagogue">Stiteler, Gretchen. “Probing the ‘Time Capsule’ of the Cairo Geniza at Adath Israel, Synagogue”. Penn Libraries News, 11 February 2020. Web.</a></p>
   </li>
   <li>
     <p><a href="https://pennlibnews.wordpress.com/2019/03/04/penn-libraries-innovative-digital-humanities-collaboration-scribes-of-the-cairo-geniza-enters-a-new-phase/">Vilanova, Sara. “Penn Libraries’ Innovative Digital Humanities Collaboration, “Scribes of the Cairo Geniza,” Enters a New Phase”.” Penn Libraries News, 4 March 2019. Web.</a></p>
@@ -416,9 +483,13 @@
   </li>
 </ul>
 
-<!---### Other Press:--->
+<h3 id="other-press">Other Press:</h3>
 
-<h3 id="honors-and-awards">Honors and Awards:</h3>
+<ul>
+  <li><a href="https://www.library.upenn.edu/blogs/libraries-news/judaica-digital-humanities-launches-digital-second-edition-judaica-americana">Penn Libraries Strategic Communications. ‘Judaica Digital Humanities Launches the Digital Second Edition of Judaica Americana’. Penn Libraries News, 30 June 2020. Web.</a></li>
+</ul>
+
+<h2 id="honors-and-awards">Honors and Awards:</h2>
 
 <p>MCN Scholar • 2019 • For Museum Computer Network Annual Conference</p>
 
@@ -444,7 +515,7 @@
       <div class="footer-map__links">
         <a href="http://localhost:4000">Home</a>
         <a href="http://localhost:4000/about">About</a>
-        <a href="http://localhost:4000/work">Projects</a>
+        <a href="http://localhost:4000/projects">Projects</a>
         <a href="http://localhost:4000/blog">Blog</a>
       </div>
     </div>
@@ -479,7 +550,6 @@
       <div class="footer-contact__title">Contact</div>
       <div class="footer-contact__email"><span>Email:</span><a href="mailto:judaicadh@gmail.com">judaicadh@gmail.com</a></div>
       <div class="footer-contact__address"><span>Address:</span>3420 Walnut Street<br/>Philadelphia, PA<br/>19104-6206</div>
-      <div class="footer-contact__phone"><span>Phone:</span></div>
     </div>
 
     <div class="footer__logos">
