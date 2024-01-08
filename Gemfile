@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '3.1.1'
+ruby '3.3.0'
 
 gem "jekyll", "~>3.7"
 gem "nokogiri", ">= 1.8.5"
